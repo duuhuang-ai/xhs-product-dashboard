@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小红书电商选品分析看板</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <!-- 数据文件：更新数据只需修改此文件 -->
+    <script src="xhs_product_data.js"></script>
+    <style>
+    :root {
+        --bg: #f4f5f7;
+        --surface: #ffffff;
+        --surface-2: #fafafa;
+        --border: #e2e4e8;
+        --text: #1a1a1a;
+        --text-2: #555;
+        --text-3: #888;
+        --red: #e8372b;
+        --red-light: #fff0ee;
+        --blue: #1a6ae8;
+        --blue-light: #eef4ff;
+        --green: #27a86a;
+        --green-light: #edfaf3;
+        --orange: #d4740a;
+        --orange-light: #fff8ed;
+        --purple: #6b3fc0;
+        --purple-light: #f3f0ff;
+        --shadow: 0 1px 4px rgba(0,0,0,0.06);
+        --r: 10px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+    }
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-thumb { background: #ddd; border-radius: 3px; }
+
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 20px 60px; }
+
+    /* ─── Header ─── */
+    .page-top {
+        background: var(--surface);
+        border-bottom: 1px solid var(--border);
+        padding: 0 24px;
+        height: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 200;
+        box-shadow: var(--shadow);
+    }
+    .page-top h1 {
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--text);
+        letter-spacing: 0.3px;
+    }
+    .page-top h1 span { color: var(--text-3); font-weight: 400; font-size: 12px; margin-left: 10px; }
+
+    /* ─── Tab Switcher ─── */
+    .tab-switcher {
+        display: flex;
+        background: var(--bg);
+        border: 1.5px solid var(--border);
+        border-radius: 30px;
+        padding: 4px;
+        gap: 2px;
+        min-width: 200px;
+    }
+    .tab-switcher button {
+        flex: 1;
+        padding: 7px 18px;
+        border: none;
+        border-radius: 26px;
+        font-size: 13px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.2s;
+        font-family: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+    }
+    .tab-switcher button .dot {
+        width: 8px; height: 8px;
+        border-radius: 50%;
+    }
+    .tab-switcher button.tab-ph .dot { background: var(--red); }
+    .tab-switcher button.tab-vir .dot { background: var(--purple); }
+    .tab-switcher button.active.tab-ph { background: var(--red); color: #fff; }
+    .tab-switcher button.active.tab-vir { background: var(--purple); color: #fff; }
+    .tab-switcher button:not(.active) { background: transparent; color: var(--text-2); }
+    .tab-switcher button:not(.active):hover { background: var(--surface); }
+
+    /* ─── Tab Panel ─── */
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+
+    /* ─── Panel Header ─── */
+    .panel-header {
+        padding: 28px 0 20px;
+        border-bottom: 2px solid var(--border);
+        margin-bottom: 20px;
+    }
+    .panel-header h2 { font-size: 22px; font-weight: 700; color: var(--text); margin-bottom: 6px; }
+    .panel-header .meta { font-size: 13px; color: var(--text-3); }
+    .panel-header .meta strong { color: var(--text-2); }
+    .ph-red { border-bottom-color: var(--red); }
+    .ph-red h2 { color: var(--red); }
+    .ph-purple { border-bottom-color: var(--purple); }
+    .ph-purple h2 { color: var(--purple); }
+
+    /* ─── Stat Cards ─── */
+    .stat-row { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-bottom: 20px; }
+    .stat-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r); padding: 16px 14px; box-shadow: var(--shadow); }
+    .stat-card .lbl { font-size: 12px; color: var(--text-3); margin-bottom: 6px; }
+    .stat-card .val { font-size: 30px; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
+    .stat-card .val.v-red { color: var(--red); }
+    .stat-card .val.v-blue { color: var(--blue); }
+    .stat-card .val.v-green { color: var(--green); }
+    .stat-card .val.v-orange { color: var(--orange); }
+    .stat-card .val.v-purple { color: var(--purple); }
+    .stat-card .sub { font-size: 11px; color: var(--text-3); margin-top: 4px; }
+    .stat-card .badge { display: inline-block; font-size: 11px; padding: 2px 7px; border-radius: 3px; margin-top: 4px; }
+    .badge-up { background: var(--green-light); color: var(--green); }
+    .badge-down { background: var(--red-light); color: var(--red); }
+
+    /* ─── Section ─── */
+    .sec { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r); box-shadow: var(--shadow); margin-bottom: 16px; overflow: hidden; }
+    .sec-hd { padding: 14px 20px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+    .sec-hd h3 { font-size: 15px; font-weight: 600; color: var(--text); display: flex; align-items: center; gap: 8px; }
+    .sec-hd h3 .t { width: 4px; height: 16px; border-radius: 2px; background: var(--red); }
+    .sec-hd h3 .t.blue { background: var(--blue); }
+    .sec-hd h3 .t.green { background: var(--green); }
+    .sec-hd h3 .t.orange { background: var(--orange); }
+    .sec-hd h3 .t.purple { background: var(--purple); }
+    .sec-hd .tag { font-size: 11px; padding: 3px 9px; border-radius: 4px; font-weight: 500; }
+    .tag-red { background: var(--red-light); color: var(--red); }
+    .tag-blue { background: var(--blue-light); color: var(--blue); }
+    .tag-green { background: var(--green-light); color: var(--green); }
+    .sec-bd { padding: 18px 20px; }
+
+    /* ─── Grid ─── */
+    .row-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 14px; }
+    .row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .row-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    @media (max-width: 900px) { .row-4 { grid-template-columns: repeat(2, 1fr); } .row-3 { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 600px) { .stat-row { grid-template-columns: repeat(2, 1fr); } .row-2, .row-3 { grid-template-columns: 1fr; } }
+
+    /* ─── Mini stat ─── */
+    .mini-stat { background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--r); padding: 14px 12px; }
+    .mini-stat .lbl { font-size: 12px; color: var(--text-3); margin-bottom: 6px; }
+    .mini-stat .val { font-size: 30px; font-weight: 700; line-height: 1; }
+    .mini-stat .val.v-blue { color: var(--blue); }
+    .mini-stat .val.v-purple { color: var(--purple); }
+
+    /* ─── Bar chart ─── */
+    .bar-list { display: flex; flex-direction: column; gap: 8px; }
+    .bar-item { display: flex; align-items: center; gap: 8px; }
+    .bar-item .bl { width: 72px; font-size: 12px; color: var(--text-2); text-align: right; flex-shrink: 0; }
+    .bar-item .bt { flex: 1; height: 20px; background: var(--bg); border-radius: 3px; overflow: hidden; }
+    .bar-item .bf { height: 100%; border-radius: 3px; }
+    .bar-item .bv { width: 56px; font-size: 12px; color: var(--text-3); text-align: right; flex-shrink: 0; }
+    .bar-item:hover .bl { color: var(--blue); }
+
+    /* ─── Chart box ─── */
+    .chart-box { background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--r); padding: 14px; }
+    .chart-box h4 { font-size: 13px; font-weight: 600; color: var(--text); margin-bottom: 12px; }
+    .chart-box h4 span { font-size: 11px; color: var(--text-3); font-weight: 400; margin-left: 4px; }
+    .pie-wrap { display: flex; align-items: center; gap: 14px; }
+    .pie-canvas { width: 150px; height: 150px; flex-shrink: 0; }
+    .pie-legend { flex: 1; display: flex; flex-direction: column; gap: 2px; }
+    .pl-item { display: flex; align-items: center; gap: 6px; padding: 3px 5px; border-radius: 4px; font-size: 12px; cursor: default; transition: background 0.15s; }
+    .pl-item:hover { background: var(--bg); }
+    .pl-item .d { width: 8px; height: 8px; border-radius: 2px; flex-shrink: 0; }
+    .pl-item .l { flex: 1; color: var(--text-2); }
+    .pl-item .v { font-weight: 600; font-size: 12px; }
+    .pl-item .p { color: var(--text-3); font-size: 11px; width: 36px; text-align: right; }
+
+    /* ─── Category card ─── */
+    .cat-card { background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--r); padding: 13px; }
+    .cat-card h5 { font-size: 14px; font-weight: 600; color: var(--text); margin-bottom: 9px; display: flex; align-items: center; gap: 6px; }
+    .cat-card h5 .heat { font-size: 11px; padding: 2px 7px; border-radius: 8px; font-weight: 500; margin-left: auto; }
+    .heat-h { background: #fee; color: #e53e3e; }
+    .heat-m { background: #fff3cd; color: #c77a08; }
+    .heat-l { background: #eafff0; color: #2e9e6a; }
+    .cat-s { display: grid; grid-template-columns: 1fr 1fr; gap: 3px; margin-bottom: 9px; }
+    .cat-s .cs { font-size: 12px; color: var(--text-3); }
+    .cat-s .cs strong { color: var(--text-2); font-weight: 600; }
+    .mini-bar-list { display: flex; flex-direction: column; gap: 5px; }
+    .mb { display: flex; align-items: center; gap: 5px; font-size: 11px; }
+    .mb .ml { width: 38px; color: var(--text-3); text-align: right; }
+    .mb .mt { flex: 1; height: 8px; background: var(--bg); border-radius: 2px; overflow: hidden; }
+    .mb .mf { height: 100%; border-radius: 2px; }
+    .mb .mv { width: 26px; color: var(--text-3); text-align: right; }
+    .price-tip { margin-top: 9px; padding: 7px 10px; background: var(--orange-light); border-left: 3px solid var(--orange); border-radius: 0 4px 4px 0; font-size: 12px; color: var(--text-2); }
+    .price-tip strong { color: var(--orange); }
+    .cat-kw { margin-top: 6px; font-size: 11px; color: var(--text-3); }
+
+    /* ─── Comp bar ─── */
+    .comp-list { display: flex; flex-direction: column; gap: 8px; }
+    .comp-row { display: flex; align-items: center; gap: 8px; }
+    .comp-row .cl { width: 66px; font-size: 12px; color: var(--text-2); flex-shrink: 0; }
+    .comp-row .ct { flex: 1; height: 16px; background: var(--bg); border-radius: 2px; overflow: hidden; }
+    .comp-row .cf { height: 100%; border-radius: 2px; }
+    .comp-row .cv { width: 108px; font-size: 11px; color: var(--text-3); flex-shrink: 0; display: flex; align-items: center; gap: 4px; }
+    .comp-row .cv .heat { font-size: 10px; padding: 1px 6px; border-radius: 3px; }
+
+    /* ─── Keywords ─── */
+    .kw-cloud { display: flex; flex-wrap: wrap; gap: 5px; }
+    .kw { padding: 3px 10px; border-radius: 12px; font-size: 12px; background: var(--bg); color: var(--text-2); border: 1px solid var(--border); }
+    .kw.hot { background: var(--red); color: #fff; border-color: var(--red); }
+    .kw.warm { background: #ff8a7a; color: #fff; border-color: #ff8a7a; }
+    .kw.vir-hot { background: var(--purple); color: #fff; border-color: var(--purple); }
+    .kw.vir-warm { background: #b07ff0; color: #fff; border-color: #b07ff0; }
+
+    /* ─── Insight box ─── */
+    .insight { margin-top: 14px; padding: 12px 14px; border-radius: var(--r); border-left: 4px solid var(--red); background: var(--red-light); }
+    .insight.blue { border-left-color: var(--blue); background: var(--blue-light); }
+    .insight.green { border-left-color: var(--green); background: var(--green-light); }
+    .insight.orange { border-left-color: var(--orange); background: var(--orange-light); }
+    .insight.purple { border-left-color: var(--purple); background: var(--purple-light); }
+    .insight h5 { font-size: 13px; font-weight: 600; margin-bottom: 6px; color: var(--red); }
+    .insight.blue h5 { color: var(--blue); }
+    .insight.green h5 { color: var(--green); }
+    .insight.orange h5 { color: var(--orange); }
+    .insight.purple h5 { color: var(--purple); }
+    .insight p { font-size: 13px; color: var(--text-2); line-height: 1.6; }
+    .insight ul { margin-top: 8px; padding-left: 16px; font-size: 13px; color: var(--text-2); line-height: 1.9; }
+    .insight ul li strong { color: var(--text); }
+
+    /* ─── Divider ─── */
+    .divider { display: flex; align-items: center; gap: 10px; margin: 16px 0 12px; font-size: 12px; color: var(--text-3); font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; }
+    .divider::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+
+    /* ─── Focus row ─── */
+    .focus-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 16px; }
+    .focus-card { background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--r); padding: 16px; display: flex; align-items: center; gap: 14px; }
+    .focus-card .fi { font-size: 26px; }
+    .focus-card .ft { flex: 1; }
+    .focus-card .ft-t { font-size: 12px; color: var(--text-3); }
+    .focus-card .ft-v { font-size: 26px; font-weight: 700; line-height: 1.1; }
+    .focus-card .ft-s { font-size: 11px; color: var(--text-3); margin-top: 3px; }
+
+    /* ─── Footer ─── */
+    footer { text-align: center; padding: 20px; color: var(--text-3); font-size: 11px; }
+
+    /* ─── Animations ─── */
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    .sec, .stat-card, .panel-header { opacity: 0; animation: fadeUp 0.35s ease forwards; }
+    .panel-header { animation-delay: 0.05s; }
+    .stat-card:nth-child(1) { animation-delay: 0.05s; }
+    .stat-card:nth-child(2) { animation-delay: 0.1s; }
+    .stat-card:nth-child(3) { animation-delay: 0.15s; }
+    .stat-card:nth-child(4) { animation-delay: 0.2s; }
+    .stat-card:nth-child(5) { animation-delay: 0.25s; }
+    .sec { animation-delay: 0.1s; }
+    </style>
+</head>
+<body>
+
+<div class="page-top">
+    <h1 id="pageTitle"></h1>
+    <div class="tab-switcher">
+        <button class="tab-ph active" id="btnPhys" onclick="switchTab('phys')">
+            <span class="dot"></span> 实体商品
+        </button>
+        <button class="tab-vir" id="btnVirt" onclick="switchTab('virt')">
+            <span class="dot"></span> 虚拟商品
+        </button>
+    </div>
+</div>
+
+<div class="container">
+
+    <!-- ═══════════════ PHYSICAL ═══════════════ -->
+    <div id="phys" class="tab-panel active">
+
+        <div class="panel-header ph-red">
+            <h2>实体商品总览</h2>
+            <p class="meta" id="physMeta"></p>
+        </div>
+
+        <div class="stat-row" id="physOverview"></div>
+
+        <!-- 上周收录 -->
+        <div class="sec">
+            <div class="sec-hd">
+                <h3><span class="t blue"></span> 上周收录情况 <span id="physWeeklyPeriod" style="font-weight:400;font-size:12px;color:var(--text-3);margin-left:4px"></span></h3>
+                <span class="tag tag-red" id="physWeeklyChange"></span>
+            </div>
+            <div class="sec-bd">
+                <div class="row-4" id="physWeeklyStats"></div>
+                <div class="row-2">
+                    <div class="chart-box">
+                        <h4>热门分类 Top 5 <span id="physWeeklyCatTotal"></span></h4>
+                        <div class="bar-list" id="physWeeklyCat"></div>
+                    </div>
+                    <div class="chart-box">
+                        <h4>价格带分布 <span id="physWeeklyPriceAvg"></span></h4>
+                        <div class="bar-list" id="physWeeklyPrice"></div>
+                    </div>
+                </div>
+                <div class="insight blue">
+                    <h5>上周趋势洞察</h5>
+                    <p id="physWeeklyInsight"></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 销售表现 -->
+        <div class="sec">
+            <div class="sec-hd"><h3><span class="t"></span> 销售表现</h3></div>
+            <div class="sec-bd">
+                <div class="row-2">
+                    <div class="chart-box"><h4>销量区间分布</h4><div class="bar-list" id="physSalesDist"></div></div>
+                    <div class="chart-box"><h4>价格带分布</h4><div class="bar-list" id="physPriceDist"></div></div>
+                </div>
+                <div class="insight">
+                    <h5>分析洞察</h5>
+                    <p>58% 的商品销量超过 1万，小红书电商热度极高。价格集中在 50元以下（42%），低价策略仍是主流；50-100元区间占30%，是第二大价格带。</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 分类分析 -->
+        <div class="sec">
+            <div class="sec-hd"><h3><span class="t"></span> 分类分析</h3></div>
+            <div class="sec-bd">
+                <div class="row-2">
+                    <div class="chart-box">
+                        <h4>商品数量占比</h4>
+                        <div class="pie-wrap">
+                            <div class="pie-canvas"><canvas id="piePhys"></canvas></div>
+                            <div class="pie-legend" id="piePhysLeg"></div>
+                        </div>
+                    </div>
+                    <div class="chart-box"><h4>各分类总销量</h4><div class="bar-list" id="physCatSales"></div></div>
+                </div>
+                <div class="divider">热门关键词</div>
+                <div class="kw-cloud" id="physKeywords"></div>
+            </div>
+        </div>
+
+        <!-- 分类详情 -->
+        <div class="sec">
+            <div class="sec-hd"><h3><span class="t"></span> 分类深度分析</h3></div>
+            <div class="sec-bd">
+                <div class="row-3" id="physCatCards"></div>
+                <div class="divider">竞争热度总览</div>
+                <div id="physCompRows"></div>
+            </div>
+        </div>
+
+        <!-- 店铺分析 -->
+        <div class="sec">
+            <div class="sec-hd"><h3><span class="t blue"></span> 店铺分析</h3></div>
+            <div class="sec-bd">
+                <div class="row-2">
+                    <div class="chart-box"><h4>店铺粉丝数分布</h4><div class="bar-list" id="physShopFans"></div></div>
+                    <div class="chart-box"><h4>店铺评分分布</h4><div class="bar-list" id="physShopScore"></div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 高价商品 -->
+        <div class="sec">
+            <div class="sec-hd"><h3><span class="t orange"></span> 高价商品分析 <span style="font-weight:400;font-size:12px;color:var(--text-3)">≥ 200元</span></h3></div>
+            <div class="sec-bd">
+                <div class="focus-row" id="physHighPriceStats"></div>
+                <div class="row-2">
+                    <div class="chart-box"><h4>分类分布</h4><div class="bar-list" id="physHpCat"></div></div>
+                    <div class="chart-box"><h4>价格分布</h4><div class="bar-list" id="physHpPrice"></div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 总结 -->
+        <div class="sec">
+            <div class="sec-hd"><h3><span class="t green"></span> 总结与建议</h3></div>
+            <div class="sec-bd">
+                <div class="row-3" style="gap:14px" id="physSummary"></div>
+            </div>
+        </div>
+
+    </div><!-- /phys -->
+
+
+    <!-- ═══════════════ VIRTUAL ═══════════════ -->
+    <div id="virt" class="tab-panel">
+
+        <div class="panel-header ph-purple">
+            <h2>虚拟商品总览</h2>
+            <p class="meta" id="virtMeta"></p>
+        </div>
+
+        <div class="stat-row" id="virtOverview"></div>
+
+        <!-- 上周收录 -->
+        <div class="sec">
+            <div class="sec-hd">
+                <h3><span class="t blue"></span> 上周收录情况 <span id="virtWeeklyPeriod" style="font-weight:400;font-size:12px;color:var(--text-3);margin-left:4px"></span></h3>
+                <span class="tag tag-green" id="virtWeeklyChange"></span>
+            </div>
+            <div class="sec-bd">
+                <div class="row-4" id="virtWeeklyStats"></div>
+                <div class="row-2">
+                    <div class="chart-box">
+                        <h4>热门分类 Top 5 <span id="virtWeeklyCatTotal"></span></h4>
+                        <div class="bar-list" id="virtWeeklyCat"></div>
+                    </div>
+                    <div class="chart-box">
+                        <h4>价格带分布 <span id="virtWeeklyPriceAvg"></span></h4>
+                        <div class="bar-list" id="virtWeeklyPrice"></div>
+                    </div>
+                </div>
+                <div class="insight blue">
+                    <h5>上周趋势洞察</h5>
+                    <p id="virtWeeklyInsight"></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 销售表现 -->
+        <div class="sec">
+            <div class="sec-hd"><h3><span class="t purple"></span> 销售表现</h3></div>
+            <div class="sec-bd">
+                <div class="row-2">
+                    <div class="chart-box"><h4>销量区间分布</h4><div class="bar-list" id="virtSalesDist"></div></div>
+                    <div class="chart-box"><h4>价格带分布</h4><div class="bar-list" id="virtPriceDist"></div></div>
+                </div>
+                <div class="insight purple">
+                    <h5>分析洞察</h5>
+                    <p>49% 商品销量在 1千-5千 区间。48.9% 商品低于 10元，低价策略明显；但 >100元 商品也有340款（11.6%），高端虚拟商品存在市场空间。</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 分类分析 -->
+        <div class="sec">
+            <div class="sec-hd"><h3><span class="t purple"></span> 分类分析</h3></div>
+            <div class="sec-bd">
+                <div class="row-2">
+                    <div class="chart-box">
+                        <h4>分类占比</h4>
+                        <div class="pie-wrap">
+                            <div class="pie-canvas"><canvas id="pieVirt"></canvas></div>
+                            <div class="pie-legend" id="pieVirtLeg"></div>
+                        </div>
+                    </div>
+                    <div class="chart-box"><h4>各分类总销量</h4><div class="bar-list" id="virtCatSales"></div></div>
+                </div>
+                <div class="divider">热门关键词</div>
+                <div class="kw-cloud" id="virtKeywords"></div>
+            </div>
+        </div>
+
+        <!-- 分类详情 -->
+        <div class="sec">
+            <div class="sec-hd"><h3><span class="t purple"></span> 分类深度分析</h3></div>
+            <div class="sec-bd">
+                <div class="row-3" id="virtCatCards"></div>
+                <div class="divider">竞争热度总览</div>
+                <div id="virtCompRows"></div>
+            </div>
+        </div>
+
+        <!-- 店铺分析 -->
+        <div class="sec">
+            <div class="sec-hd"><h3><span class="t blue"></span> 店铺分析</h3></div>
+            <div class="sec-bd">
+                <div class="row-2">
+                    <div class="chart-box"><h4>店铺粉丝数分布</h4><div class="bar-list" id="virtShopFans"></div></div>
+                    <div class="chart-box"><h4>店铺评分分布</h4><div class="bar-list" id="virtShopScore"></div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 总结 -->
+        <div class="sec">
+            <div class="sec-hd"><h3><span class="t green"></span> 总结与建议</h3></div>
+            <div class="sec-bd">
+                <div class="row-3" style="gap:14px" id="virtSummary"></div>
+            </div>
+        </div>
+
+    </div><!-- /virt -->
+
+</div><!-- /container -->
+
+<footer id="footer"></footer>
+
+<script>
+/* ═══════════════════════════════════════════════════════════
+   渲染引擎 — 无需修改，只需确保 DATA 对象已加载
+═══════════════════════════════════════════════════════════ */
+
+const C_PHY = ['#e8372b','#ef5a43','#f5846f','#f8a99a','#ffc4bb','#95de64','#73d13d','#52c41a'];
+const C_VIR = ['#6b3fc0','#8257e0','#9d7ae8','#b794f4','#d3b8ff','#adc6ff','#69c0ff','#40a9ff'];
+
+const HEAT_MAP = { h: ['heat-h','高竞争'], m: ['heat-m','中竞争'], l: ['heat-l','低竞争'] };
+const HEAT_TAG  = { h: 'heat-h', m: 'heat-m', l: 'heat-l' };
+const HEAT_TEXT = { h: '高', m: '中', l: '低' };
+
+// ─── Tab Switch ───
+function switchTab(tab) {
+    document.getElementById('phys').classList.toggle('active', tab === 'phys');
+    document.getElementById('virt').classList.toggle('active', tab === 'virt');
+    document.getElementById('btnPhys').classList.toggle('active', tab === 'phys');
+    document.getElementById('btnVirt').classList.toggle('active', tab === 'virt');
+    setTimeout(() => {
+        document.querySelectorAll('#' + tab + ' .bf').forEach(b => {
+            const w = b.dataset.w;
+            b.style.width = '0';
+            requestAnimationFrame(() => b.style.width = w);
+        });
+    }, 30);
+}
+
+// ─── Bar chart ───
+function renderBars(elId, data, colors) {
+    const el = document.getElementById(elId);
+    if (!el) return;
+    const max = Math.max(...data.map(d => d.value));
+    el.innerHTML = data.map((d, i) => {
+        const pct = (d.value / max * 100).toFixed(1);
+        return `<div class="bar-item">
+            <span class="bl">${d.label}</span>
+            <div class="bt"><div class="bf" data-w="${pct}%" style="width:0;background:${colors[i]||'#1a6ae8'}"></div></div>
+            <span class="bv">${typeof d.value==='number'?d.value.toLocaleString():d.value}${d.unit||''}</span>
+        </div>`;
+    }).join('');
+    requestAnimationFrame(() => {
+        el.querySelectorAll('.bf').forEach(b => b.style.width = b.dataset.w);
+    });
+}
+
+// ─── Category cards ───
+function renderCatCards(elId, cards) {
+    const el = document.getElementById(elId);
+    if (!el) return;
+    const BC = ['#e8372b','#ef5a43','#f5846f','#f8a99a'];
+    el.innerHTML = cards.map(c => {
+        const h = HEAT_MAP[c.heat];
+        const bars = c.priceDist.map((p, i) =>
+            `<div class="mb">
+                <span class="ml">${c.priceLabels[i]}</span>
+                <div class="mt"><div class="mf" style="width:${p}%;background:${BC[i]}"></div></div>
+                <span class="mv">${p}%</span>
+            </div>`
+        ).join('');
+        return `<div class="cat-card">
+            <h5>${c.name} <span class="heat ${h[0]}">${h[1]}</span></h5>
+            <div class="cat-s">
+                <div class="cs">商品数: <strong>${c.products.toLocaleString()}</strong></div>
+                <div class="cs">店铺数: <strong>${c.shops}</strong></div>
+                <div class="cs">均价: <strong>¥${c.avgPrice}</strong></div>
+                <div class="cs">低粉爆款: <strong>${c.lowFanRate}</strong></div>
+            </div>
+            <div class="mini-bar-list">${bars}</div>
+            <div class="price-tip">💰 <strong>推荐 ¥${c.priceRec}</strong></div>
+            <div class="cat-kw">关键词: ${c.keywords}</div>
+        </div>`;
+    }).join('');
+}
+
+// ─── Comp rows ───
+function renderCompRows(elId, data, colors) {
+    const el = document.getElementById(elId);
+    if (!el) return;
+    const max = data[0].products;
+    el.innerHTML = `<div class="comp-list">` + data.map((d, i) => {
+        const pct = (d.products / max * 100).toFixed(1);
+        return `<div class="comp-row">
+            <span class="cl">${d.name}</span>
+            <div class="ct"><div class="cf" style="width:${pct}%;background:${colors[i]}"></div></div>
+            <span class="cv">${d.products}商品 / ${d.shops}店 <span class="${HEAT_TAG[d.heat]}" style="border-radius:3px;padding:1px 5px;font-size:9px;">${HEAT_TEXT[d.heat]}</span></span>
+        </div>`;
+    }).join('') + `</div>`;
+}
+
+// ─── Pie legend ───
+function renderPieLeg(elId, labels, values, colors) {
+    const el = document.getElementById(elId);
+    if (!el) return;
+    const total = values.reduce((a, b) => a + b, 0);
+    el.innerHTML = labels.map((l, i) =>
+        `<div class="pl-item">
+            <span class="d" style="background:${colors[i]}"></span>
+            <span class="l">${l}</span>
+            <span class="v">${values[i].toLocaleString()}</span>
+            <span class="p">${(values[i]/total*100).toFixed(1)}%</span>
+        </div>`
+    ).join('');
+}
+
+// ─── Overview stats ───
+function renderOverview(elId, data) {
+    const el = document.getElementById(elId);
+    if (!el) return;
+    el.innerHTML = `
+        <div class="stat-card"><div class="lbl">商品总数</div><div class="val">${data.products.toLocaleString()}</div></div>
+        <div class="stat-card"><div class="lbl">店铺总数</div><div class="val v-blue">${data.shops.toLocaleString()}</div></div>
+        <div class="stat-card"><div class="lbl">平均销量</div><div class="val v-green">${data.avgSales}</div></div>
+        <div class="stat-card"><div class="lbl">平均价格</div><div class="val v-orange">${data.avgPrice}</div></div>
+        <div class="stat-card"><div class="lbl">低粉爆款</div><div class="val v-purple">${data.lowFanBests.toLocaleString()}</div><div class="sub">全店占比 ${data.lowFanRate}</div></div>
+    `;
+}
+
+// ─── Weekly mini stats ───
+function getLastWeekPeriod() {
+    const now = new Date();
+    const day = now.getDay() || 7;
+    const monday = new Date(now);
+    monday.setDate(now.getDate() - day + 1);
+    // 上周 = 本周周一往前推一周
+    monday.setDate(monday.getDate() - 7);
+    const sunday = new Date(monday);
+    sunday.setDate(monday.getDate() + 6);
+    const fmt = d => `${d.getMonth()+1}月${d.getDate()}日`;
+    return `${fmt(monday)} - ${fmt(sunday)}`;
+}
+
+function renderWeeklyStats(elId, w, colorCls) {
+    const el = document.getElementById(elId);
+    if (!el) return;
+    const isUp = w.changeRate.startsWith('+');
+    el.innerHTML = `
+        <div class="mini-stat"><div class="lbl">新增商品</div><div class="val v-blue">${w.newProducts.toLocaleString()}</div><span class="badge ${isUp?'badge-up':'badge-down'}">${w.changeRate}</span></div>
+        <div class="mini-stat"><div class="lbl">新增店铺</div><div class="val v-blue">${w.newShops.toLocaleString()}</div><span class="badge ${isUp?'badge-up':'badge-down'}">环比 ${isUp?'+':'-'}${Math.abs(parseFloat(w.changeRate))}%</span></div>
+        <div class="mini-stat"><div class="lbl">覆盖分类</div><div class="val v-blue">${w.categories}</div></div>
+        <div class="mini-stat"><div class="lbl">低粉爆款占比</div><div class="val v-purple">${w.lowFanRate}</div></div>
+    `;
+}
+
+// ─── Focus row ───
+function renderFocusRow(elId, hp) {
+    const el = document.getElementById(elId);
+    if (!el) return;
+    el.innerHTML = `
+        <div class="focus-card">
+            <div class="fi">📦</div>
+            <div class="ft"><div class="ft-t">商品数量</div><div class="ft-v">${hp.total}</div><div class="ft-s">占比 ${hp.ratio}</div></div>
+        </div>
+        <div class="focus-card">
+            <div class="fi">📈</div>
+            <div class="ft"><div class="ft-t">平均销量</div><div class="ft-v" style="color:var(--orange)">${hp.avgSales}</div><div class="ft-s">整体 ${hp.avgSalesAll}</div></div>
+        </div>
+        <div class="focus-card">
+            <div class="fi">🎯</div>
+            <div class="ft"><div class="ft-t">低粉爆款占比</div><div class="ft-v" style="color:var(--purple)">${hp.lowFanRate}</div><div class="ft-s">整体 ${hp.lowFanRateAll}</div></div>
+        </div>
+    `;
+}
+
+// ─── Summary ───
+function renderSummary(elId, s, cls) {
+    const el = document.getElementById(elId);
+    if (!el) return;
+    const insights = [
+        { title: '核心发现', items: s.coreFindings, cls: '' },
+        { title: '💰 定价建议', items: s.priceAdvice, cls: 'orange' },
+        { title: '🔥 竞争格局', items: s.competitionAdvice, cls: 'green' }
+    ];
+    el.innerHTML = insights.map(ins =>
+        `<div class="insight ${ins.cls}">
+            <h5>${ins.title}</h5>
+            <ul>${ins.items.map(i => `<li><strong>${i.split('：')[0]}：</strong>${i.split('：')[1]||''}</li>`).join('')}</ul>
+        </div>`
+    ).join('');
+}
+
+// ─── Keywords cloud ───
+function renderKeywords(elId, kws) {
+    const el = document.getElementById(elId);
+    if (!el) return;
+    el.innerHTML = kws.map(k =>
+        `<span class="kw ${k.level}">${k.text} (${k.count})</span>`
+    ).join('');
+}
+
+// ─── Init all ───
+document.addEventListener('DOMContentLoaded', () => {
+
+    // Page title & footer
+    document.getElementById('pageTitle').innerHTML =
+        `${DATA.meta.title} <span>${DATA.meta.date}年 · 统计截止 ${DATA.meta.date}</span>`;
+    document.getElementById('footer').innerHTML =
+        `数据来源：小红书电商选品库 · 生成时间：${DATA.meta.generated}`;
+
+    Chart.defaults.font.family = "-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif";
+    Chart.defaults.color = '#555';
+
+    /* ─── PHYSICAL ─── */
+    const P = DATA.physical;
+    const C_PHY_BARS = ['#1a6ae8','#4b8ae8','#82b4fc','#adc6ff','#d3e4ff'];
+
+    document.getElementById('physMeta').innerHTML =
+        `共 <strong>${P.overview.products.toLocaleString()}</strong> 件商品 · <strong>${P.overview.shops.toLocaleString()}</strong> 家店铺 · 低粉爆款 <strong style="color:var(--red)">${P.overview.lowFanRate}</strong>`;
+
+    renderOverview('physOverview', P.overview);
+
+    const autoPeriod = getLastWeekPeriod();
+    document.getElementById('physWeeklyPeriod').textContent = autoPeriod;
+    document.getElementById('physWeeklyChange').textContent = `环比 ${P.weekly.changeRate}`;
+    document.getElementById('physWeeklyInsight').textContent = P.weekly.insight;
+    renderWeeklyStats('physWeeklyStats', P.weekly);
+    renderBars('physWeeklyCat', P.weekly.topCategories, C_PHY_BARS);
+    renderBars('physWeeklyPrice', P.weekly.priceDist, ['#d4740a','#e89c30','#f5c060','#fae09a','#fff3cd']);
+    document.getElementById('physWeeklyCatTotal').textContent = P.weekly.newProducts.toLocaleString() + '件新商品';
+    document.getElementById('physWeeklyPriceAvg').textContent = '均价 ' + P.weekly.avgPrice;
+
+    renderBars('physSalesDist', P.salesDist, C_PHY);
+    renderBars('physPriceDist', P.priceDist, C_PHY);
+    renderBars('physCatSales', P.categorySales, C_PHY);
+
+    renderKeywords('physKeywords', P.keywords);
+
+    const pie1 = document.getElementById('piePhys').getContext('2d');
+    new Chart(pie1, {
+        type: 'doughnut',
+        data: { labels: P.categoryPie.labels, datasets: [{ data: P.categoryPie.values, backgroundColor: C_PHY, borderWidth: 0 }] },
+        options: { responsive: true, maintainAspectRatio: false, cutout: '60%', plugins: { legend: { display: false } } }
+    });
+    renderPieLeg('piePhysLeg', P.categoryPie.labels, P.categoryPie.values, C_PHY);
+
+    renderCatCards('physCatCards', P.categoryCards);
+    renderCompRows('physCompRows', P.compRows, C_PHY);
+    renderBars('physShopFans', P.shopFans, ['#e8372b','#ef5a43','#95de64','#73d13d']);
+    renderBars('physShopScore', P.shopScore, ['#e8372b','#ef5a43','#f5846f','#52c41a']);
+
+    renderFocusRow('physHighPriceStats', P.highPrice);
+    renderBars('physHpCat', P.highPrice.catDist, C_PHY);
+    renderBars('physHpPrice', P.highPrice.priceDist, C_PHY);
+
+    renderSummary('physSummary', P.summary);
+
+    /* ─── VIRTUAL ─── */
+    const V = DATA.virtual;
+    const C_VIR_BARS = ['#1a6ae8','#4b8ae8','#82b4fc','#adc6ff','#d3e4ff'];
+
+    document.getElementById('virtMeta').innerHTML =
+        `共 <strong>${V.overview.products.toLocaleString()}</strong> 件商品 · <strong>${V.overview.shops.toLocaleString()}</strong> 家店铺 · 低粉爆款 <strong style="color:var(--purple)">${V.overview.lowFanRate}</strong>`;
+
+    renderOverview('virtOverview', V.overview);
+
+    document.getElementById('virtWeeklyPeriod').textContent = autoPeriod;
+    document.getElementById('virtWeeklyChange').textContent = `环比 ${V.weekly.changeRate}`;
+    document.getElementById('virtWeeklyInsight').textContent = V.weekly.insight;
+    renderWeeklyStats('virtWeeklyStats', V.weekly);
+    renderBars('virtWeeklyCat', V.weekly.topCategories, C_VIR_BARS);
+    renderBars('virtWeeklyPrice', V.weekly.priceDist, ['#6b3fc0','#8257e0','#d4740a','#e89c30','#f5c060']);
+    document.getElementById('virtWeeklyCatTotal').textContent = V.weekly.newProducts.toLocaleString() + '件新商品';
+    document.getElementById('virtWeeklyPriceAvg').textContent = '均价 ' + V.weekly.avgPrice;
+
+    renderBars('virtSalesDist', V.salesDist, C_VIR);
+    renderBars('virtPriceDist', V.priceDist, C_VIR);
+    renderBars('virtCatSales', V.categorySales, C_VIR);
+
+    renderKeywords('virtKeywords', V.keywords);
+
+    const pie2 = document.getElementById('pieVirt').getContext('2d');
+    new Chart(pie2, {
+        type: 'doughnut',
+        data: { labels: V.categoryPie.labels, datasets: [{ data: V.categoryPie.values, backgroundColor: C_VIR, borderWidth: 0 }] },
+        options: { responsive: true, maintainAspectRatio: false, cutout: '60%', plugins: { legend: { display: false } } }
+    });
+    renderPieLeg('pieVirtLeg', V.categoryPie.labels, V.categoryPie.values, C_VIR);
+
+    renderCatCards('virtCatCards', V.categoryCards);
+    renderCompRows('virtCompRows', V.compRows, C_VIR);
+    renderBars('virtShopFans', V.shopFans, ['#6b3fc0','#8257e0','#95de64','#52c41a']);
+    renderBars('virtShopScore', V.shopScore, ['#6b3fc0','#8257e0','#f5846f','#52c41a']);
+
+    renderSummary('virtSummary', V.summary);
+});
+</script>
+</body>
+</html>
