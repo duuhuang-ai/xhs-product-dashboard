@@ -1,1428 +1,1416 @@
 const DATA = {
   "meta": {
     "title": "小红书电商选品分析看板",
-    "date": "2026-04-20",
-    "generated": "2026-04-20",
-    "totalProducts": 7930
+    "date": "2026-04-27",
+    "generated": "2026-04-27",
+    "totalProducts": 8282
   },
   "physical": {
     "overview": {
-      "products": 4812,
-      "shops": 2597,
-      "avgSales": "38229",
-      "avgPrice": "¥84",
-      "lowFanBests": 4098,
-      "lowFanRate": "85.2%"
+      "products": 5284,
+      "shops": 2937,
+      "avgSales": "37,350",
+      "avgPrice": "¥83",
+      "lowFanBests": 1914,
+      "lowFanRate": "36.2%"
     },
     "weekly": {
-      "period": "3月31日 - 4月6日",
-      "newProducts": 2892,
-      "newShops": 1790,
-      "categories": 7,
-      "avgPrice": "¥89",
-      "avgSales": "39689",
-      "lowFanRate": "85.1%",
-      "changeRate": "-68.8%",
+      "period": "",
+      "newProducts": 767,
+      "newShops": 607,
+      "categories": 8,
+      "avgPrice": "¥80",
+      "avgSales": "30,565",
+      "lowFanRate": "35.2%",
+      "changeRate": "-14.4%",
       "topCategories": [
         {
           "label": "服饰穿搭",
-          "value": 1342
-        },
-        {
-          "label": "美食滋补",
-          "value": 560
+          "value": 296
         },
         {
           "label": "家居生活",
-          "value": 344
+          "value": 218
+        },
+        {
+          "label": "美食滋补",
+          "value": 94
+        },
+        {
+          "label": "潮玩",
+          "value": 83
         },
         {
           "label": "美妆个护",
-          "value": 321
-        },
-        {
-          "label": "运动潮玩",
-          "value": 163
+          "value": 41
         }
       ],
       "priceDist": [
         {
           "label": "<50元",
-          "value": 1434
-        },
-        {
-          "label": "100-200元",
-          "value": 390
+          "value": 411
         },
         {
           "label": "50-100元",
-          "value": 845
+          "value": 196
+        },
+        {
+          "label": "100-200元",
+          "value": 108
         },
         {
           "label": "200-500元",
-          "value": 172
+          "value": 44
         },
         {
           "label": ">500元",
-          "value": 51
+          "value": 8
         }
       ],
-      "insight": "新增2892款商品，环比下降68.8%。服饰穿搭仍最热（1342款），低价策略持续（1434款低于50元）。"
+      "insight": "上周新增767件商品，607家新店铺入场，低粉爆款占比35.2%"
     },
     "salesDist": [
       {
         "label": ">1万",
-        "value": 2615
+        "value": 2899
       },
       {
         "label": "5千-1万",
-        "value": 787
+        "value": 764
       },
       {
         "label": "1千-5千",
-        "value": 1101
+        "value": 1253
       },
       {
         "label": "500-1千",
-        "value": 218
+        "value": 266
       },
       {
         "label": "<500",
-        "value": 91
+        "value": 102
       }
     ],
     "priceDist": [
       {
         "label": "<50元",
-        "value": 2512
+        "value": 2760
       },
       {
         "label": "100-200元",
-        "value": 609
+        "value": 688
       },
       {
         "label": "50-100元",
-        "value": 1343
+        "value": 1451
       },
       {
         "label": "200-500元",
-        "value": 282
+        "value": 312
       },
       {
         "label": ">500元",
-        "value": 66
+        "value": 73
       }
     ],
     "categoryPie": {
       "labels": [
-        "服饰穿搭",
-        "美食滋补",
-        "家居生活",
         "美妆个护",
-        "运动潮玩",
-        "母婴亲子",
-        "数码家电"
+        "服饰穿搭",
+        "潮玩",
+        "数码家电",
+        "家居生活",
+        "运动",
+        "美食滋补",
+        "母婴亲子"
       ],
       "values": [
-        2242,
-        1010,
-        494,
-        438,
-        317,
-        221,
-        90
+        460,
+        2226,
+        353,
+        81,
+        677,
+        299,
+        1003,
+        127
       ]
     },
     "categorySales": [
       {
         "label": "美食滋补",
-        "value": 8607,
-        "unit": "万"
+        "value": 88459649
       },
       {
         "label": "服饰穿搭",
-        "value": 4950,
-        "unit": "万"
+        "value": 47994867
       },
       {
         "label": "美妆个护",
-        "value": 2232,
-        "unit": "万"
+        "value": 22922738
       },
       {
         "label": "家居生活",
-        "value": 1302,
-        "unit": "万"
+        "value": 17815703
       },
       {
-        "label": "运动潮玩",
-        "value": 687,
-        "unit": "万"
+        "label": "运动",
+        "value": 6947943
+      },
+      {
+        "label": "潮玩",
+        "value": 5744159
       },
       {
         "label": "母婴亲子",
-        "value": 430,
-        "unit": "万"
+        "value": 2493727
       },
       {
         "label": "数码家电",
-        "value": 185,
-        "unit": "万"
-      }
-    ],
-    "keywords": [
-      {
-        "text": "裤子",
-        "count": 285,
-        "level": "hot"
-      },
-      {
-        "text": "T恤",
-        "count": 269,
-        "level": "hot"
-      },
-      {
-        "text": "短袖",
-        "count": 137,
-        "level": "warm"
-      },
-      {
-        "text": "牛仔裤",
-        "count": 135,
-        "level": "warm"
-      },
-      {
-        "text": "水果",
-        "count": 128,
-        "level": ""
-      },
-      {
-        "text": "低热量零食",
-        "count": 95,
-        "level": ""
-      },
-      {
-        "text": "鞋靴",
-        "count": 89,
-        "level": ""
-      },
-      {
-        "text": "零食",
-        "count": 80,
-        "level": ""
-      },
-      {
-        "text": "配饰",
-        "count": 73,
-        "level": ""
-      },
-      {
-        "text": "运动裤",
-        "count": 62,
-        "level": ""
+        "value": 1683931
       }
     ],
     "categoryCards": [
       {
         "name": "服饰穿搭",
-        "products": 2242,
-        "shops": 1143,
-        "avgPrice": 111,
-        "lowFanRate": "79.8%",
-        "heat": "h",
-        "priceRec": "50-116",
-        "priceLabels": [
-          "<50",
-          "50-100",
-          "100-200",
-          ">200"
-        ],
+        "heat": "m",
+        "products": 2226,
+        "shops": 1187,
+        "avgPrice": "113",
+        "lowFanRate": "21.2%",
         "priceDist": [
-          35,
-          37,
+          34,
+          36,
           17,
           11
         ],
-        "keywords": "裤子, T恤, 鞋靴"
+        "priceLabels": [
+          "<50",
+          "50-100",
+          "100-200",
+          ">200"
+        ],
+        "priceRec": "67-147",
+        "keywords": "裤子, T恤, 短袖"
       },
       {
         "name": "美食滋补",
-        "products": 1010,
-        "shops": 538,
-        "avgPrice": 49,
-        "lowFanRate": "94.1%",
-        "heat": "h",
-        "priceRec": "20-47",
-        "priceLabels": [
-          "<50",
-          "50-100",
-          "100-200",
-          ">200"
-        ],
+        "heat": "m",
+        "products": 1003,
+        "shops": 569,
+        "avgPrice": "50",
+        "lowFanRate": "60.7%",
         "priceDist": [
-          72,
-          18,
+          71,
+          17,
           7,
           2
         ],
-        "keywords": "水果, 零食, 早餐"
+        "priceLabels": [
+          "<50",
+          "50-100",
+          "100-200",
+          ">200"
+        ],
+        "priceRec": "30-65",
+        "keywords": "水果, 低热量零食, 零食"
       },
       {
         "name": "家居生活",
-        "products": 494,
-        "shops": 321,
-        "avgPrice": 60,
-        "lowFanRate": "87.4%",
-        "heat": "h",
-        "priceRec": "24-70",
+        "heat": "m",
+        "products": 677,
+        "shops": 454,
+        "avgPrice": "59",
+        "lowFanRate": "46.5%",
+        "priceDist": [
+          67,
+          16,
+          11,
+          4
+        ],
         "priceLabels": [
           "<50",
           "50-100",
           "100-200",
           ">200"
         ],
-        "priceDist": [
-          67,
-          17,
-          12,
-          4
-        ],
-        "keywords": "浴室用品, 实用好物"
+        "priceRec": "35-77",
+        "keywords": "新家好物, 绿植, 香薰"
       },
       {
         "name": "美妆个护",
-        "products": 438,
-        "shops": 280,
-        "avgPrice": 64,
-        "lowFanRate": "90.2%",
-        "heat": "h",
-        "priceRec": "30-99",
-        "priceLabels": [
-          "<50",
-          "50-100",
-          "100-200",
-          ">200"
-        ],
+        "heat": "m",
+        "products": 460,
+        "shops": 293,
+        "avgPrice": "64",
+        "lowFanRate": "35.7%",
         "priceDist": [
-          62,
-          25,
-          9,
+          60,
+          26,
+          8,
           4
         ],
-        "keywords": "面部色彩, 身体护理"
-      },
-      {
-        "name": "运动潮玩",
-        "products": 317,
-        "shops": 192,
-        "avgPrice": 85,
-        "lowFanRate": "85.2%",
-        "heat": "m",
-        "priceRec": "48-114",
         "priceLabels": [
           "<50",
           "50-100",
           "100-200",
           ">200"
         ],
+        "priceRec": "38-84",
+        "keywords": "美妆, 面部色彩, 身体护理"
+      },
+      {
+        "name": "潮玩",
+        "heat": "m",
+        "products": 353,
+        "shops": 229,
+        "avgPrice": "63",
+        "lowFanRate": "26.6%",
         "priceDist": [
-          57,
-          25,
-          10,
-          8
+          71,
+          16,
+          5,
+          6
         ],
-        "keywords": "运动裤, 健身"
+        "priceLabels": [
+          "<50",
+          "50-100",
+          "100-200",
+          ">200"
+        ],
+        "priceRec": "37-82",
+        "keywords": "拼豆, 毛绒玩偶, 挂件"
+      },
+      {
+        "name": "运动",
+        "heat": "m",
+        "products": 299,
+        "shops": 172,
+        "avgPrice": "85",
+        "lowFanRate": "41.1%",
+        "priceDist": [
+          39,
+          43,
+          13,
+          4
+        ],
+        "priceLabels": [
+          "<50",
+          "50-100",
+          "100-200",
+          ">200"
+        ],
+        "priceRec": "51-111",
+        "keywords": "运动裤, 健身, 运动包配"
       },
       {
         "name": "母婴亲子",
-        "products": 221,
-        "shops": 141,
-        "avgPrice": 52,
-        "lowFanRate": "81.9%",
         "heat": "m",
-        "priceRec": "22-70",
+        "products": 127,
+        "shops": 86,
+        "avgPrice": "71",
+        "lowFanRate": "44.1%",
+        "priceDist": [
+          54,
+          21,
+          20,
+          3
+        ],
         "priceLabels": [
           "<50",
           "50-100",
           "100-200",
           ">200"
         ],
-        "priceDist": [
-          70,
-          21,
-          5,
-          5
-        ],
-        "keywords": "童装, 玩具"
+        "priceRec": "43-93",
+        "keywords": "孕早期穿搭, 益智玩具, 宝宝鞋"
       },
       {
         "name": "数码家电",
-        "products": 90,
-        "shops": 63,
-        "avgPrice": 93,
-        "lowFanRate": "90.0%",
-        "heat": "l",
-        "priceRec": "20-62",
+        "heat": "m",
+        "products": 81,
+        "shops": 61,
+        "avgPrice": "109",
+        "lowFanRate": "58.0%",
+        "priceDist": [
+          64,
+          11,
+          16,
+          8
+        ],
         "priceLabels": [
           "<50",
           "50-100",
           "100-200",
           ">200"
         ],
-        "priceDist": [
-          63,
-          17,
-          16,
-          4
-        ],
-        "keywords": "充电配件"
+        "priceRec": "65-142",
+        "keywords": "手机支架, 手机壳, 充电宝"
       }
     ],
     "compRows": [
       {
-        "name": "服饰穿搭",
-        "products": 2242,
-        "shops": 1143,
-        "heat": "h"
-      },
-      {
-        "name": "美食滋补",
-        "products": 1010,
-        "shops": 538,
-        "heat": "h"
-      },
-      {
-        "name": "家居生活",
-        "products": 494,
-        "shops": 321,
-        "heat": "h"
-      },
-      {
         "name": "美妆个护",
-        "products": 438,
-        "shops": 280,
-        "heat": "h"
-      },
-      {
-        "name": "运动潮玩",
-        "products": 317,
-        "shops": 192,
+        "products": 460,
+        "shops": 293,
         "heat": "m"
       },
       {
-        "name": "母婴亲子",
-        "products": 221,
-        "shops": 141,
+        "name": "服饰穿搭",
+        "products": 2226,
+        "shops": 1187,
+        "heat": "m"
+      },
+      {
+        "name": "潮玩",
+        "products": 353,
+        "shops": 229,
         "heat": "m"
       },
       {
         "name": "数码家电",
-        "products": 90,
-        "shops": 63,
-        "heat": "l"
+        "products": 81,
+        "shops": 61,
+        "heat": "m"
+      },
+      {
+        "name": "家居生活",
+        "products": 677,
+        "shops": 454,
+        "heat": "m"
+      },
+      {
+        "name": "运动",
+        "products": 299,
+        "shops": 172,
+        "heat": "m"
+      },
+      {
+        "name": "美食滋补",
+        "products": 1003,
+        "shops": 569,
+        "heat": "m"
+      },
+      {
+        "name": "母婴亲子",
+        "products": 127,
+        "shops": 86,
+        "heat": "m"
       }
     ],
     "shopFans": [
       {
         "label": ">10万",
-        "value": 1102
-      },
-      {
-        "label": "<1千",
-        "value": 700
-      },
-      {
-        "label": "1万-5万",
-        "value": 1995
+        "value": 2741
       },
       {
         "label": "1千-5千",
-        "value": 1015
+        "value": 1138
+      },
+      {
+        "label": "1万-5万",
+        "value": 630
+      },
+      {
+        "label": "<1千",
+        "value": 775
       }
     ],
     "shopScore": [
       {
         "label": "4.4-4.6",
-        "value": 2113
-      },
-      {
-        "label": "<4.4",
-        "value": 463
+        "value": 2324
       },
       {
         "label": "4.8-5.0",
-        "value": 76
+        "value": 84
       },
       {
         "label": "4.6-4.8",
-        "value": 2158
+        "value": 2358
+      },
+      {
+        "label": "<4.4",
+        "value": 518
       }
     ],
     "highPrice": {
-      "total": 348,
-      "ratio": "7.2%",
-      "avgSales": "13451",
-      "avgSalesAll": "38229",
-      "lowFanRate": "70.1%",
-      "lowFanRateAll": "85.2%",
+      "total": 385,
+      "ratio": "7.3%",
+      "avgSales": "13,838",
+      "avgSalesAll": "37,350",
+      "lowFanRate": "11.7%",
+      "lowFanRateAll": "36.2%",
       "catDist": [
         {
           "label": "服饰穿搭",
-          "value": 246
-        },
-        {
-          "label": "美食滋补",
-          "value": 25
-        },
-        {
-          "label": "运动潮玩",
-          "value": 24
+          "value": 255
         },
         {
           "label": "家居生活",
+          "value": 33
+        },
+        {
+          "label": "美食滋补",
+          "value": 29
+        },
+        {
+          "label": "潮玩",
+          "value": 22
+        },
+        {
+          "label": "美妆个护",
           "value": 20
+        },
+        {
+          "label": "运动",
+          "value": 12
+        },
+        {
+          "label": "数码家电",
+          "value": 7
+        },
+        {
+          "label": "母婴亲子",
+          "value": 5
         }
       ],
       "priceDist": [
         {
           "label": "200-300",
-          "value": 191
+          "value": 209
         },
         {
           "label": "500-1000",
-          "value": 53
+          "value": 61
         },
         {
           "label": "300-500",
-          "value": 91
+          "value": 103
         },
         {
           "label": ">1000",
-          "value": 13
+          "value": 12
         }
       ]
     },
     "summary": {
       "coreFindings": [
-        "热门品类：美食滋补、服饰穿搭、家居生活销量最高",
-        "价格策略：50元以下占52%，低价仍是主流",
-        "爆款特征：低粉爆款占85%，产品力比粉丝积累更重要",
-        "蓝海机会：美食滋补低粉爆款94%，最容易通过产品力爆单",
-        "高价商品：高价低粉爆款仅70%，更适合有粉丝基础的店铺"
+        "实体商品共5284件，覆盖2937家店铺",
+        "低价商品（<50元）占52%，低价竞争激烈",
+        "低粉爆款1914件，占比36.2%"
       ],
       "priceAdvice": [
-        "服饰穿搭：¥50-116，50-100元爆款最密集",
-        "美食滋补：¥20-47，极致低价走量",
-        "家居生活：¥24-70，实用型低价",
-        "美妆个护：¥30-99，中价位差异化",
-        "运动潮玩：¥48-114，50-100元甜蜜点",
-        "母婴亲子：¥22-70，低价亲子品更易爆",
-        "数码家电：¥20-62，小数码低价走量"
+        "主流价格带在50-100元（占27%），新店铺可优先测试该区间",
+        "高价商品（≥200元）共385件，平均销量仅13838，高价低销明显"
       ],
       "competitionAdvice": [
-        "高竞争：服饰穿搭、美食滋补、家居生活，需差异化突围",
-        "中竞争：美妆个护、运动潮玩、母婴亲子，品质+内容驱动可快速起量",
-        "低竞争：数码家电，蓝海机会，先发优势明显"
+        "服饰穿搭竞争最激烈，建议差异化选品",
+        "美食滋补和家居生活相对蓝海，可重点关注"
       ]
-    }
+    },
+    "keywords": [
+      {
+        "text": "裤子",
+        "count": 336,
+        "level": "hot"
+      },
+      {
+        "text": "T恤",
+        "count": 248,
+        "level": "hot"
+      },
+      {
+        "text": "水果",
+        "count": 163,
+        "level": "hot"
+      },
+      {
+        "text": "短袖",
+        "count": 159,
+        "level": "hot"
+      },
+      {
+        "text": "鞋靴",
+        "count": 138,
+        "level": "hot"
+      },
+      {
+        "text": "牛仔裤",
+        "count": 110,
+        "level": "hot"
+      },
+      {
+        "text": "低热量零食",
+        "count": 90,
+        "level": "hot"
+      },
+      {
+        "text": "零食",
+        "count": 81,
+        "level": "hot"
+      },
+      {
+        "text": "配饰",
+        "count": 68,
+        "level": "hot"
+      },
+      {
+        "text": "美妆",
+        "count": 65,
+        "level": "hot"
+      },
+      {
+        "text": "运动裤",
+        "count": 60,
+        "level": "hot"
+      },
+      {
+        "text": "上衣",
+        "count": 58,
+        "level": "hot"
+      },
+      {
+        "text": "包包",
+        "count": 55,
+        "level": "hot"
+      },
+      {
+        "text": "宿舍零食",
+        "count": 52,
+        "level": "hot"
+      },
+      {
+        "text": "背心吊带",
+        "count": 46,
+        "level": "warm"
+      },
+      {
+        "text": "衬衫",
+        "count": 43,
+        "level": "warm"
+      },
+      {
+        "text": "外套",
+        "count": 43,
+        "level": "warm"
+      },
+      {
+        "text": "新家好物",
+        "count": 42,
+        "level": "warm"
+      },
+      {
+        "text": "拼豆",
+        "count": 42,
+        "level": "warm"
+      },
+      {
+        "text": "实用好物",
+        "count": 40,
+        "level": "warm"
+      },
+      {
+        "text": "半身裙",
+        "count": 39,
+        "level": "warm"
+      },
+      {
+        "text": "绿植",
+        "count": 39,
+        "level": "warm"
+      },
+      {
+        "text": "面部色彩",
+        "count": 38,
+        "level": "warm"
+      },
+      {
+        "text": "毛绒玩偶",
+        "count": 38,
+        "level": "warm"
+      },
+      {
+        "text": "挂件",
+        "count": 36,
+        "level": "warm"
+      },
+      {
+        "text": "单鞋",
+        "count": 36,
+        "level": "warm"
+      },
+      {
+        "text": "休闲裤",
+        "count": 35,
+        "level": "warm"
+      },
+      {
+        "text": "健身",
+        "count": 34,
+        "level": "warm"
+      },
+      {
+        "text": "卧室好物",
+        "count": 34,
+        "level": "warm"
+      },
+      {
+        "text": "身体护理",
+        "count": 33,
+        "level": "warm"
+      }
+    ]
   },
   "virtual": {
     "overview": {
-      "products": 3118,
-      "shops": 1758,
-      "avgSales": "4726",
-      "avgPrice": "¥69",
-      "lowFanBests": 2688,
-      "lowFanRate": "86.2%"
+      "products": 2998,
+      "shops": 1754,
+      "avgSales": "4,730",
+      "avgPrice": "¥68",
+      "lowFanBests": 527,
+      "lowFanRate": "17.6%"
     },
     "weekly": {
-      "period": "4月（近期）",
-      "newProducts": 385,
-      "newShops": 301,
-      "categories": 18,
-      "avgPrice": "¥98",
-      "avgSales": "4268",
-      "lowFanRate": "81.8%",
-      "changeRate": "+42.1%",
+      "period": "",
+      "newProducts": 90,
+      "newShops": 80,
+      "categories": 14,
+      "avgPrice": "¥131",
+      "avgSales": "7,227",
+      "lowFanRate": "15.6%",
+      "changeRate": "-25.6%",
       "topCategories": [
         {
           "label": "中小学教辅/教材",
-          "value": 170
+          "value": 33
         },
         {
           "label": "PPT模板",
-          "value": 47
+          "value": 14
         },
         {
           "label": "求职面试/职场",
-          "value": 21
+          "value": 12
         },
         {
           "label": "高中/高考资料",
-          "value": 20
+          "value": 7
         },
         {
-          "label": "英语资料",
-          "value": 20
+          "label": "AI",
+          "value": 6
         }
       ],
       "priceDist": [
         {
+          "label": "100-200元",
+          "value": 15
+        },
+        {
+          "label": ">500元",
+          "value": 5
+        },
+        {
+          "label": "200-500元",
+          "value": 8
+        },
+        {
+          "label": "<50元",
+          "value": 43
+        },
+        {
           "label": "50-100元",
-          "value": 82
-        },
-        {
-          "label": "<10元",
-          "value": 104
-        },
-        {
-          "label": "30-50元",
-          "value": 49
-        },
-        {
-          "label": ">100元",
-          "value": 104
-        },
-        {
-          "label": "10-30元",
-          "value": 46
+          "value": 19
         }
       ],
-      "insight": "4月新增385款，中高价位占比更高，虚拟商品正向高价值迁移。"
+      "insight": "上周新增90件虚拟商品，80家新店铺入场"
     },
     "salesDist": [
       {
         "label": "5千-1万",
-        "value": 559
+        "value": 492
       },
       {
         "label": "1千-5千",
-        "value": 1544
+        "value": 1507
       },
       {
         "label": ">1万",
-        "value": 286
+        "value": 301
       },
       {
         "label": "500-1千",
-        "value": 504
+        "value": 483
       },
       {
         "label": "<500",
-        "value": 225
+        "value": 215
       }
     ],
     "priceDist": [
       {
         "label": "50-100元",
-        "value": 396
+        "value": 372
       },
       {
-        "label": "<10元",
-        "value": 1468
+        "label": "<50元",
+        "value": 2256
       },
       {
-        "label": "10-30元",
-        "value": 556
+        "label": "100-200元",
+        "value": 194
       },
       {
-        "label": "30-50元",
-        "value": 299
+        "label": "200-500元",
+        "value": 129
       },
       {
-        "label": ">100元",
-        "value": 399
+        "label": ">500元",
+        "value": 47
       }
     ],
     "categoryPie": {
       "labels": [
-        "中小学教辅/教材",
-        "PPT模板",
-        "高中/高考资料",
         "考公资料",
-        "英语资料",
-        "求职面试/职场",
-        "无匹配类别",
-        "教资资料",
-        "设计素材",
+        "中小学教辅/教材",
         "考研资料",
-        "生活成长",
-        "老师资料",
         "幼教资料",
+        "老师资料",
+        "高中/高考资料",
+        "英语资料",
+        "设计素材",
+        "无匹配类别",
+        "求职面试/职场",
         "软件应用",
-        "AI",
-        "咨询服务",
-        "头像壁纸",
+        "教资资料",
+        "PPT模板",
         "会计资料",
-        "大学资料",
-        "运营资料",
         "司法考试",
-        "未知"
+        "运营资料",
+        "生活成长",
+        "AI",
+        "大学资料",
+        "咨询服务",
+        "头像壁纸"
       ],
       "values": [
-        1065,
-        444,
-        188,
-        182,
-        178,
-        163,
-        132,
-        132,
-        119,
-        115,
-        89,
-        85,
-        60,
+        175,
+        1028,
+        113,
+        59,
+        84,
+        179,
+        169,
+        107,
+        128,
+        154,
         49,
-        42,
-        17,
-        16,
+        127,
+        427,
         14,
-        12,
-        8,
         7,
-        1
+        7,
+        83,
+        39,
+        10,
+        17,
+        15
       ]
     },
     "categorySales": [
       {
         "label": "中小学教辅/教材",
-        "value": 402,
-        "unit": "万"
+        "value": 3918132
       },
       {
         "label": "PPT模板",
-        "value": 139,
-        "unit": "万"
+        "value": 1347761
       },
       {
         "label": "求职面试/职场",
-        "value": 128,
-        "unit": "万"
+        "value": 1264505
       },
       {
         "label": "英语资料",
-        "value": 118,
-        "unit": "万"
+        "value": 1064188
       },
       {
         "label": "高中/高考资料",
-        "value": 108,
-        "unit": "万"
+        "value": 1016001
       },
       {
         "label": "生活成长",
-        "value": 100,
-        "unit": "万"
+        "value": 933541
       },
       {
         "label": "考公资料",
-        "value": 79,
-        "unit": "万"
+        "value": 756380
       },
       {
         "label": "无匹配类别",
-        "value": 72,
-        "unit": "万"
+        "value": 683558
       },
       {
         "label": "设计素材",
-        "value": 69,
-        "unit": "万"
+        "value": 644156
       },
       {
         "label": "教资资料",
-        "value": 60,
-        "unit": "万"
+        "value": 563145
       },
       {
         "label": "考研资料",
-        "value": 56,
-        "unit": "万"
+        "value": 533009
       },
       {
         "label": "老师资料",
-        "value": 29,
-        "unit": "万"
+        "value": 293301
       },
       {
         "label": "幼教资料",
-        "value": 27,
-        "unit": "万"
+        "value": 264785
       },
       {
         "label": "软件应用",
-        "value": 24,
-        "unit": "万"
+        "value": 247542
       },
       {
         "label": "AI",
-        "value": 16,
-        "unit": "万"
+        "value": 159101
       },
       {
         "label": "咨询服务",
-        "value": 13,
-        "unit": "万"
+        "value": 139276
       },
       {
         "label": "会计资料",
-        "value": 9,
-        "unit": "万"
-      },
-      {
-        "label": "大学资料",
-        "value": 6,
-        "unit": "万"
-      },
-      {
-        "label": "运营资料",
-        "value": 4,
-        "unit": "万"
+        "value": 96018
       },
       {
         "label": "头像壁纸",
-        "value": 4,
-        "unit": "万"
+        "value": 42767
+      },
+      {
+        "label": "运营资料",
+        "value": 41163
+      },
+      {
+        "label": "大学资料",
+        "value": 29224
       },
       {
         "label": "司法考试",
-        "value": 0,
-        "unit": "万"
-      },
-      {
-        "label": "未知",
-        "value": 0,
-        "unit": "万"
-      }
-    ],
-    "keywords": [
-      {
-        "text": "PPT",
-        "count": 218,
-        "level": "vir-hot"
-      },
-      {
-        "text": "资料",
-        "count": 169,
-        "level": "vir-hot"
-      },
-      {
-        "text": "课件",
-        "count": 148,
-        "level": "vir-warm"
-      },
-      {
-        "text": "模板",
-        "count": 105,
-        "level": "vir-warm"
-      },
-      {
-        "text": "小学资料",
-        "count": 83,
-        "level": ""
-      },
-      {
-        "text": "省考",
-        "count": 74,
-        "level": ""
-      },
-      {
-        "text": "电子版",
-        "count": 71,
-        "level": ""
-      },
-      {
-        "text": "老师资料",
-        "count": 67,
-        "level": ""
-      },
-      {
-        "text": "简历",
-        "count": 64,
-        "level": ""
-      },
-      {
-        "text": "素材",
-        "count": 62,
-        "level": ""
+        "value": 7075
       }
     ],
     "categoryCards": [
       {
         "name": "中小学教辅/教材",
-        "products": 1065,
-        "shops": 540,
-        "avgPrice": 61,
-        "lowFanRate": "83.5%",
-        "heat": "h",
-        "priceRec": "5-40",
-        "priceLabels": [
-          "<10",
-          "10-30",
-          "50-100",
-          ">100"
-        ],
+        "heat": "m",
+        "products": 1028,
+        "shops": 538,
+        "avgPrice": "61",
+        "lowFanRate": "8.2%",
         "priceDist": [
-          41,
-          17,
-          27,
-          16
+          70,
+          13,
+          9,
+          5
         ],
-        "keywords": "课件, 试卷"
+        "priceLabels": [
+          "<50",
+          "50-100",
+          "100-200",
+          ">200"
+        ],
+        "priceRec": "36-79",
+        "keywords": "课件, 小学资料, PPT"
       },
       {
         "name": "PPT模板",
-        "products": 444,
-        "shops": 281,
-        "avgPrice": 28,
-        "lowFanRate": "87.6%",
         "heat": "m",
-        "priceRec": "4-20",
-        "priceLabels": [
-          "<10",
-          "10-30",
-          "50-100",
-          ">100"
-        ],
+        "products": 427,
+        "shops": 279,
+        "avgPrice": "26",
+        "lowFanRate": "15.2%",
         "priceDist": [
-          63,
-          15,
-          17,
-          5
+          87,
+          7,
+          2,
+          1
         ],
-        "keywords": "商务, 课件"
+        "priceLabels": [
+          "<50",
+          "50-100",
+          "100-200",
+          ">200"
+        ],
+        "priceRec": "15-34",
+        "keywords": "PPT, PPT模板, 课件"
       },
       {
         "name": "高中/高考资料",
-        "products": 188,
-        "shops": 77,
-        "avgPrice": 55,
-        "lowFanRate": "85.1%",
-        "heat": "l",
-        "priceRec": "10-55",
-        "priceLabels": [
-          "<10",
-          "10-30",
-          "50-100",
-          ">100"
-        ],
+        "heat": "m",
+        "products": 179,
+        "shops": 79,
+        "avgPrice": "51",
+        "lowFanRate": "6.7%",
         "priceDist": [
-          41,
-          19,
-          26,
-          14
+          70,
+          16,
+          7,
+          5
         ],
-        "keywords": "真题, 复习"
+        "priceLabels": [
+          "<50",
+          "50-100",
+          "100-200",
+          ">200"
+        ],
+        "priceRec": "31-67",
+        "keywords": "高中数学, 高考英语, 高中英语"
       },
       {
         "name": "考公资料",
-        "products": 182,
-        "shops": 104,
-        "avgPrice": 49,
-        "lowFanRate": "76.4%",
-        "heat": "l",
-        "priceRec": "2-30",
-        "priceLabels": [
-          "<10",
-          "10-30",
-          "50-100",
-          ">100"
-        ],
+        "heat": "m",
+        "products": 175,
+        "shops": 101,
+        "avgPrice": "44",
+        "lowFanRate": "32.6%",
         "priceDist": [
-          48,
-          21,
-          23,
-          8
+          79,
+          13,
+          2,
+          5
         ],
-        "keywords": "行测, 申论"
+        "priceLabels": [
+          "<50",
+          "50-100",
+          "100-200",
+          ">200"
+        ],
+        "priceRec": "26-58",
+        "keywords": "省考, 广东省考, 山东省考"
       },
       {
         "name": "英语资料",
-        "products": 178,
-        "shops": 119,
-        "avgPrice": 166,
-        "lowFanRate": "80.9%",
-        "heat": "l",
-        "priceRec": "10-64",
-        "priceLabels": [
-          "<10",
-          "10-30",
-          "50-100",
-          ">100"
-        ],
+        "heat": "m",
+        "products": 169,
+        "shops": 120,
+        "avgPrice": "169",
+        "lowFanRate": "23.7%",
         "priceDist": [
-          33,
-          13,
-          34,
-          20
+          62,
+          16,
+          8,
+          12
         ],
-        "keywords": "四六级, 考研英语"
+        "priceLabels": [
+          "<50",
+          "50-100",
+          "100-200",
+          ">200"
+        ],
+        "priceRec": "101-219",
+        "keywords": "雅思, 资料, 英语"
       },
       {
         "name": "求职面试/职场",
-        "products": 163,
-        "shops": 111,
-        "avgPrice": 35,
-        "lowFanRate": "90.8%",
-        "heat": "l",
-        "priceRec": "1-17",
-        "priceLabels": [
-          "<10",
-          "10-30",
-          "50-100",
-          ">100"
-        ],
+        "heat": "m",
+        "products": 154,
+        "shops": 110,
+        "avgPrice": "32",
+        "lowFanRate": "26.0%",
         "priceDist": [
-          57,
-          18,
-          15,
-          10
+          83,
+          8,
+          6,
+          1
         ],
-        "keywords": "简历, 面试"
+        "priceLabels": [
+          "<50",
+          "50-100",
+          "100-200",
+          ">200"
+        ],
+        "priceRec": "19-42",
+        "keywords": "简历, 春招, 秋招"
       },
       {
         "name": "无匹配类别",
-        "products": 132,
-        "shops": 106,
-        "avgPrice": 169,
-        "lowFanRate": "92.4%",
-        "heat": "l",
-        "priceRec": "5-40",
-        "priceLabels": [
-          "<10",
-          "10-30",
-          "50-100",
-          ">100"
-        ],
+        "heat": "m",
+        "products": 128,
+        "shops": 104,
+        "avgPrice": "171",
+        "lowFanRate": "22.7%",
         "priceDist": [
-          44,
-          20,
-          20,
-          17
+          74,
+          10,
+          4,
+          10
         ],
-        "keywords": ""
+        "priceLabels": [
+          "<50",
+          "50-100",
+          "100-200",
+          ">200"
+        ],
+        "priceRec": "102-222",
+        "keywords": "资料, 模板, 电子版"
       },
       {
         "name": "教资资料",
-        "products": 132,
-        "shops": 63,
-        "avgPrice": 32,
-        "lowFanRate": "92.4%",
-        "heat": "l",
-        "priceRec": "7-58",
-        "priceLabels": [
-          "<10",
-          "10-30",
-          "50-100",
-          ">100"
-        ],
+        "heat": "m",
+        "products": 127,
+        "shops": 62,
+        "avgPrice": "31",
+        "lowFanRate": "35.4%",
         "priceDist": [
-          38,
-          31,
-          27,
-          5
+          74,
+          20,
+          4,
+          0
         ],
-        "keywords": "真题, 教案"
+        "priceLabels": [
+          "<50",
+          "50-100",
+          "100-200",
+          ">200"
+        ],
+        "priceRec": "19-41",
+        "keywords": "教师资格证, 教师资格培训, 老师资料"
+      }
+    ],
+    "compRows": [
+      {
+        "name": "考公资料",
+        "products": 175,
+        "shops": 101,
+        "heat": "m"
       },
       {
-        "name": "设计素材",
-        "products": 119,
-        "shops": 94,
-        "avgPrice": 63,
-        "lowFanRate": "84.9%",
-        "heat": "l",
-        "priceRec": "3-9",
-        "priceLabels": [
-          "<10",
-          "10-30",
-          "50-100",
-          ">100"
-        ],
-        "priceDist": [
-          68,
-          15,
-          5,
-          12
-        ],
-        "keywords": "海报, UI"
+        "name": "中小学教辅/教材",
+        "products": 1028,
+        "shops": 538,
+        "heat": "m"
       },
       {
         "name": "考研资料",
-        "products": 115,
+        "products": 113,
         "shops": 80,
-        "avgPrice": 44,
-        "lowFanRate": "94.8%",
-        "heat": "l",
-        "priceRec": "3-26",
-        "priceLabels": [
-          "<10",
-          "10-30",
-          "50-100",
-          ">100"
-        ],
-        "priceDist": [
-          54,
-          21,
-          16,
-          10
-        ],
-        "keywords": "专业课, 政治"
-      },
-      {
-        "name": "生活成长",
-        "products": 89,
-        "shops": 78,
-        "avgPrice": 209,
-        "lowFanRate": "93.3%",
-        "heat": "l",
-        "priceRec": "5-20",
-        "priceLabels": [
-          "<10",
-          "10-30",
-          "50-100",
-          ">100"
-        ],
-        "priceDist": [
-          42,
-          16,
-          13,
-          29
-        ],
-        "keywords": "心理, 成长"
-      },
-      {
-        "name": "老师资料",
-        "products": 85,
-        "shops": 64,
-        "avgPrice": 27,
-        "lowFanRate": "91.8%",
-        "heat": "l",
-        "priceRec": "5-30",
-        "priceLabels": [
-          "<10",
-          "10-30",
-          "50-100",
-          ">100"
-        ],
-        "priceDist": [
-          56,
-          20,
-          21,
-          2
-        ],
-        "keywords": "课件, 教案"
+        "heat": "m"
       },
       {
         "name": "幼教资料",
-        "products": 60,
+        "products": 59,
         "shops": 43,
-        "avgPrice": 124,
-        "lowFanRate": "91.7%",
-        "heat": "l",
-        "priceRec": "5-30",
-        "priceLabels": [
-          "<10",
-          "10-30",
-          "50-100",
-          ">100"
-        ],
-        "priceDist": [
-          50,
-          10,
-          30,
-          10
-        ],
-        "keywords": "绘本, 益智"
+        "heat": "m"
+      },
+      {
+        "name": "老师资料",
+        "products": 84,
+        "shops": 64,
+        "heat": "m"
+      },
+      {
+        "name": "高中/高考资料",
+        "products": 179,
+        "shops": 79,
+        "heat": "m"
+      },
+      {
+        "name": "英语资料",
+        "products": 169,
+        "shops": 120,
+        "heat": "m"
+      },
+      {
+        "name": "设计素材",
+        "products": 107,
+        "shops": 90,
+        "heat": "m"
+      },
+      {
+        "name": "无匹配类别",
+        "products": 128,
+        "shops": 104,
+        "heat": "m"
+      },
+      {
+        "name": "求职面试/职场",
+        "products": 154,
+        "shops": 110,
+        "heat": "m"
       },
       {
         "name": "软件应用",
         "products": 49,
         "shops": 38,
-        "avgPrice": 53,
-        "lowFanRate": "91.8%",
-        "heat": "l",
-        "priceRec": "5-40",
-        "priceLabels": [
-          "<10",
-          "10-30",
-          "50-100",
-          ">100"
-        ],
-        "priceDist": [
-          43,
-          31,
-          14,
-          12
-        ],
-        "keywords": ""
+        "heat": "m"
       },
       {
-        "name": "AI",
-        "products": 42,
-        "shops": 34,
-        "avgPrice": 144,
-        "lowFanRate": "78.6%",
-        "heat": "l",
-        "priceRec": "5-40",
-        "priceLabels": [
-          "<10",
-          "10-30",
-          "50-100",
-          ">100"
-        ],
-        "priceDist": [
-          33,
-          26,
-          12,
-          29
-        ],
-        "keywords": ""
+        "name": "教资资料",
+        "products": 127,
+        "shops": 62,
+        "heat": "m"
       },
       {
-        "name": "咨询服务",
-        "products": 17,
-        "shops": 16,
-        "avgPrice": 181,
-        "lowFanRate": "100.0%",
-        "heat": "l",
-        "priceRec": "5-40",
-        "priceLabels": [
-          "<10",
-          "10-30",
-          "50-100",
-          ">100"
-        ],
-        "priceDist": [
-          41,
-          12,
-          24,
-          24
-        ],
-        "keywords": ""
-      },
-      {
-        "name": "头像壁纸",
-        "products": 16,
-        "shops": 14,
-        "avgPrice": 42,
-        "lowFanRate": "100.0%",
-        "heat": "l",
-        "priceRec": "5-40",
-        "priceLabels": [
-          "<10",
-          "10-30",
-          "50-100",
-          ">100"
-        ],
-        "priceDist": [
-          44,
-          12,
-          25,
-          19
-        ],
-        "keywords": ""
+        "name": "PPT模板",
+        "products": 427,
+        "shops": 279,
+        "heat": "m"
       },
       {
         "name": "会计资料",
         "products": 14,
         "shops": 11,
-        "avgPrice": 68,
-        "lowFanRate": "85.7%",
-        "heat": "l",
-        "priceRec": "5-40",
-        "priceLabels": [
-          "<10",
-          "10-30",
-          "50-100",
-          ">100"
-        ],
-        "priceDist": [
-          43,
-          14,
-          21,
-          21
-        ],
-        "keywords": ""
-      },
-      {
-        "name": "大学资料",
-        "products": 12,
-        "shops": 11,
-        "avgPrice": 7,
-        "lowFanRate": "100.0%",
-        "heat": "l",
-        "priceRec": "5-40",
-        "priceLabels": [
-          "<10",
-          "10-30",
-          "50-100",
-          ">100"
-        ],
-        "priceDist": [
-          83,
-          17,
-          0,
-          0
-        ],
-        "keywords": ""
-      },
-      {
-        "name": "运营资料",
-        "products": 8,
-        "shops": 8,
-        "avgPrice": 227,
-        "lowFanRate": "87.5%",
-        "heat": "l",
-        "priceRec": "5-40",
-        "priceLabels": [
-          "<10",
-          "10-30",
-          "50-100",
-          ">100"
-        ],
-        "priceDist": [
-          25,
-          12,
-          25,
-          38
-        ],
-        "keywords": ""
+        "heat": "m"
       },
       {
         "name": "司法考试",
         "products": 7,
         "shops": 7,
-        "avgPrice": 54,
-        "lowFanRate": "85.7%",
-        "heat": "l",
-        "priceRec": "5-40",
-        "priceLabels": [
-          "<10",
-          "10-30",
-          "50-100",
-          ">100"
-        ],
-        "priceDist": [
-          71,
-          14,
-          0,
-          14
-        ],
-        "keywords": ""
-      },
-      {
-        "name": "未知",
-        "products": 1,
-        "shops": 1,
-        "avgPrice": 3,
-        "lowFanRate": "100.0%",
-        "heat": "l",
-        "priceRec": "5-40",
-        "priceLabels": [
-          "<10",
-          "10-30",
-          "50-100",
-          ">100"
-        ],
-        "priceDist": [
-          100,
-          0,
-          0,
-          0
-        ],
-        "keywords": ""
-      }
-    ],
-    "compRows": [
-      {
-        "name": "中小学教辅/教材",
-        "products": 1065,
-        "shops": 540,
-        "heat": "h"
-      },
-      {
-        "name": "PPT模板",
-        "products": 444,
-        "shops": 281,
         "heat": "m"
       },
       {
-        "name": "高中/高考资料",
-        "products": 188,
-        "shops": 77,
-        "heat": "l"
+        "name": "运营资料",
+        "products": 7,
+        "shops": 7,
+        "heat": "m"
       },
       {
-        "name": "考公资料",
-        "products": 182,
-        "shops": 104,
-        "heat": "l"
+        "name": "生活成长",
+        "products": 83,
+        "shops": 75,
+        "heat": "m"
       },
       {
-        "name": "英语资料",
-        "products": 178,
-        "shops": 119,
-        "heat": "l"
+        "name": "AI",
+        "products": 39,
+        "shops": 31,
+        "heat": "m"
+      },
+      {
+        "name": "大学资料",
+        "products": 10,
+        "shops": 9,
+        "heat": "m"
+      },
+      {
+        "name": "咨询服务",
+        "products": 17,
+        "shops": 16,
+        "heat": "m"
+      },
+      {
+        "name": "头像壁纸",
+        "products": 15,
+        "shops": 13,
+        "heat": "m"
       }
     ],
     "shopFans": [
       {
-        "label": "1万-5万",
-        "value": 1215
+        "label": ">10万",
+        "value": 961
       },
       {
         "label": "1千-5千",
-        "value": 1056
+        "value": 1024
       },
       {
-        "label": ">10万",
-        "value": 247
+        "label": "1万-5万",
+        "value": 434
       },
       {
         "label": "<1千",
-        "value": 600
+        "value": 579
       }
     ],
     "shopScore": [
       {
         "label": "4.4-4.6",
-        "value": 1332
+        "value": 1269
       },
       {
         "label": "<4.4",
-        "value": 1309
+        "value": 1277
       },
       {
         "label": "4.6-4.8",
-        "value": 441
+        "value": 420
       },
       {
         "label": "4.8-5.0",
-        "value": 35
+        "value": 32
       }
     ],
     "summary": {
       "coreFindings": [
-        "热门品类：中小学教辅、PPT模板销量最高，考研/考公资料需求旺盛",
-        "价格策略：47%商品低于10元，低价策略明显；高价位也有市场",
-        "爆款特征：低粉爆款占86%，更依赖产品力和内容",
-        "蓝海机会：考研资料低粉爆款95%，考公资料76%，新店快速起量首选"
+        "虚拟商品共2998件，覆盖1754家店铺",
+        "低价策略明显，87%商品在100元以下",
+        "低粉爆款527件，占比17.6%"
       ],
       "priceAdvice": [
-        "中小学教辅：¥5-40，低价走量",
-        "PPT模板：¥4-20，极致低价",
-        "考公资料：¥2-30，真题低价爆款",
-        "英语资料：¥10-64，中高价位差异化",
-        "考研资料：¥3-26，低价爆款集中",
-        "求职简历：¥1-17，极低价走量",
-        "设计素材：¥3-9，工具型走量"
+        "主流价格带在50元以下（占75%），薄利多销",
+        "高价商品（≥100元）有市场空间"
       ],
       "competitionAdvice": [
-        "高竞争：中小学教辅，靠细分突围",
-        "中竞争：PPT模板，差异化+垂直场景",
-        "低竞争：考公/考研/教资，蓝海机会！"
+        "考公资料竞争激烈，需差异化",
+        "虚拟商品赛道整体蓝海，可重点关注"
       ]
-    }
+    },
+    "keywords": [
+      {
+        "text": "PPT",
+        "count": 216,
+        "level": "vir-hot"
+      },
+      {
+        "text": "资料",
+        "count": 163,
+        "level": "vir-hot"
+      },
+      {
+        "text": "课件",
+        "count": 152,
+        "level": "vir-hot"
+      },
+      {
+        "text": "模板",
+        "count": 93,
+        "level": "vir-hot"
+      },
+      {
+        "text": "小学资料",
+        "count": 79,
+        "level": "vir-hot"
+      },
+      {
+        "text": "省考",
+        "count": 72,
+        "level": "vir-hot"
+      },
+      {
+        "text": "电子版",
+        "count": 70,
+        "level": "vir-hot"
+      },
+      {
+        "text": "老师资料",
+        "count": 63,
+        "level": "vir-hot"
+      },
+      {
+        "text": "素材",
+        "count": 59,
+        "level": "vir-hot"
+      },
+      {
+        "text": "简历",
+        "count": 58,
+        "level": "vir-hot"
+      },
+      {
+        "text": "语文课件",
+        "count": 57,
+        "level": "vir-hot"
+      },
+      {
+        "text": "pdf",
+        "count": 47,
+        "level": "vir-warm"
+      },
+      {
+        "text": "作文",
+        "count": 46,
+        "level": "vir-warm"
+      },
+      {
+        "text": "美术课件",
+        "count": 45,
+        "level": "vir-warm"
+      },
+      {
+        "text": "初中英语",
+        "count": 45,
+        "level": "vir-warm"
+      },
+      {
+        "text": "学科资料",
+        "count": 44,
+        "level": "vir-warm"
+      },
+      {
+        "text": "初中数学资料",
+        "count": 43,
+        "level": "vir-warm"
+      },
+      {
+        "text": "中考资料",
+        "count": 43,
+        "level": "vir-warm"
+      },
+      {
+        "text": "英语",
+        "count": 40,
+        "level": "vir-warm"
+      },
+      {
+        "text": "电子资料",
+        "count": 40,
+        "level": "vir-warm"
+      },
+      {
+        "text": "小升初",
+        "count": 39,
+        "level": "vir-warm"
+      },
+      {
+        "text": "PPT模板",
+        "count": 38,
+        "level": "vir-warm"
+      },
+      {
+        "text": "考研英语",
+        "count": 37,
+        "level": "vir-warm"
+      },
+      {
+        "text": "高中数学",
+        "count": 37,
+        "level": "vir-warm"
+      },
+      {
+        "text": "每日英语",
+        "count": 33,
+        "level": "vir-warm"
+      },
+      {
+        "text": "AI",
+        "count": 31,
+        "level": "vir-warm"
+      },
+      {
+        "text": "班会",
+        "count": 31,
+        "level": "vir-warm"
+      },
+      {
+        "text": "教师资格证",
+        "count": 30,
+        "level": "vir-warm"
+      },
+      {
+        "text": "山东省考",
+        "count": 26,
+        "level": "vir-warm"
+      },
+      {
+        "text": "雅思",
+        "count": 24,
+        "level": "vir-warm"
+      }
+    ]
   }
 };
