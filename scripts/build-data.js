@@ -264,17 +264,17 @@ function growthProducts(rows, limit = 6) {
 
 function parseDateValue(value) {
   if (!value) return null;
-  const normalized = value.replace(/\//g, '-');
-  const date = new Date(`${normalized}T00:00:00+08:00`);
-  return Number.isNaN(date.getTime()) ? null : date;
+  const match = String(value).match(/\d{4}[-/]\d{1,2}[-/]\d{1,2}/);
+  if (!match) return null;
+  const [year, month, day] = match[0].replace(/\//g, '-').split('-');
+  return [year, month.padStart(2, '0'), day.padStart(2, '0')].join('-');
 }
 
 function dateRange(rows) {
-  const dates = rows.map((row) => parseDateValue(row['收录时间'])).filter(Boolean).sort((a, b) => a - b);
-  const fmt = (date) => date ? date.toISOString().slice(0, 10) : '';
+  const dates = rows.map((row) => parseDateValue(row['收录时间'])).filter(Boolean).sort();
   return {
-    start: fmt(dates[0]),
-    end: fmt(dates[dates.length - 1]),
+    start: dates[0] || '',
+    end: dates[dates.length - 1] || '',
   };
 }
 

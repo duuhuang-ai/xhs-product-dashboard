@@ -9,8 +9,8 @@ const DATA = {
   "physical": {
     "label": "实体商品",
     "sourceRange": {
-      "start": "2026-03-30",
-      "end": "2026-06-19"
+      "start": "2026-03-31",
+      "end": "2026-06-20"
     },
     "overview": {
       "products": 12654,
@@ -1688,8 +1688,8 @@ const DATA = {
   "virtual": {
     "label": "虚拟商品",
     "sourceRange": {
-      "start": "2025-12-31",
-      "end": "2026-06-19"
+      "start": "2026-01-01",
+      "end": "2026-06-20"
     },
     "overview": {
       "products": 3829,
