@@ -1,168 +1,168 @@
 const DATA = {
   "meta": {
     "title": "小红书电商选品分析看板",
-    "generated": "2026-06-21",
+    "generated": "2026-06-28",
     "source": "小红书电商选品库-yulu",
     "sampleRule": "原始CSV全量统计；低粉爆款定义为粉丝数≤5000且商品销量≥1000",
-    "totalProducts": 16483
+    "totalProducts": 17523
   },
   "physical": {
     "label": "实体商品",
     "sourceRange": {
       "start": "2026-03-31",
-      "end": "2026-06-20"
+      "end": "2026-06-27"
     },
     "overview": {
-      "products": 12654,
-      "shops": 5410,
-      "avgSales": 33141,
-      "medianSales": 9219,
+      "products": 13453,
+      "shops": 5607,
+      "avgSales": 33952,
+      "medianSales": 9394,
       "avgPrice": 94,
       "medianPrice": 59,
-      "productsPerShop": 2.34,
-      "lowFanBests": 4093,
-      "lowFanRate": "32.3%",
+      "productsPerShop": 2.4,
+      "lowFanBests": 4369,
+      "lowFanRate": "32.5%",
       "categories": 8
     },
     "distributions": {
       "fans": [
         {
           "label": "<1千",
-          "value": 1923
+          "value": 2049
         },
         {
           "label": "1千-5千",
-          "value": 2753
+          "value": 2926
         },
         {
           "label": "1万-5万",
-          "value": 3644
+          "value": 3901
         },
         {
           "label": ">10万",
-          "value": 1741
+          "value": 1839
         }
       ],
       "score": [
         {
           "label": "<4.4",
-          "value": 1017
+          "value": 1094
         },
         {
           "label": "4.4-4.6",
-          "value": 5449
+          "value": 5762
         },
         {
           "label": "4.6-4.8",
-          "value": 6011
+          "value": 6411
         },
         {
           "label": "4.8-5.0",
-          "value": 176
+          "value": 185
         }
       ]
     },
     "categories": [
       {
         "name": "服饰穿搭",
-        "products": 6798,
-        "shops": 2604,
-        "totalSales": 135404298,
-        "avgSales": 19918,
-        "medianSales": 6043,
-        "avgPrice": 118,
-        "medianPrice": 75,
-        "lowFanRate": "26.4%",
-        "productsPerShop": 2.61,
-        "competitionIndex": 83,
+        "products": 7170,
+        "shops": 2667,
+        "totalSales": 143958661,
+        "avgSales": 20078,
+        "medianSales": 6130,
+        "avgPrice": 119,
+        "medianPrice": 76,
+        "lowFanRate": "26.3%",
+        "productsPerShop": 2.69,
+        "competitionIndex": 84,
         "competitionLevel": "高竞争",
         "heat": "h",
         "priceBands": [
           {
             "label": "1-10元",
-            "value": 137,
+            "value": 140,
             "ratio": "2.0%"
           },
           {
             "label": "10-30元",
-            "value": 863,
-            "ratio": "12.7%"
+            "value": 903,
+            "ratio": "12.6%"
           },
           {
             "label": "30-50元",
-            "value": 1232,
+            "value": 1298,
             "ratio": "18.1%"
           },
           {
             "label": "50-100元",
-            "value": 2344,
-            "ratio": "34.5%"
+            "value": 2461,
+            "ratio": "34.3%"
           },
           {
             "label": "100-200元",
-            "value": 1294,
-            "ratio": "19.0%"
+            "value": 1382,
+            "ratio": "19.3%"
           },
           {
             "label": "200元以上",
-            "value": 928,
-            "ratio": "13.7%"
+            "value": 986,
+            "ratio": "13.8%"
           }
         ],
         "growthProducts": [
           {
-            "title": "【原创】月影浮白洞洞鞋鞋花装饰智必星diy配饰穿搭配件（不含鞋",
-            "url": "https://xhslink.com/m/id28UVs12z",
-            "keyword": "鞋花",
-            "currentSales": 4361,
-            "growth7": 3365,
-            "growth30": 4609,
-            "growth": 3365
+            "title": "[7/2件][9/3件][15/5件送1件]大肠发圈推荐发饰皮筋头绳头饰福利 · 九寨沟秘境",
+            "url": "https://xhslink.com/m/8NHNecRE6Sk",
+            "keyword": "发圈",
+            "currentSales": 460000,
+            "growth7": 0,
+            "growth30": 40000,
+            "growth": 40000
           },
           {
-            "title": "「薄薄v领tee」地板价!! 微透V领短袖纯色百搭修身显瘦T恤女夏季",
-            "url": "https://xhslink.com/m/AL4MkLTxqRA",
-            "keyword": "日常穿搭",
-            "currentSales": 4873,
-            "growth7": 2239,
-            "growth30": 2239,
-            "growth": 2239
+            "title": "[7/2件][9/3件][15/5件送1件]大肠发圈推荐发饰皮筋头绳头饰福利",
+            "url": "https://xhslink.com/m/6xUcYV6oH75",
+            "keyword": "配饰",
+            "currentSales": 430000,
+            "growth7": 0,
+            "growth30": 40000,
+            "growth": 40000
           },
           {
-            "title": "雅典娜*雾感女神裙两件套*垂坠收腰显瘦套装长裙",
-            "url": "https://xhslink.com/m/6egFRrJFTZj",
-            "keyword": "半身裙",
-            "currentSales": 5673,
-            "growth7": 2155,
-            "growth30": 2952,
-            "growth": 2155
+            "title": "[7/2件][9/3件][15/5件送1件]大肠发圈推荐发饰皮筋头绳头饰福利 · 聆海蓝格间",
+            "url": "https://xhslink.com/m/7ZR8jqkZSy",
+            "keyword": "发圈",
+            "currentSales": 446000,
+            "growth7": 0,
+            "growth30": 39000,
+            "growth": 39000
           },
           {
-            "title": "雅典娜*雾感女神裙两件套*垂坠收腰显瘦套装长裙",
-            "url": "https://xhslink.com/m/61p6t1DVCEC",
-            "keyword": "半身裙",
-            "currentSales": 5672,
-            "growth7": 2155,
-            "growth30": 2952,
-            "growth": 2155
+            "title": "【隐形低领版】小胸无痕内衣女薄杯微聚拢果冻条无钢圈细肩带文胸 · 【常规肩带薄杯0.5cm】粉底肤（白t隐形） S（建议32/70AB）",
+            "url": "https://xhslink.com/m/1pdBXrwyAyn",
+            "keyword": "内衣",
+            "currentSales": 7294,
+            "growth7": 0,
+            "growth30": 36000,
+            "growth": 36000
           },
           {
-            "title": "【六家姐姐】韩系温柔修身假两件波点2026春季印花绑带带飘带上衣",
-            "url": "https://xhslink.com/m/BDtsTf4iwA",
-            "keyword": "女装",
-            "currentSales": 1743,
-            "growth7": 1993,
-            "growth30": 3317,
-            "growth": 1993
+            "title": "低领粉底液隐形无痕内衣女薄款大胸显小胸聚拢果冻条提拉方领文胸 · 粉色（细肩带0.5CM更隐形） S 建议32/70AB",
+            "url": "https://xhslink.com/m/AvKvvumy0pH",
+            "keyword": "内衣",
+            "currentSales": 45000,
+            "growth7": 0,
+            "growth30": 30000,
+            "growth": 30000
           },
           {
-            "title": "9色.桑蚕丝月子袜夏季透气薄款纯色中筒袜百搭简约抗菌轻薄女袜 · 白色2双",
-            "url": "https://xhslink.com/m/7xVAm4hNskZ",
-            "keyword": "袜子",
-            "currentSales": 1784,
-            "growth7": 1974,
-            "growth30": 6071,
-            "growth": 1974
+            "title": "[7/2件][9/3件][15/5件送1件]大肠发圈推荐发饰皮筋头绳头饰福利",
+            "url": "https://xhslink.com/m/31S1iUaBiDm",
+            "keyword": "配饰",
+            "currentSales": 461000,
+            "growth7": 0,
+            "growth30": 29000,
+            "growth": 29000
           }
         ],
         "keywords": [
@@ -178,104 +178,104 @@ const DATA = {
       },
       {
         "name": "家居生活",
-        "products": 1660,
-        "shops": 914,
-        "totalSales": 48153230,
-        "avgSales": 29008,
+        "products": 1835,
+        "shops": 977,
+        "totalSales": 54285321,
+        "avgSales": 29583,
         "medianSales": 13000,
-        "avgPrice": 67,
+        "avgPrice": 68,
         "medianPrice": 37,
-        "lowFanRate": "46.6%",
-        "productsPerShop": 1.82,
-        "competitionIndex": 35,
+        "lowFanRate": "47.1%",
+        "productsPerShop": 1.88,
+        "competitionIndex": 36,
         "competitionLevel": "低竞争",
         "heat": "l",
         "priceBands": [
           {
             "label": "1-10元",
-            "value": 194,
-            "ratio": "11.7%"
+            "value": 206,
+            "ratio": "11.2%"
           },
           {
             "label": "10-30元",
-            "value": 541,
-            "ratio": "32.6%"
+            "value": 590,
+            "ratio": "32.2%"
           },
           {
             "label": "30-50元",
-            "value": 290,
-            "ratio": "17.5%"
+            "value": 326,
+            "ratio": "17.8%"
           },
           {
             "label": "50-100元",
-            "value": 312,
-            "ratio": "18.8%"
+            "value": 348,
+            "ratio": "19.0%"
           },
           {
             "label": "100-200元",
-            "value": 217,
-            "ratio": "13.1%"
+            "value": 248,
+            "ratio": "13.5%"
           },
           {
             "label": "200元以上",
-            "value": 97,
-            "ratio": "5.8%"
+            "value": 108,
+            "ratio": "5.9%"
           }
         ],
         "growthProducts": [
           {
-            "title": "TureTail珊瑚树高强度进口瓦楞纸耐抓耐磨-已升级BB楞",
-            "url": "https://xhslink.com/m/2bBxmxN5zSG",
-            "keyword": "猫抓板",
-            "currentSales": 5174,
-            "growth7": 2203,
-            "growth30": 3463,
-            "growth": 2203
+            "title": "【枕梦蝶生】真“慢回弹”悬浮云朵颈椎支撑记忆枕  反弓护颈体态",
+            "url": "https://xhslink.com/m/AX72kMrcDkG",
+            "keyword": "实用好物",
+            "currentSales": 261000,
+            "growth7": 0,
+            "growth30": 51000,
+            "growth": 51000
           },
           {
-            "title": "10A抗菌卡通手撕周抛抹布洗碗巾吸水加厚厨房擦灶台专用不易掉毛",
-            "url": "https://xhslink.com/m/5TX1y68bIZa",
-            "keyword": "日用品",
-            "currentSales": 3085,
-            "growth7": 1556,
-            "growth30": 6221,
-            "growth": 1556
+            "title": "搓澡手套五指搓泥去角质洗澡手套搓澡巾女士无痛沐浴搓澡神器 · 1双绿色",
+            "url": "https://xhslink.com/m/811azx9Ze3b",
+            "keyword": "搓澡巾",
+            "currentSales": 45000,
+            "growth7": 0,
+            "growth30": 41000,
+            "growth": 41000
           },
           {
-            "title": "10A抗菌卡通手撕周抛抹布洗碗巾吸水加厚厨房擦灶台专用不易掉毛 · 1卷体验款 焦糖色",
-            "url": "https://xhslink.com/m/22YNE5koBQH",
+            "title": "枕梦蝶生 · “真·记忆棉”悬浮云朵颈椎支撑记忆枕",
+            "url": "https://xhslink.com/m/8SvZKGlTPkH",
+            "keyword": "实用好物",
+            "currentSales": 506000,
+            "growth7": 0,
+            "growth30": 24000,
+            "growth": 24000
+          },
+          {
+            "title": "车载香薰香膏男女汽车专用香水车内饰品摆件持久留香除臭异味淡香",
+            "url": "https://xhslink.com/m/6fIIGtPkdHo",
+            "keyword": "车载香薰",
+            "currentSales": 30000,
+            "growth7": 0,
+            "growth30": 24000,
+            "growth": 24000
+          },
+          {
+            "title": "标准插电款【无开关】（送诱蚊剂+运险）",
+            "url": "https://xhslink.com/m/8xPlOfqaKkY",
+            "keyword": "灭蚊",
+            "currentSales": 56000,
+            "growth7": 0,
+            "growth30": 23000,
+            "growth": 23000
+          },
+          {
+            "title": "枕梦蝶生 · “真",
+            "url": "https://xhslink.com/m/4vyUQk5ITd",
             "keyword": "日用百货",
-            "currentSales": 6750,
-            "growth7": 1555,
-            "growth30": 2319,
-            "growth": 1555
-          },
-          {
-            "title": "10A抗菌卡通手撕周抛抹布洗碗巾吸水加厚厨房擦灶台专用不易掉毛",
-            "url": "https://xhslink.com/m/qnCTwLrcWo",
-            "keyword": "日用品",
-            "currentSales": 2742,
-            "growth7": 1552,
-            "growth30": 6600,
-            "growth": 1552
-          },
-          {
-            "title": "TOLI · 东理家居免胶拼接地毯软装DIY色彩美学宠物防滑地毯客厅毯玄关毯",
-            "url": "https://xhslink.com/m/413kVURLmW1",
-            "keyword": "客厅",
-            "currentSales": 5500,
-            "growth7": 1334,
-            "growth30": 1779,
-            "growth": 1334
-          },
-          {
-            "title": "boxlamp · 星空小夜灯浪漫满天星卧室氛围灯星空投影仪情侣礼物睡眠灯",
-            "url": "https://xhslink.com/m/3g1XXpVvpl2",
-            "keyword": "生日礼物",
-            "currentSales": 2406,
-            "growth7": 1179,
-            "growth30": 2014,
-            "growth": 1179
+            "currentSales": 490000,
+            "growth7": 0,
+            "growth30": 20000,
+            "growth": 20000
           }
         ],
         "keywords": [
@@ -291,104 +291,104 @@ const DATA = {
       },
       {
         "name": "美食滋补",
-        "products": 1614,
-        "shops": 848,
-        "totalSales": 163421212,
-        "avgSales": 101315,
-        "medianSales": 31000,
+        "products": 1727,
+        "shops": 884,
+        "totalSales": 178119042,
+        "avgSales": 103198,
+        "medianSales": 32500,
         "avgPrice": 58,
         "medianPrice": 30,
         "lowFanRate": "40.2%",
-        "productsPerShop": 1.9,
+        "productsPerShop": 1.95,
         "competitionIndex": 36,
         "competitionLevel": "低竞争",
         "heat": "l",
         "priceBands": [
           {
             "label": "1-10元",
-            "value": 162,
-            "ratio": "10.0%"
+            "value": 174,
+            "ratio": "10.1%"
           },
           {
             "label": "10-30元",
-            "value": 647,
-            "ratio": "40.1%"
+            "value": 689,
+            "ratio": "39.9%"
           },
           {
             "label": "30-50元",
-            "value": 314,
+            "value": 336,
             "ratio": "19.5%"
           },
           {
             "label": "50-100元",
-            "value": 307,
-            "ratio": "19.0%"
+            "value": 329,
+            "ratio": "19.1%"
           },
           {
             "label": "100-200元",
-            "value": 126,
-            "ratio": "7.8%"
+            "value": 138,
+            "ratio": "8.0%"
           },
           {
             "label": "200元以上",
-            "value": 58,
-            "ratio": "3.6%"
+            "value": 61,
+            "ratio": "3.5%"
           }
         ],
         "growthProducts": [
           {
-            "title": "正宗酸甜脱骨李脆李空心脱骨李青脆李脆甜爽口孕妇水果整箱5斤",
-            "url": "https://xhslink.com/m/4qdhJIro7ga",
-            "keyword": "水果",
-            "currentSales": 1000,
-            "growth7": 0,
-            "growth30": 2721,
-            "growth": 2721
-          },
-          {
-            "title": "晚阳 · 纯铁棍山药雪花片冲泡脾胃早餐怀山药粉100克【前3000份特价】",
-            "url": "https://xhslink.com/m/1moIREDk7aM",
-            "keyword": "养胃食物",
-            "currentSales": 2229,
-            "growth7": 2406,
-            "growth30": 2406,
-            "growth": 2406
-          },
-          {
-            "title": "【买5斤送5斤】新鲜青芒现摘现发果甜软糯香甜芒果应季水果S9-5",
-            "url": "https://xhslink.com/m/4VDXlJex29",
-            "keyword": "时令水果",
-            "currentSales": 22000,
-            "growth7": 0,
-            "growth30": 2191,
-            "growth": 2191
-          },
-          {
-            "title": "【到手一箱20包】厚切牛乳吐司面包700g营养早餐超软奶香手撕面包 · 20个*1箱(现做现发)共700g",
-            "url": "https://xhslink.com/m/6gWqaJrkOCS",
+            "title": "必胜客 披萨意面超值双人餐6件套",
+            "url": "https://xhslink.com/m/2laeDYRu6Ny",
             "keyword": "零食",
-            "currentSales": 2162,
-            "growth7": 1721,
-            "growth30": 5302,
-            "growth": 1721
-          },
-          {
-            "title": "正宗四川五月脆李子新鲜李子采摘孕妇水果凤凰李半边红李子",
-            "url": "https://xhslink.com/m/9c8qGHNPM7r",
-            "keyword": "水果",
-            "currentSales": 1000,
+            "currentSales": 46000,
             "growth7": 0,
-            "growth30": 1287,
-            "growth": 1287
+            "growth30": 81000,
+            "growth": 81000
           },
           {
-            "title": "蒙阴奶油蟠桃小扁桃子爆甜多汁蒙阴蜜桃新鲜应季孕妇水果",
-            "url": "https://xhslink.com/m/4A2HrI74xLL",
-            "keyword": "时令水果",
-            "currentSales": 7000,
-            "growth7": 1256,
-            "growth30": 4865,
-            "growth": 1256
+            "title": "【前1000单半价】2款组合MCT生巧抹茶熔岩砖夹心轻食控卡零食盒装 · 【2款组合装】生巧味+抹茶味 50g*2盒装/9.9元（冷冻后 更好吃）",
+            "url": "https://xhslink.com/m/5UuaxDJKUNZ",
+            "keyword": "零食",
+            "currentSales": 10000,
+            "growth7": 0,
+            "growth30": 33000,
+            "growth": 33000
+          },
+          {
+            "title": "【顺丰包邮28.8元任选8个改价】手作碱水球~面包下午茶零食",
+            "url": "https://xhslink.com/m/994Ry9PDABH",
+            "keyword": "面包",
+            "currentSales": 346000,
+            "growth7": 0,
+            "growth30": 28000,
+            "growth": 28000
+          },
+          {
+            "title": "【亏本冲量500单/6.9元袋】【手作雪花酥】坚果草莓奥利奥羊奶芙 · 【4种口味】奥利奥+草莓+抹茶+芒果 组合装.150克/1袋",
+            "url": "https://xhslink.com/m/2InQ1qyvk38",
+            "keyword": "零食",
+            "currentSales": 35000,
+            "growth7": 0,
+            "growth30": 28000,
+            "growth": 28000
+          },
+          {
+            "title": "董饱饱 · 自由搭配专属 60元任选5盒 带料包（紫菜虾皮/盐粉鸡精/葱油包）",
+            "url": "https://xhslink.com/m/50ksnBBGapy",
+            "keyword": "冷冻食品",
+            "currentSales": 768000,
+            "growth7": 0,
+            "growth30": 27000,
+            "growth": 27000
+          },
+          {
+            "title": "（28.8块！任选8个）低卡热手作夹心碱水球面包贝果欧包早餐代餐",
+            "url": "https://xhslink.com/m/AAvdb51XDuK",
+            "keyword": "低热量零食",
+            "currentSales": 208000,
+            "growth7": 0,
+            "growth30": 27000,
+            "growth": 27000
           }
         ],
         "keywords": [
@@ -404,14 +404,14 @@ const DATA = {
       },
       {
         "name": "美妆个护",
-        "products": 800,
-        "shops": 429,
-        "totalSales": 39492137,
-        "avgSales": 49365,
-        "medianSales": 24000,
+        "products": 865,
+        "shops": 466,
+        "totalSales": 46495095,
+        "avgSales": 53752,
+        "medianSales": 25000,
         "avgPrice": 63,
-        "medianPrice": 39,
-        "lowFanRate": "23.8%",
+        "medianPrice": 40,
+        "lowFanRate": "23.5%",
         "productsPerShop": 1.86,
         "competitionIndex": 29,
         "competitionLevel": "低竞争",
@@ -419,94 +419,94 @@ const DATA = {
         "priceBands": [
           {
             "label": "1-10元",
-            "value": 104,
-            "ratio": "13.0%"
+            "value": 111,
+            "ratio": "12.8%"
           },
           {
             "label": "10-30元",
-            "value": 240,
-            "ratio": "30.0%"
+            "value": 256,
+            "ratio": "29.6%"
           },
           {
             "label": "30-50元",
-            "value": 152,
-            "ratio": "19.0%"
+            "value": 166,
+            "ratio": "19.2%"
           },
           {
             "label": "50-100元",
-            "value": 196,
+            "value": 212,
             "ratio": "24.5%"
           },
           {
             "label": "100-200元",
-            "value": 73,
-            "ratio": "9.1%"
+            "value": 83,
+            "ratio": "9.6%"
           },
           {
             "label": "200元以上",
-            "value": 35,
-            "ratio": "4.4%"
+            "value": 37,
+            "ratio": "4.3%"
           }
         ],
         "growthProducts": [
           {
-            "title": "沝美博士 · 美白防晒霜推荐SPF50+轻薄透气日常通勤学生党清爽隔离乳平价防晒",
-            "url": "https://xhslink.com/m/6JDcqfmEn7b",
-            "keyword": "膳食补充",
-            "currentSales": 2947,
-            "growth7": 1020,
-            "growth30": 1157,
-            "growth": 1020
+            "title": "小十月·上睫毛灰黑色仿真细毛",
+            "url": "https://xhslink.com/m/3YowVYrF9dP",
+            "keyword": "假睫毛",
+            "currentSales": 144000,
+            "growth7": 0,
+            "growth30": 14000,
+            "growth": 14000
           },
           {
-            "title": "Sweet mint · 【正常发货】润呐~大容量三色遮瑕提亮痘印黑眼圈滋润干油皮",
-            "url": "https://xhslink.com/m/1L1WPa1ghdg",
-            "keyword": "祛红痘印",
-            "currentSales": 2861,
-            "growth7": 893,
-            "growth30": 2883,
-            "growth": 893
+            "title": "黛妃 · 巨巨巨好用A210斜角刀锋眼线刷眼脸下至刷卧蚕化妆刷精细眉刷沧州",
+            "url": "https://xhslink.com/m/4ROILEy08Uf",
+            "keyword": "化妆刷",
+            "currentSales": 131000,
+            "growth7": 0,
+            "growth30": 13000,
+            "growth": 13000
           },
           {
-            "title": "自然歌唱.任选两块100g*2草本洗发皂|赠开福禄柚洁面沐浴皂128g*1",
-            "url": "https://xhslink.com/m/4TdHvON2HeL",
-            "keyword": "养发",
-            "currentSales": 3074,
-            "growth7": 843,
-            "growth30": 3287,
-            "growth": 843
+            "title": "VERBENA LINN · 烟酰胺香氛海盐身体磨砂膏平价改善鸡皮透亮去角质",
+            "url": "https://xhslink.com/m/4slz9CgXo8x",
+            "keyword": "身体护理",
+            "currentSales": 218000,
+            "growth7": 0,
+            "growth30": 12000,
+            "growth": 12000
           },
           {
-            "title": "BHV · 荷荷巴油精粹油深层清理毛孔缩小毛孔净透霍霍巴油",
-            "url": "https://xhslink.com/m/2YbUARG55c",
-            "keyword": "护肤精油",
-            "currentSales": 2886,
-            "growth7": 743,
-            "growth30": 2450,
-            "growth": 743
+            "title": "黛妃 · 巨巨巨好用A210斜角刀锋眼线刷眼脸下至刷卧蚕化妆刷精细眉刷沧州",
+            "url": "https://xhslink.com/m/47od3Cg2FJf",
+            "keyword": "美妆",
+            "currentSales": 141000,
+            "growth7": 0,
+            "growth30": 11000,
+            "growth": 11000
           },
           {
-            "title": "柠言集 · 黑灵芝地黄头皮精华液 草本养护",
-            "url": "https://xhslink.com/m/83Fb8EEfQw4",
-            "keyword": "养发",
-            "currentSales": 2444,
-            "growth7": 647,
-            "growth30": 1943,
-            "growth": 647
+            "title": "寸轻 · 猫眼裸色五合一轻色胶新款春夏季指甲油胶建构底胶封层美甲专用",
+            "url": "https://xhslink.com/m/80qWZGM4EUT",
+            "keyword": "美甲美睫",
+            "currentSales": 612000,
+            "growth7": 0,
+            "growth30": 8000,
+            "growth": 8000
           },
           {
-            "title": "柠言集 · 黑灵芝地黄头皮精华液 草本养护",
-            "url": "https://xhslink.com/m/40RMk5NzVvi",
-            "keyword": "头皮精华",
-            "currentSales": 978,
-            "growth7": 646,
-            "growth30": 2861,
-            "growth": 646
+            "title": "寸轻 · 猫眼裸色五合一轻色胶新款春夏季指甲油胶建构底胶封层美甲专用",
+            "url": "https://xhslink.com/m/6HtY3G4q8Ou",
+            "keyword": "美甲美睫",
+            "currentSales": 603000,
+            "growth7": 0,
+            "growth30": 8000,
+            "growth": 8000
           }
         ],
         "keywords": [
-          "美甲美睫",
           "身体护理",
+          "美甲美睫",
           "美妆"
         ],
         "subCategories": [
@@ -516,14 +516,14 @@ const DATA = {
       },
       {
         "name": "运动",
-        "products": 696,
-        "shops": 347,
-        "totalSales": 15922606,
-        "avgSales": 22877,
-        "medianSales": 9137,
+        "products": 714,
+        "shops": 356,
+        "totalSales": 16369591,
+        "avgSales": 22927,
+        "medianSales": 9124,
         "avgPrice": 80,
         "medianPrice": 59,
-        "lowFanRate": "36.6%",
+        "lowFanRate": "36.4%",
         "productsPerShop": 2.01,
         "competitionIndex": 30,
         "competitionLevel": "低竞争",
@@ -537,83 +537,83 @@ const DATA = {
           {
             "label": "10-30元",
             "value": 92,
-            "ratio": "13.2%"
+            "ratio": "12.9%"
           },
           {
             "label": "30-50元",
-            "value": 197,
+            "value": 202,
             "ratio": "28.3%"
           },
           {
             "label": "50-100元",
-            "value": 287,
+            "value": 294,
             "ratio": "41.2%"
           },
           {
             "label": "100-200元",
-            "value": 85,
-            "ratio": "12.2%"
+            "value": 89,
+            "ratio": "12.5%"
           },
           {
             "label": "200元以上",
-            "value": 30,
-            "ratio": "4.3%"
+            "value": 32,
+            "ratio": "4.5%"
           }
         ],
         "growthProducts": [
           {
-            "title": "DK · 运动美式休闲短裤女健身跑步高腰显瘦夏外穿瑜伽裤夏季4218",
-            "url": "https://xhslink.com/m/9K7CWvATStj",
-            "keyword": "运动短裤",
-            "currentSales": 6679,
-            "growth7": 1438,
-            "growth30": 1689,
-            "growth": 1438
+            "title": "XVRV · “莱赛尔”棉夏日慵懒汽水裤2026夏季新款透气垂感百搭运动长裤",
+            "url": "https://xhslink.com/m/342ngzvXblT",
+            "keyword": "运动裤",
+            "currentSales": 12000,
+            "growth7": 0,
+            "growth30": 13000,
+            "growth": 13000
           },
           {
-            "title": "夏季情侣款尼龙休闲短裤中裤宽松工装美式休闲松紧百搭防水",
-            "url": "https://xhslink.com/m/3Yzw9WkfjKk",
-            "keyword": "运动服饰",
-            "currentSales": 5757,
-            "growth7": 1223,
-            "growth30": 2084,
-            "growth": 1223
-          },
-          {
-            "title": "改良版豹子t～正肩宽松大领口夏季短袖",
-            "url": "https://xhslink.com/m/7lOTuJjLB63",
-            "keyword": "速干T恤",
-            "currentSales": 3666,
-            "growth7": 1211,
-            "growth30": 3364,
-            "growth": 1211
-          },
-          {
-            "title": "2026夏季直角肩白色立领防晒衣外套女修身透气百搭防紫外线防晒服",
-            "url": "https://xhslink.com/m/2vqRRPnyDTy",
-            "keyword": "外套",
-            "currentSales": 7910,
-            "growth7": 1160,
-            "growth30": 1307,
-            "growth": 1160
-          },
-          {
-            "title": "蕉下客jiaoxiake · 【小冰皮3.0冰钛原纱】新款透气户外防晒衣休闲皮肤衣防紫外线",
-            "url": "https://xhslink.com/m/9EfdglR2PA3",
-            "keyword": "外套",
-            "currentSales": 6837,
-            "growth7": 1015,
-            "growth30": 1292,
-            "growth": 1015
-          },
-          {
-            "title": "Remedy · 汗显豹纹印花夜光短袖T恤男女夏季潮牌情侣宽松运动风体恤",
-            "url": "https://xhslink.com/m/AGalBGI8VUg",
+            "title": "瑜伽服运动修身显瘦圆领女夏季高级感跑步普拉提训练短袖上衣大码",
+            "url": "https://xhslink.com/m/4d48JxODQvb",
             "keyword": "运动T袖",
-            "currentSales": 1813,
-            "growth7": 982,
-            "growth30": 4102,
-            "growth": 982
+            "currentSales": 222000,
+            "growth7": 0,
+            "growth30": 10000,
+            "growth": 10000
+          },
+          {
+            "title": "瑜伽服运动修身显瘦圆领女夏季高级感跑步普拉提训练短袖上衣大码",
+            "url": "https://xhslink.com/m/9R6g2P7hh2r",
+            "keyword": "短袖",
+            "currentSales": 168000,
+            "growth7": 0,
+            "growth30": 9000,
+            "growth": 9000
+          },
+          {
+            "title": "【上新特惠】遮副乳• 简约百搭休闲运动背心（高品质版）",
+            "url": "https://xhslink.com/m/8xsQhA0zZj2",
+            "keyword": "运动背心",
+            "currentSales": 143000,
+            "growth7": 0,
+            "growth30": 7000,
+            "growth": 7000
+          },
+          {
+            "title": "【上新特惠】遮副乳• 简约百搭休闲运动背心（高品质版）",
+            "url": "https://xhslink.com/m/4IuOWkassVh",
+            "keyword": "运动背心",
+            "currentSales": 142000,
+            "growth7": 0,
+            "growth30": 7000,
+            "growth": 7000
+          },
+          {
+            "title": "品质款!! 天丝开衫~简约高级纯色fang晒衫长袖上衣小外套女春夏",
+            "url": "https://xhslink.com/m/AxNXLqjiiPm",
+            "keyword": "外套",
+            "currentSales": 140000,
+            "growth7": 0,
+            "growth30": 7000,
+            "growth": 7000
           }
         ],
         "keywords": [
@@ -628,110 +628,110 @@ const DATA = {
       },
       {
         "name": "潮玩",
-        "products": 638,
-        "shops": 377,
-        "totalSales": 8767891,
-        "avgSales": 13743,
-        "medianSales": 4248,
-        "avgPrice": 59,
+        "products": 680,
+        "shops": 398,
+        "totalSales": 9017416,
+        "avgSales": 13261,
+        "medianSales": 4239,
+        "avgPrice": 58,
         "medianPrice": 30,
-        "lowFanRate": "35.0%",
-        "productsPerShop": 1.69,
+        "lowFanRate": "35.1%",
+        "productsPerShop": 1.71,
         "competitionIndex": 26,
         "competitionLevel": "低竞争",
         "heat": "l",
         "priceBands": [
           {
             "label": "1-10元",
-            "value": 94,
-            "ratio": "14.7%"
+            "value": 102,
+            "ratio": "15.0%"
           },
           {
             "label": "10-30元",
-            "value": 234,
-            "ratio": "36.7%"
+            "value": 247,
+            "ratio": "36.3%"
           },
           {
             "label": "30-50元",
-            "value": 130,
-            "ratio": "20.4%"
+            "value": 140,
+            "ratio": "20.6%"
           },
           {
             "label": "50-100元",
-            "value": 102,
+            "value": 109,
             "ratio": "16.0%"
           },
           {
             "label": "100-200元",
-            "value": 41,
-            "ratio": "6.4%"
+            "value": 44,
+            "ratio": "6.5%"
           },
           {
             "label": "200元以上",
-            "value": 33,
-            "ratio": "5.2%"
+            "value": 34,
+            "ratio": "5.0%"
           }
         ],
         "growthProducts": [
           {
-            "title": "小红书暗黑兔兔现货玩偶毛绒恶霸兔可爱动物高颜值公仔娃娃送礼物 · 自选两款兔兔（自行下单备注） 耳朵内含铁丝可以凹造型",
-            "url": "https://xhslink.com/m/5Ais6WODw0H",
-            "keyword": "暗黑兔兔",
-            "currentSales": 277,
+            "title": "铭鑫 · 吸入式灭蚊灯USB光触媒物LED捕蚊灯宠物孕妈可用室内灭蚊",
+            "url": "https://xhslink.com/m/87RQz76JSYf",
+            "keyword": "小物件",
+            "currentSales": 64000,
             "growth7": 0,
-            "growth30": 3732,
-            "growth": 3732
+            "growth30": 19000,
+            "growth": 19000
           },
           {
-            "title": "拼豆豆手工diy套装拼豆融合豆女孩男孩儿童益智拼图玩具材料包",
-            "url": "https://xhslink.com/m/3sqlmQLBlK6",
-            "keyword": "积木拼图",
-            "currentSales": 6388,
-            "growth7": 2709,
-            "growth30": 3273,
-            "growth": 2709
+            "title": "【限时8.8一个】新款缪系猫耳植绒kitty·可爱包包挂件钥匙扣",
+            "url": "https://xhslink.com/m/3UJvAhG3hfx",
+            "keyword": "包挂",
+            "currentSales": 3595,
+            "growth7": 0,
+            "growth30": 17484,
+            "growth": 17484
           },
           {
-            "title": "原创手作意式Gelato冰淇淋挂件汽车后视镜装饰包包钥匙扣挂饰礼物",
-            "url": "https://xhslink.com/m/8W8gmWsQPJI",
-            "keyword": "钥匙扣挂件",
-            "currentSales": 902,
-            "growth7": 1961,
-            "growth30": 2779,
-            "growth": 1961
+            "title": "车载香薰香膏男女汽车专用香水车内饰品摆件持久留香除臭异味淡香",
+            "url": "https://xhslink.com/m/65tgKS4APrH",
+            "keyword": "车摆件",
+            "currentSales": 29000,
+            "growth7": 0,
+            "growth30": 16000,
+            "growth": 16000
           },
           {
-            "title": "胖嘟嘟猫咪捏捏情感陪解压治愈超软羽绒棉圆眼猫咪叠叠乐玩偶 · 三花猫 15cm",
-            "url": "https://xhslink.com/m/6559U9g7NM7",
+            "title": "划线价格: 指商品的专柜价、吊牌价、正品零售价、厂商指导价或该商品的曾经展示过的销售价等，并非原价，仅供参考。",
+            "url": "https://xhslink.com/m/1vU18EKCuqr",
             "keyword": "玩偶",
-            "currentSales": 6523,
-            "growth7": 1507,
-            "growth30": 1507,
-            "growth": 1507
+            "currentSales": 26000,
+            "growth7": 0,
+            "growth30": 13000,
+            "growth": 13000
           },
           {
-            "title": "POEMS FOR YOU · 原创流麻挂件366天生日诗歌文艺包挂亚克力钥匙扣创意生日礼物女",
-            "url": "https://xhslink.com/m/1XmQFtf2oU",
-            "keyword": "可爱挂件",
-            "currentSales": 4642,
-            "growth7": 1364,
-            "growth30": 1861,
-            "growth": 1364
+            "title": "24小时发货！【森之物 · 正版】猫猫乐无忧转转盲盒/礼物/摆件",
+            "url": "https://xhslink.com/m/7UDku1ETQhS",
+            "keyword": "盲盒",
+            "currentSales": 18000,
+            "growth7": 0,
+            "growth30": 9000,
+            "growth": 9000
           },
           {
-            "title": "【出版社直发】德国幼儿专注力培养绘本（1—4岁）全套12册可点读",
-            "url": "https://xhslink.com/m/3nCONHBUoRb",
-            "keyword": "幼儿园绘本",
-            "currentSales": 740,
-            "growth7": 766,
-            "growth30": 3914,
-            "growth": 766
+            "title": "【森之物 · 正版】猫猫乐无忧转转盲盒/礼物推荐/摆件",
+            "url": "https://xhslink.com/m/6W8h7pTJW3F",
+            "keyword": "模型手办",
+            "currentSales": 13000,
+            "growth7": 0,
+            "growth30": 9000,
+            "growth": 9000
           }
         ],
         "keywords": [
           "挂件",
-          "毛绒玩偶",
-          "玩偶"
+          "玩偶",
+          "毛绒玩偶"
         ],
         "subCategories": [
           "潮玩手办",
@@ -740,15 +740,15 @@ const DATA = {
       },
       {
         "name": "母婴亲子",
-        "products": 253,
-        "shops": 150,
-        "totalSales": 4617863,
-        "avgSales": 18252,
-        "medianSales": 7996,
+        "products": 254,
+        "shops": 151,
+        "totalSales": 4624582,
+        "avgSales": 18207,
+        "medianSales": 7951,
         "avgPrice": 82,
-        "medianPrice": 51,
-        "lowFanRate": "43.5%",
-        "productsPerShop": 1.69,
+        "medianPrice": 52,
+        "lowFanRate": "43.3%",
+        "productsPerShop": 1.68,
         "competitionIndex": 23,
         "competitionLevel": "低竞争",
         "heat": "l",
@@ -756,22 +756,22 @@ const DATA = {
           {
             "label": "1-10元",
             "value": 8,
-            "ratio": "3.2%"
+            "ratio": "3.1%"
           },
           {
             "label": "10-30元",
             "value": 70,
-            "ratio": "27.7%"
+            "ratio": "27.6%"
           },
           {
             "label": "30-50元",
             "value": 47,
-            "ratio": "18.6%"
+            "ratio": "18.5%"
           },
           {
             "label": "50-100元",
-            "value": 57,
-            "ratio": "22.5%"
+            "value": 58,
+            "ratio": "22.8%"
           },
           {
             "label": "100-200元",
@@ -786,58 +786,58 @@ const DATA = {
         ],
         "growthProducts": [
           {
-            "title": "日式拼接地毯可水洗宠物地毯宠物防滑垫宝宝地垫无胶可水洗地垫 · 米白*咖啡色（各一半） 16片-40*40cm【🔥🔥量大优惠】",
-            "url": "https://xhslink.com/m/4SzJ8bqGidr",
-            "keyword": "宝宝好物",
-            "currentSales": 1699,
-            "growth7": 930,
-            "growth30": 3912,
-            "growth": 930
-          },
-          {
-            "title": "【出版社直发】德国幼儿专注力培养绘本（1—4岁）全套12册可点读",
-            "url": "https://xhslink.com/m/1PZA7GSp7AB",
-            "keyword": "儿童图书",
-            "currentSales": 497,
-            "growth7": 766,
-            "growth30": 3916,
-            "growth": 766
-          },
-          {
-            "title": "儿童浴室轨道洗澡玩具滑滑梯宝宝婴儿戏水玩水小孩缸泡澡男孩女孩 · 【大号城市+恐龙轨道】共90PCS",
-            "url": "https://xhslink.com/m/2zgN9bPTwjL",
-            "keyword": "宝宝好物",
-            "currentSales": 4160,
-            "growth7": 732,
-            "growth30": 4810,
-            "growth": 732
-          },
-          {
-            "title": "四季通用高颜值婴儿背带广东四爪背带3-24月可哄睡单人穿脱 · 可爱兔头",
-            "url": "https://xhslink.com/m/2EVJSBE0Fxa",
-            "keyword": "婴儿用品",
-            "currentSales": 5481,
-            "growth7": 391,
-            "growth30": 391,
-            "growth": 391
-          },
-          {
-            "title": "TOPSTAR · 【春上新】儿童帆布鞋女童小白鞋男童幼儿园室内鞋宝宝软底鞋7026",
-            "url": "https://xhslink.com/m/4FTsMuefuRA",
+            "title": "儿童拖鞋夏季亲子洞洞鞋男女童宝宝室内eva防滑外穿防撞拖鞋",
+            "url": "https://xhslink.com/m/1kOj8r6jHul",
             "keyword": "童鞋",
-            "currentSales": 353,
-            "growth7": 389,
-            "growth30": 2169,
-            "growth": 389
+            "currentSales": 2104,
+            "growth7": 0,
+            "growth30": 8000,
+            "growth": 8000
           },
           {
-            "title": "老粗布凉席软凉席纯棉加厚加密床单四季席母婴席宝宝可用天然透气 · 绿席纹 2*2.3凉席+一对枕套（1.5米床两边下垂效果，1.8米床平铺效果））",
-            "url": "https://xhslink.com/m/4gFkNYVxJ4M",
-            "keyword": "宝宝好物",
-            "currentSales": 5342,
-            "growth7": 378,
-            "growth30": 2414,
-            "growth": 378
+            "title": "【正版 出版社直发】儿童好奇心大百科书 思考世界的孩子 科普书",
+            "url": "https://xhslink.com/m/2M3QSQ9rKKf",
+            "keyword": "亲子",
+            "currentSales": 64000,
+            "growth7": 0,
+            "growth30": 5000,
+            "growth": 5000
+          },
+          {
+            "title": "卓正儿康 · 易缓舒橘红膏儿童宝宝罗汉果陈皮甘草化州四季清润橘红膏成人",
+            "url": "https://xhslink.com/m/6dYXdvzuwyO",
+            "keyword": "儿童食品",
+            "currentSales": 29000,
+            "growth7": 0,
+            "growth30": 5000,
+            "growth": 5000
+          },
+          {
+            "title": "植场大师德国指甲笔液专用营养美容护理液修护 · 1支【轻度推荐】指甲笔手足通用*产品新升级",
+            "url": "https://xhslink.com/m/50kJPSMvMdB",
+            "keyword": "手部护理",
+            "currentSales": 8562,
+            "growth7": 0,
+            "growth30": 5000,
+            "growth": 5000
+          },
+          {
+            "title": "好习惯养成亲子推拉书1-6岁宝宝绘本行为习惯早教启蒙童书全10册",
+            "url": "https://xhslink.com/m/8yUVqYKGdZ",
+            "keyword": "原创绘本",
+            "currentSales": 75000,
+            "growth7": 0,
+            "growth30": 4000,
+            "growth": 4000
+          },
+          {
+            "title": "【顺丰/JD】新鲜云南蓝莓甄选当季鲜果孕妇宝宝辅食整箱现摘S8-1",
+            "url": "https://xhslink.com/m/AYRKLFJqNOB",
+            "keyword": "水果",
+            "currentSales": 53000,
+            "growth7": 0,
+            "growth30": 4000,
+            "growth": 4000
           }
         ],
         "keywords": [
@@ -853,104 +853,104 @@ const DATA = {
       },
       {
         "name": "数码家电",
-        "products": 195,
-        "shops": 127,
-        "totalSales": 3549842,
-        "avgSales": 18204,
-        "medianSales": 7236,
-        "avgPrice": 89,
-        "medianPrice": 34,
-        "lowFanRate": "50.8%",
-        "productsPerShop": 1.54,
+        "products": 208,
+        "shops": 130,
+        "totalSales": 3853485,
+        "avgSales": 18526,
+        "medianSales": 7301,
+        "avgPrice": 86,
+        "medianPrice": 33,
+        "lowFanRate": "51.9%",
+        "productsPerShop": 1.6,
         "competitionIndex": 21,
         "competitionLevel": "低竞争",
         "heat": "l",
         "priceBands": [
           {
             "label": "1-10元",
-            "value": 4,
-            "ratio": "2.1%"
+            "value": 7,
+            "ratio": "3.4%"
           },
           {
             "label": "10-30元",
-            "value": 78,
-            "ratio": "40.0%"
+            "value": 84,
+            "ratio": "40.4%"
           },
           {
             "label": "30-50元",
-            "value": 45,
+            "value": 48,
             "ratio": "23.1%"
           },
           {
             "label": "50-100元",
-            "value": 34,
-            "ratio": "17.4%"
+            "value": 35,
+            "ratio": "16.8%"
           },
           {
             "label": "100-200元",
             "value": 21,
-            "ratio": "10.8%"
+            "ratio": "10.1%"
           },
           {
             "label": "200元以上",
             "value": 13,
-            "ratio": "6.7%"
+            "ratio": "6.3%"
           }
         ],
         "growthProducts": [
           {
-            "title": "熊猫旋转支架适用苹果16秒变17大视窗手机壳华为vivo小米",
-            "url": "https://xhslink.com/m/9BSbs7AzFmQ",
+            "title": "iPhone17精孔包镜头壳全包透明手机壳苹果磁吸防摔保护壳软边硬背",
+            "url": "https://xhslink.com/m/8wMCCO7EUDa",
             "keyword": "手机壳",
-            "currentSales": 455,
-            "growth7": 848,
-            "growth30": 2997,
-            "growth": 848
+            "currentSales": 62000,
+            "growth7": 0,
+            "growth30": 9000,
+            "growth": 9000
           },
           {
-            "title": "【前1000单特价】300倍强磁真空磁吸手机支架超稳车载多场景适用",
-            "url": "https://xhslink.com/m/2RczjSP3NbV",
+            "title": "秦思！同款双面Magsafe磁吸金属桌面支架 双面磁吸一字赠磁吸环",
+            "url": "https://xhslink.com/m/8osgv65IMyR",
+            "keyword": "数码",
+            "currentSales": 38000,
+            "growth7": 0,
+            "growth30": 5000,
+            "growth": 5000
+          },
+          {
+            "title": "【前1000单特价】双面磁吸手机支架大全合金材质桌面支架赠磁吸环",
+            "url": "https://xhslink.com/m/81YmkTQ3AsO",
             "keyword": "手机支架",
-            "currentSales": 1313,
-            "growth7": 520,
-            "growth30": 813,
-            "growth": 520
+            "currentSales": 23000,
+            "growth7": 0,
+            "growth30": 5000,
+            "growth": 5000
           },
           {
-            "title": "PINKDEVIL原创骨骼手机壳穿刺版iPhone17苹果手机壳3D打印硬壳预",
-            "url": "https://xhslink.com/m/8BN470eBD0z",
-            "keyword": "手机壳",
-            "currentSales": 2461,
-            "growth7": 433,
-            "growth30": 1529,
-            "growth": 433
-          },
-          {
-            "title": "奶油粉波点适用苹果17手机壳iphone17promax小众13磁吸菲林15软16",
-            "url": "https://xhslink.com/m/Ac1AA6gwHHf",
-            "keyword": "手机壳",
-            "currentSales": 1953,
-            "growth7": 365,
-            "growth30": 2889,
-            "growth": 365
-          },
-          {
-            "title": "【前500单18.8】高铁演唱会飞机旅行手机支架便携手机懒人支架",
-            "url": "https://xhslink.com/m/4nztKfveVPw",
+            "title": "【前500单特价】双面磁吸mini手机支架学习追剧便携懒人桌面支架",
+            "url": "https://xhslink.com/m/7RMglDv8Fug",
             "keyword": "手机支架",
-            "currentSales": 1488,
-            "growth7": 293,
-            "growth30": 559,
-            "growth": 293
+            "currentSales": 57000,
+            "growth7": 0,
+            "growth30": 4000,
+            "growth": 4000
           },
           {
-            "title": "【前500单18.8】高铁演唱会飞机旅行手机支架便携手机懒人支架",
-            "url": "https://xhslink.com/m/2TI6frVQ5gI",
+            "title": "【前1000单特价】双面磁吸手机支架大全合金材质桌面支架赠磁吸环",
+            "url": "https://xhslink.com/m/bYk5fL4Tvc",
             "keyword": "手机支架",
-            "currentSales": 1487,
-            "growth7": 293,
-            "growth30": 559,
-            "growth": 293
+            "currentSales": 22000,
+            "growth7": 0,
+            "growth30": 4000,
+            "growth": 4000
+          },
+          {
+            "title": "【前1000单特价】双面磁吸手机支架大全合金材质桌面支架赠磁吸环",
+            "url": "https://xhslink.com/m/5tdzTE57MpP",
+            "keyword": "手机支架",
+            "currentSales": 19000,
+            "growth7": 0,
+            "growth30": 4000,
+            "growth": 4000
           }
         ],
         "keywords": [
@@ -967,57 +967,57 @@ const DATA = {
     "categoryProducts": [
       {
         "label": "服饰穿搭",
-        "value": 6798
+        "value": 7170
       },
       {
         "label": "家居生活",
-        "value": 1660
+        "value": 1835
       },
       {
         "label": "美食滋补",
-        "value": 1614
+        "value": 1727
       },
       {
         "label": "美妆个护",
-        "value": 800
+        "value": 865
       },
       {
         "label": "运动",
-        "value": 696
+        "value": 714
       },
       {
         "label": "潮玩",
-        "value": 638
+        "value": 680
       },
       {
         "label": "母婴亲子",
-        "value": 253
+        "value": 254
       },
       {
         "label": "数码家电",
-        "value": 195
+        "value": 208
       }
     ],
     "keywords": [
       {
         "text": "裤子",
-        "count": 822,
+        "count": 862,
         "category": "服饰穿搭",
-        "avgSales": 22502,
+        "avgSales": 22151,
         "level": "hot"
       },
       {
         "text": "T恤",
-        "count": 518,
+        "count": 541,
         "category": "服饰穿搭",
-        "avgSales": 17509,
+        "avgSales": 17640,
         "level": "hot"
       },
       {
         "text": "短袖",
-        "count": 292,
+        "count": 311,
         "category": "服饰穿搭",
-        "avgSales": 15678,
+        "avgSales": 15661,
         "level": "hot"
       },
       {
@@ -1042,6 +1042,13 @@ const DATA = {
         "level": "hot"
       },
       {
+        "text": "水果",
+        "count": 261,
+        "category": "美食滋补",
+        "avgSales": 203120,
+        "level": "hot"
+      },
+      {
         "text": "鞋",
         "count": 252,
         "category": "服饰穿搭",
@@ -1049,24 +1056,24 @@ const DATA = {
         "level": "hot"
       },
       {
-        "text": "水果",
-        "count": 250,
-        "category": "美食滋补",
-        "avgSales": 190854,
+        "text": "衬衫",
+        "count": 247,
+        "category": "服饰穿搭",
+        "avgSales": 9481,
         "level": "hot"
       },
       {
-        "text": "衬衫",
-        "count": 235,
-        "category": "服饰穿搭",
-        "avgSales": 9618,
+        "text": "日用品",
+        "count": 240,
+        "category": "家居生活",
+        "avgSales": 41268,
         "level": "hot"
       },
       {
         "text": "包包",
-        "count": 215,
+        "count": 230,
         "category": "服饰穿搭",
-        "avgSales": 9638,
+        "avgSales": 10613,
         "level": "hot"
       },
       {
@@ -1077,31 +1084,24 @@ const DATA = {
         "level": "hot"
       },
       {
-        "text": "日用品",
-        "count": 186,
-        "category": "家居生活",
-        "avgSales": 42886,
-        "level": "hot"
-      },
-      {
         "text": "配饰",
-        "count": 157,
+        "count": 168,
         "category": "服饰穿搭",
-        "avgSales": 30843,
+        "avgSales": 32878,
         "level": "warm"
       },
       {
         "text": "袜子",
-        "count": 151,
+        "count": 155,
         "category": "服饰穿搭",
-        "avgSales": 25758,
+        "avgSales": 28261,
         "level": "warm"
       },
       {
         "text": "连衣裙",
-        "count": 151,
+        "count": 153,
         "category": "服饰穿搭",
-        "avgSales": 6131,
+        "avgSales": 6061,
         "level": "warm"
       },
       {
@@ -1109,6 +1109,20 @@ const DATA = {
         "count": 136,
         "category": "服饰穿搭",
         "avgSales": 7654,
+        "level": "warm"
+      },
+      {
+        "text": "卧室好物",
+        "count": 119,
+        "category": "家居生活",
+        "avgSales": 31271,
+        "level": "warm"
+      },
+      {
+        "text": "鞋子",
+        "count": 113,
+        "category": "服饰穿搭",
+        "avgSales": 16432,
         "level": "warm"
       },
       {
@@ -1126,10 +1140,17 @@ const DATA = {
         "level": "warm"
       },
       {
+        "text": "休闲裤",
+        "count": 104,
+        "category": "服饰穿搭",
+        "avgSales": 41310,
+        "level": "warm"
+      },
+      {
         "text": "实用好物",
-        "count": 94,
+        "count": 97,
         "category": "家居生活",
-        "avgSales": 47341,
+        "avgSales": 47272,
         "level": "warm"
       },
       {
@@ -1140,17 +1161,17 @@ const DATA = {
         "level": "warm"
       },
       {
+        "text": "外套",
+        "count": 91,
+        "category": "服饰穿搭",
+        "avgSales": 26440,
+        "level": "warm"
+      },
+      {
         "text": "低热量零食",
         "count": 90,
         "category": "美食滋补",
         "avgSales": 76517,
-        "level": "warm"
-      },
-      {
-        "text": "卧室好物",
-        "count": 89,
-        "category": "家居生活",
-        "avgSales": 26670,
         "level": "warm"
       },
       {
@@ -1161,52 +1182,31 @@ const DATA = {
         "level": "warm"
       },
       {
-        "text": "耳饰",
-        "count": 82,
-        "category": "服饰穿搭",
-        "avgSales": 16346,
-        "level": "warm"
-      },
-      {
-        "text": "美甲美睫",
-        "count": 81,
-        "category": "美妆个护",
-        "avgSales": 63024,
-        "level": "warm"
-      },
-      {
         "text": "身体护理",
-        "count": 79,
+        "count": 85,
         "category": "美妆个护",
-        "avgSales": 30227,
+        "avgSales": 29360,
         "level": "warm"
       },
       {
-        "text": "收纳",
-        "count": 79,
-        "category": "家居生活",
-        "avgSales": 21040,
-        "level": "warm"
-      },
-      {
-        "text": "内衣",
-        "count": 77,
+        "text": "耳饰",
+        "count": 84,
         "category": "服饰穿搭",
-        "avgSales": 82840,
+        "avgSales": 16552,
         "level": "warm"
       },
       {
-        "text": "挂件",
-        "count": 77,
-        "category": "潮玩",
-        "avgSales": 8590,
+        "text": "手机支架",
+        "count": 83,
+        "category": "数码家电",
+        "avgSales": 20552,
         "level": "warm"
       },
       {
-        "text": "厨房用品",
-        "count": 76,
+        "text": "香薰",
+        "count": 82,
         "category": "家居生活",
-        "avgSales": 21789,
+        "avgSales": 32599,
         "level": "warm"
       }
     ],
@@ -1215,58 +1215,58 @@ const DATA = {
         "name": "服饰穿搭",
         "products": [
           {
-            "title": "【原创】月影浮白洞洞鞋鞋花装饰智必星diy配饰穿搭配件（不含鞋",
-            "url": "https://xhslink.com/m/id28UVs12z",
-            "keyword": "鞋花",
-            "currentSales": 4361,
-            "growth7": 3365,
-            "growth30": 4609,
-            "growth": 3365
+            "title": "[7/2件][9/3件][15/5件送1件]大肠发圈推荐发饰皮筋头绳头饰福利 · 九寨沟秘境",
+            "url": "https://xhslink.com/m/8NHNecRE6Sk",
+            "keyword": "发圈",
+            "currentSales": 460000,
+            "growth7": 0,
+            "growth30": 40000,
+            "growth": 40000
           },
           {
-            "title": "「薄薄v领tee」地板价!! 微透V领短袖纯色百搭修身显瘦T恤女夏季",
-            "url": "https://xhslink.com/m/AL4MkLTxqRA",
-            "keyword": "日常穿搭",
-            "currentSales": 4873,
-            "growth7": 2239,
-            "growth30": 2239,
-            "growth": 2239
+            "title": "[7/2件][9/3件][15/5件送1件]大肠发圈推荐发饰皮筋头绳头饰福利",
+            "url": "https://xhslink.com/m/6xUcYV6oH75",
+            "keyword": "配饰",
+            "currentSales": 430000,
+            "growth7": 0,
+            "growth30": 40000,
+            "growth": 40000
           },
           {
-            "title": "雅典娜*雾感女神裙两件套*垂坠收腰显瘦套装长裙",
-            "url": "https://xhslink.com/m/6egFRrJFTZj",
-            "keyword": "半身裙",
-            "currentSales": 5673,
-            "growth7": 2155,
-            "growth30": 2952,
-            "growth": 2155
+            "title": "[7/2件][9/3件][15/5件送1件]大肠发圈推荐发饰皮筋头绳头饰福利 · 聆海蓝格间",
+            "url": "https://xhslink.com/m/7ZR8jqkZSy",
+            "keyword": "发圈",
+            "currentSales": 446000,
+            "growth7": 0,
+            "growth30": 39000,
+            "growth": 39000
           },
           {
-            "title": "雅典娜*雾感女神裙两件套*垂坠收腰显瘦套装长裙",
-            "url": "https://xhslink.com/m/61p6t1DVCEC",
-            "keyword": "半身裙",
-            "currentSales": 5672,
-            "growth7": 2155,
-            "growth30": 2952,
-            "growth": 2155
+            "title": "【隐形低领版】小胸无痕内衣女薄杯微聚拢果冻条无钢圈细肩带文胸 · 【常规肩带薄杯0.5cm】粉底肤（白t隐形） S（建议32/70AB）",
+            "url": "https://xhslink.com/m/1pdBXrwyAyn",
+            "keyword": "内衣",
+            "currentSales": 7294,
+            "growth7": 0,
+            "growth30": 36000,
+            "growth": 36000
           },
           {
-            "title": "【六家姐姐】韩系温柔修身假两件波点2026春季印花绑带带飘带上衣",
-            "url": "https://xhslink.com/m/BDtsTf4iwA",
-            "keyword": "女装",
-            "currentSales": 1743,
-            "growth7": 1993,
-            "growth30": 3317,
-            "growth": 1993
+            "title": "低领粉底液隐形无痕内衣女薄款大胸显小胸聚拢果冻条提拉方领文胸 · 粉色（细肩带0.5CM更隐形） S 建议32/70AB",
+            "url": "https://xhslink.com/m/AvKvvumy0pH",
+            "keyword": "内衣",
+            "currentSales": 45000,
+            "growth7": 0,
+            "growth30": 30000,
+            "growth": 30000
           },
           {
-            "title": "9色.桑蚕丝月子袜夏季透气薄款纯色中筒袜百搭简约抗菌轻薄女袜 · 白色2双",
-            "url": "https://xhslink.com/m/7xVAm4hNskZ",
-            "keyword": "袜子",
-            "currentSales": 1784,
-            "growth7": 1974,
-            "growth30": 6071,
-            "growth": 1974
+            "title": "[7/2件][9/3件][15/5件送1件]大肠发圈推荐发饰皮筋头绳头饰福利",
+            "url": "https://xhslink.com/m/31S1iUaBiDm",
+            "keyword": "配饰",
+            "currentSales": 461000,
+            "growth7": 0,
+            "growth30": 29000,
+            "growth": 29000
           }
         ]
       },
@@ -1274,58 +1274,58 @@ const DATA = {
         "name": "家居生活",
         "products": [
           {
-            "title": "TureTail珊瑚树高强度进口瓦楞纸耐抓耐磨-已升级BB楞",
-            "url": "https://xhslink.com/m/2bBxmxN5zSG",
-            "keyword": "猫抓板",
-            "currentSales": 5174,
-            "growth7": 2203,
-            "growth30": 3463,
-            "growth": 2203
+            "title": "【枕梦蝶生】真“慢回弹”悬浮云朵颈椎支撑记忆枕  反弓护颈体态",
+            "url": "https://xhslink.com/m/AX72kMrcDkG",
+            "keyword": "实用好物",
+            "currentSales": 261000,
+            "growth7": 0,
+            "growth30": 51000,
+            "growth": 51000
           },
           {
-            "title": "10A抗菌卡通手撕周抛抹布洗碗巾吸水加厚厨房擦灶台专用不易掉毛",
-            "url": "https://xhslink.com/m/5TX1y68bIZa",
-            "keyword": "日用品",
-            "currentSales": 3085,
-            "growth7": 1556,
-            "growth30": 6221,
-            "growth": 1556
+            "title": "搓澡手套五指搓泥去角质洗澡手套搓澡巾女士无痛沐浴搓澡神器 · 1双绿色",
+            "url": "https://xhslink.com/m/811azx9Ze3b",
+            "keyword": "搓澡巾",
+            "currentSales": 45000,
+            "growth7": 0,
+            "growth30": 41000,
+            "growth": 41000
           },
           {
-            "title": "10A抗菌卡通手撕周抛抹布洗碗巾吸水加厚厨房擦灶台专用不易掉毛 · 1卷体验款 焦糖色",
-            "url": "https://xhslink.com/m/22YNE5koBQH",
+            "title": "枕梦蝶生 · “真·记忆棉”悬浮云朵颈椎支撑记忆枕",
+            "url": "https://xhslink.com/m/8SvZKGlTPkH",
+            "keyword": "实用好物",
+            "currentSales": 506000,
+            "growth7": 0,
+            "growth30": 24000,
+            "growth": 24000
+          },
+          {
+            "title": "车载香薰香膏男女汽车专用香水车内饰品摆件持久留香除臭异味淡香",
+            "url": "https://xhslink.com/m/6fIIGtPkdHo",
+            "keyword": "车载香薰",
+            "currentSales": 30000,
+            "growth7": 0,
+            "growth30": 24000,
+            "growth": 24000
+          },
+          {
+            "title": "标准插电款【无开关】（送诱蚊剂+运险）",
+            "url": "https://xhslink.com/m/8xPlOfqaKkY",
+            "keyword": "灭蚊",
+            "currentSales": 56000,
+            "growth7": 0,
+            "growth30": 23000,
+            "growth": 23000
+          },
+          {
+            "title": "枕梦蝶生 · “真",
+            "url": "https://xhslink.com/m/4vyUQk5ITd",
             "keyword": "日用百货",
-            "currentSales": 6750,
-            "growth7": 1555,
-            "growth30": 2319,
-            "growth": 1555
-          },
-          {
-            "title": "10A抗菌卡通手撕周抛抹布洗碗巾吸水加厚厨房擦灶台专用不易掉毛",
-            "url": "https://xhslink.com/m/qnCTwLrcWo",
-            "keyword": "日用品",
-            "currentSales": 2742,
-            "growth7": 1552,
-            "growth30": 6600,
-            "growth": 1552
-          },
-          {
-            "title": "TOLI · 东理家居免胶拼接地毯软装DIY色彩美学宠物防滑地毯客厅毯玄关毯",
-            "url": "https://xhslink.com/m/413kVURLmW1",
-            "keyword": "客厅",
-            "currentSales": 5500,
-            "growth7": 1334,
-            "growth30": 1779,
-            "growth": 1334
-          },
-          {
-            "title": "boxlamp · 星空小夜灯浪漫满天星卧室氛围灯星空投影仪情侣礼物睡眠灯",
-            "url": "https://xhslink.com/m/3g1XXpVvpl2",
-            "keyword": "生日礼物",
-            "currentSales": 2406,
-            "growth7": 1179,
-            "growth30": 2014,
-            "growth": 1179
+            "currentSales": 490000,
+            "growth7": 0,
+            "growth30": 20000,
+            "growth": 20000
           }
         ]
       },
@@ -1333,58 +1333,58 @@ const DATA = {
         "name": "美食滋补",
         "products": [
           {
-            "title": "正宗酸甜脱骨李脆李空心脱骨李青脆李脆甜爽口孕妇水果整箱5斤",
-            "url": "https://xhslink.com/m/4qdhJIro7ga",
-            "keyword": "水果",
-            "currentSales": 1000,
-            "growth7": 0,
-            "growth30": 2721,
-            "growth": 2721
-          },
-          {
-            "title": "晚阳 · 纯铁棍山药雪花片冲泡脾胃早餐怀山药粉100克【前3000份特价】",
-            "url": "https://xhslink.com/m/1moIREDk7aM",
-            "keyword": "养胃食物",
-            "currentSales": 2229,
-            "growth7": 2406,
-            "growth30": 2406,
-            "growth": 2406
-          },
-          {
-            "title": "【买5斤送5斤】新鲜青芒现摘现发果甜软糯香甜芒果应季水果S9-5",
-            "url": "https://xhslink.com/m/4VDXlJex29",
-            "keyword": "时令水果",
-            "currentSales": 22000,
-            "growth7": 0,
-            "growth30": 2191,
-            "growth": 2191
-          },
-          {
-            "title": "【到手一箱20包】厚切牛乳吐司面包700g营养早餐超软奶香手撕面包 · 20个*1箱(现做现发)共700g",
-            "url": "https://xhslink.com/m/6gWqaJrkOCS",
+            "title": "必胜客 披萨意面超值双人餐6件套",
+            "url": "https://xhslink.com/m/2laeDYRu6Ny",
             "keyword": "零食",
-            "currentSales": 2162,
-            "growth7": 1721,
-            "growth30": 5302,
-            "growth": 1721
-          },
-          {
-            "title": "正宗四川五月脆李子新鲜李子采摘孕妇水果凤凰李半边红李子",
-            "url": "https://xhslink.com/m/9c8qGHNPM7r",
-            "keyword": "水果",
-            "currentSales": 1000,
+            "currentSales": 46000,
             "growth7": 0,
-            "growth30": 1287,
-            "growth": 1287
+            "growth30": 81000,
+            "growth": 81000
           },
           {
-            "title": "蒙阴奶油蟠桃小扁桃子爆甜多汁蒙阴蜜桃新鲜应季孕妇水果",
-            "url": "https://xhslink.com/m/4A2HrI74xLL",
-            "keyword": "时令水果",
-            "currentSales": 7000,
-            "growth7": 1256,
-            "growth30": 4865,
-            "growth": 1256
+            "title": "【前1000单半价】2款组合MCT生巧抹茶熔岩砖夹心轻食控卡零食盒装 · 【2款组合装】生巧味+抹茶味 50g*2盒装/9.9元（冷冻后 更好吃）",
+            "url": "https://xhslink.com/m/5UuaxDJKUNZ",
+            "keyword": "零食",
+            "currentSales": 10000,
+            "growth7": 0,
+            "growth30": 33000,
+            "growth": 33000
+          },
+          {
+            "title": "【顺丰包邮28.8元任选8个改价】手作碱水球~面包下午茶零食",
+            "url": "https://xhslink.com/m/994Ry9PDABH",
+            "keyword": "面包",
+            "currentSales": 346000,
+            "growth7": 0,
+            "growth30": 28000,
+            "growth": 28000
+          },
+          {
+            "title": "【亏本冲量500单/6.9元袋】【手作雪花酥】坚果草莓奥利奥羊奶芙 · 【4种口味】奥利奥+草莓+抹茶+芒果 组合装.150克/1袋",
+            "url": "https://xhslink.com/m/2InQ1qyvk38",
+            "keyword": "零食",
+            "currentSales": 35000,
+            "growth7": 0,
+            "growth30": 28000,
+            "growth": 28000
+          },
+          {
+            "title": "董饱饱 · 自由搭配专属 60元任选5盒 带料包（紫菜虾皮/盐粉鸡精/葱油包）",
+            "url": "https://xhslink.com/m/50ksnBBGapy",
+            "keyword": "冷冻食品",
+            "currentSales": 768000,
+            "growth7": 0,
+            "growth30": 27000,
+            "growth": 27000
+          },
+          {
+            "title": "（28.8块！任选8个）低卡热手作夹心碱水球面包贝果欧包早餐代餐",
+            "url": "https://xhslink.com/m/AAvdb51XDuK",
+            "keyword": "低热量零食",
+            "currentSales": 208000,
+            "growth7": 0,
+            "growth30": 27000,
+            "growth": 27000
           }
         ]
       },
@@ -1392,58 +1392,58 @@ const DATA = {
         "name": "美妆个护",
         "products": [
           {
-            "title": "沝美博士 · 美白防晒霜推荐SPF50+轻薄透气日常通勤学生党清爽隔离乳平价防晒",
-            "url": "https://xhslink.com/m/6JDcqfmEn7b",
-            "keyword": "膳食补充",
-            "currentSales": 2947,
-            "growth7": 1020,
-            "growth30": 1157,
-            "growth": 1020
+            "title": "小十月·上睫毛灰黑色仿真细毛",
+            "url": "https://xhslink.com/m/3YowVYrF9dP",
+            "keyword": "假睫毛",
+            "currentSales": 144000,
+            "growth7": 0,
+            "growth30": 14000,
+            "growth": 14000
           },
           {
-            "title": "Sweet mint · 【正常发货】润呐~大容量三色遮瑕提亮痘印黑眼圈滋润干油皮",
-            "url": "https://xhslink.com/m/1L1WPa1ghdg",
-            "keyword": "祛红痘印",
-            "currentSales": 2861,
-            "growth7": 893,
-            "growth30": 2883,
-            "growth": 893
+            "title": "黛妃 · 巨巨巨好用A210斜角刀锋眼线刷眼脸下至刷卧蚕化妆刷精细眉刷沧州",
+            "url": "https://xhslink.com/m/4ROILEy08Uf",
+            "keyword": "化妆刷",
+            "currentSales": 131000,
+            "growth7": 0,
+            "growth30": 13000,
+            "growth": 13000
           },
           {
-            "title": "自然歌唱.任选两块100g*2草本洗发皂|赠开福禄柚洁面沐浴皂128g*1",
-            "url": "https://xhslink.com/m/4TdHvON2HeL",
-            "keyword": "养发",
-            "currentSales": 3074,
-            "growth7": 843,
-            "growth30": 3287,
-            "growth": 843
+            "title": "VERBENA LINN · 烟酰胺香氛海盐身体磨砂膏平价改善鸡皮透亮去角质",
+            "url": "https://xhslink.com/m/4slz9CgXo8x",
+            "keyword": "身体护理",
+            "currentSales": 218000,
+            "growth7": 0,
+            "growth30": 12000,
+            "growth": 12000
           },
           {
-            "title": "BHV · 荷荷巴油精粹油深层清理毛孔缩小毛孔净透霍霍巴油",
-            "url": "https://xhslink.com/m/2YbUARG55c",
-            "keyword": "护肤精油",
-            "currentSales": 2886,
-            "growth7": 743,
-            "growth30": 2450,
-            "growth": 743
+            "title": "黛妃 · 巨巨巨好用A210斜角刀锋眼线刷眼脸下至刷卧蚕化妆刷精细眉刷沧州",
+            "url": "https://xhslink.com/m/47od3Cg2FJf",
+            "keyword": "美妆",
+            "currentSales": 141000,
+            "growth7": 0,
+            "growth30": 11000,
+            "growth": 11000
           },
           {
-            "title": "柠言集 · 黑灵芝地黄头皮精华液 草本养护",
-            "url": "https://xhslink.com/m/83Fb8EEfQw4",
-            "keyword": "养发",
-            "currentSales": 2444,
-            "growth7": 647,
-            "growth30": 1943,
-            "growth": 647
+            "title": "寸轻 · 猫眼裸色五合一轻色胶新款春夏季指甲油胶建构底胶封层美甲专用",
+            "url": "https://xhslink.com/m/80qWZGM4EUT",
+            "keyword": "美甲美睫",
+            "currentSales": 612000,
+            "growth7": 0,
+            "growth30": 8000,
+            "growth": 8000
           },
           {
-            "title": "柠言集 · 黑灵芝地黄头皮精华液 草本养护",
-            "url": "https://xhslink.com/m/40RMk5NzVvi",
-            "keyword": "头皮精华",
-            "currentSales": 978,
-            "growth7": 646,
-            "growth30": 2861,
-            "growth": 646
+            "title": "寸轻 · 猫眼裸色五合一轻色胶新款春夏季指甲油胶建构底胶封层美甲专用",
+            "url": "https://xhslink.com/m/6HtY3G4q8Ou",
+            "keyword": "美甲美睫",
+            "currentSales": 603000,
+            "growth7": 0,
+            "growth30": 8000,
+            "growth": 8000
           }
         ]
       },
@@ -1451,58 +1451,58 @@ const DATA = {
         "name": "运动",
         "products": [
           {
-            "title": "DK · 运动美式休闲短裤女健身跑步高腰显瘦夏外穿瑜伽裤夏季4218",
-            "url": "https://xhslink.com/m/9K7CWvATStj",
-            "keyword": "运动短裤",
-            "currentSales": 6679,
-            "growth7": 1438,
-            "growth30": 1689,
-            "growth": 1438
+            "title": "XVRV · “莱赛尔”棉夏日慵懒汽水裤2026夏季新款透气垂感百搭运动长裤",
+            "url": "https://xhslink.com/m/342ngzvXblT",
+            "keyword": "运动裤",
+            "currentSales": 12000,
+            "growth7": 0,
+            "growth30": 13000,
+            "growth": 13000
           },
           {
-            "title": "夏季情侣款尼龙休闲短裤中裤宽松工装美式休闲松紧百搭防水",
-            "url": "https://xhslink.com/m/3Yzw9WkfjKk",
-            "keyword": "运动服饰",
-            "currentSales": 5757,
-            "growth7": 1223,
-            "growth30": 2084,
-            "growth": 1223
-          },
-          {
-            "title": "改良版豹子t～正肩宽松大领口夏季短袖",
-            "url": "https://xhslink.com/m/7lOTuJjLB63",
-            "keyword": "速干T恤",
-            "currentSales": 3666,
-            "growth7": 1211,
-            "growth30": 3364,
-            "growth": 1211
-          },
-          {
-            "title": "2026夏季直角肩白色立领防晒衣外套女修身透气百搭防紫外线防晒服",
-            "url": "https://xhslink.com/m/2vqRRPnyDTy",
-            "keyword": "外套",
-            "currentSales": 7910,
-            "growth7": 1160,
-            "growth30": 1307,
-            "growth": 1160
-          },
-          {
-            "title": "蕉下客jiaoxiake · 【小冰皮3.0冰钛原纱】新款透气户外防晒衣休闲皮肤衣防紫外线",
-            "url": "https://xhslink.com/m/9EfdglR2PA3",
-            "keyword": "外套",
-            "currentSales": 6837,
-            "growth7": 1015,
-            "growth30": 1292,
-            "growth": 1015
-          },
-          {
-            "title": "Remedy · 汗显豹纹印花夜光短袖T恤男女夏季潮牌情侣宽松运动风体恤",
-            "url": "https://xhslink.com/m/AGalBGI8VUg",
+            "title": "瑜伽服运动修身显瘦圆领女夏季高级感跑步普拉提训练短袖上衣大码",
+            "url": "https://xhslink.com/m/4d48JxODQvb",
             "keyword": "运动T袖",
-            "currentSales": 1813,
-            "growth7": 982,
-            "growth30": 4102,
-            "growth": 982
+            "currentSales": 222000,
+            "growth7": 0,
+            "growth30": 10000,
+            "growth": 10000
+          },
+          {
+            "title": "瑜伽服运动修身显瘦圆领女夏季高级感跑步普拉提训练短袖上衣大码",
+            "url": "https://xhslink.com/m/9R6g2P7hh2r",
+            "keyword": "短袖",
+            "currentSales": 168000,
+            "growth7": 0,
+            "growth30": 9000,
+            "growth": 9000
+          },
+          {
+            "title": "【上新特惠】遮副乳• 简约百搭休闲运动背心（高品质版）",
+            "url": "https://xhslink.com/m/8xsQhA0zZj2",
+            "keyword": "运动背心",
+            "currentSales": 143000,
+            "growth7": 0,
+            "growth30": 7000,
+            "growth": 7000
+          },
+          {
+            "title": "【上新特惠】遮副乳• 简约百搭休闲运动背心（高品质版）",
+            "url": "https://xhslink.com/m/4IuOWkassVh",
+            "keyword": "运动背心",
+            "currentSales": 142000,
+            "growth7": 0,
+            "growth30": 7000,
+            "growth": 7000
+          },
+          {
+            "title": "品质款!! 天丝开衫~简约高级纯色fang晒衫长袖上衣小外套女春夏",
+            "url": "https://xhslink.com/m/AxNXLqjiiPm",
+            "keyword": "外套",
+            "currentSales": 140000,
+            "growth7": 0,
+            "growth30": 7000,
+            "growth": 7000
           }
         ]
       },
@@ -1510,58 +1510,58 @@ const DATA = {
         "name": "潮玩",
         "products": [
           {
-            "title": "小红书暗黑兔兔现货玩偶毛绒恶霸兔可爱动物高颜值公仔娃娃送礼物 · 自选两款兔兔（自行下单备注） 耳朵内含铁丝可以凹造型",
-            "url": "https://xhslink.com/m/5Ais6WODw0H",
-            "keyword": "暗黑兔兔",
-            "currentSales": 277,
+            "title": "铭鑫 · 吸入式灭蚊灯USB光触媒物LED捕蚊灯宠物孕妈可用室内灭蚊",
+            "url": "https://xhslink.com/m/87RQz76JSYf",
+            "keyword": "小物件",
+            "currentSales": 64000,
             "growth7": 0,
-            "growth30": 3732,
-            "growth": 3732
+            "growth30": 19000,
+            "growth": 19000
           },
           {
-            "title": "拼豆豆手工diy套装拼豆融合豆女孩男孩儿童益智拼图玩具材料包",
-            "url": "https://xhslink.com/m/3sqlmQLBlK6",
-            "keyword": "积木拼图",
-            "currentSales": 6388,
-            "growth7": 2709,
-            "growth30": 3273,
-            "growth": 2709
+            "title": "【限时8.8一个】新款缪系猫耳植绒kitty·可爱包包挂件钥匙扣",
+            "url": "https://xhslink.com/m/3UJvAhG3hfx",
+            "keyword": "包挂",
+            "currentSales": 3595,
+            "growth7": 0,
+            "growth30": 17484,
+            "growth": 17484
           },
           {
-            "title": "原创手作意式Gelato冰淇淋挂件汽车后视镜装饰包包钥匙扣挂饰礼物",
-            "url": "https://xhslink.com/m/8W8gmWsQPJI",
-            "keyword": "钥匙扣挂件",
-            "currentSales": 902,
-            "growth7": 1961,
-            "growth30": 2779,
-            "growth": 1961
+            "title": "车载香薰香膏男女汽车专用香水车内饰品摆件持久留香除臭异味淡香",
+            "url": "https://xhslink.com/m/65tgKS4APrH",
+            "keyword": "车摆件",
+            "currentSales": 29000,
+            "growth7": 0,
+            "growth30": 16000,
+            "growth": 16000
           },
           {
-            "title": "胖嘟嘟猫咪捏捏情感陪解压治愈超软羽绒棉圆眼猫咪叠叠乐玩偶 · 三花猫 15cm",
-            "url": "https://xhslink.com/m/6559U9g7NM7",
+            "title": "划线价格: 指商品的专柜价、吊牌价、正品零售价、厂商指导价或该商品的曾经展示过的销售价等，并非原价，仅供参考。",
+            "url": "https://xhslink.com/m/1vU18EKCuqr",
             "keyword": "玩偶",
-            "currentSales": 6523,
-            "growth7": 1507,
-            "growth30": 1507,
-            "growth": 1507
+            "currentSales": 26000,
+            "growth7": 0,
+            "growth30": 13000,
+            "growth": 13000
           },
           {
-            "title": "POEMS FOR YOU · 原创流麻挂件366天生日诗歌文艺包挂亚克力钥匙扣创意生日礼物女",
-            "url": "https://xhslink.com/m/1XmQFtf2oU",
-            "keyword": "可爱挂件",
-            "currentSales": 4642,
-            "growth7": 1364,
-            "growth30": 1861,
-            "growth": 1364
+            "title": "24小时发货！【森之物 · 正版】猫猫乐无忧转转盲盒/礼物/摆件",
+            "url": "https://xhslink.com/m/7UDku1ETQhS",
+            "keyword": "盲盒",
+            "currentSales": 18000,
+            "growth7": 0,
+            "growth30": 9000,
+            "growth": 9000
           },
           {
-            "title": "【出版社直发】德国幼儿专注力培养绘本（1—4岁）全套12册可点读",
-            "url": "https://xhslink.com/m/3nCONHBUoRb",
-            "keyword": "幼儿园绘本",
-            "currentSales": 740,
-            "growth7": 766,
-            "growth30": 3914,
-            "growth": 766
+            "title": "【森之物 · 正版】猫猫乐无忧转转盲盒/礼物推荐/摆件",
+            "url": "https://xhslink.com/m/6W8h7pTJW3F",
+            "keyword": "模型手办",
+            "currentSales": 13000,
+            "growth7": 0,
+            "growth30": 9000,
+            "growth": 9000
           }
         ]
       },
@@ -1569,58 +1569,58 @@ const DATA = {
         "name": "母婴亲子",
         "products": [
           {
-            "title": "日式拼接地毯可水洗宠物地毯宠物防滑垫宝宝地垫无胶可水洗地垫 · 米白*咖啡色（各一半） 16片-40*40cm【🔥🔥量大优惠】",
-            "url": "https://xhslink.com/m/4SzJ8bqGidr",
-            "keyword": "宝宝好物",
-            "currentSales": 1699,
-            "growth7": 930,
-            "growth30": 3912,
-            "growth": 930
-          },
-          {
-            "title": "【出版社直发】德国幼儿专注力培养绘本（1—4岁）全套12册可点读",
-            "url": "https://xhslink.com/m/1PZA7GSp7AB",
-            "keyword": "儿童图书",
-            "currentSales": 497,
-            "growth7": 766,
-            "growth30": 3916,
-            "growth": 766
-          },
-          {
-            "title": "儿童浴室轨道洗澡玩具滑滑梯宝宝婴儿戏水玩水小孩缸泡澡男孩女孩 · 【大号城市+恐龙轨道】共90PCS",
-            "url": "https://xhslink.com/m/2zgN9bPTwjL",
-            "keyword": "宝宝好物",
-            "currentSales": 4160,
-            "growth7": 732,
-            "growth30": 4810,
-            "growth": 732
-          },
-          {
-            "title": "四季通用高颜值婴儿背带广东四爪背带3-24月可哄睡单人穿脱 · 可爱兔头",
-            "url": "https://xhslink.com/m/2EVJSBE0Fxa",
-            "keyword": "婴儿用品",
-            "currentSales": 5481,
-            "growth7": 391,
-            "growth30": 391,
-            "growth": 391
-          },
-          {
-            "title": "TOPSTAR · 【春上新】儿童帆布鞋女童小白鞋男童幼儿园室内鞋宝宝软底鞋7026",
-            "url": "https://xhslink.com/m/4FTsMuefuRA",
+            "title": "儿童拖鞋夏季亲子洞洞鞋男女童宝宝室内eva防滑外穿防撞拖鞋",
+            "url": "https://xhslink.com/m/1kOj8r6jHul",
             "keyword": "童鞋",
-            "currentSales": 353,
-            "growth7": 389,
-            "growth30": 2169,
-            "growth": 389
+            "currentSales": 2104,
+            "growth7": 0,
+            "growth30": 8000,
+            "growth": 8000
           },
           {
-            "title": "老粗布凉席软凉席纯棉加厚加密床单四季席母婴席宝宝可用天然透气 · 绿席纹 2*2.3凉席+一对枕套（1.5米床两边下垂效果，1.8米床平铺效果））",
-            "url": "https://xhslink.com/m/4gFkNYVxJ4M",
-            "keyword": "宝宝好物",
-            "currentSales": 5342,
-            "growth7": 378,
-            "growth30": 2414,
-            "growth": 378
+            "title": "【正版 出版社直发】儿童好奇心大百科书 思考世界的孩子 科普书",
+            "url": "https://xhslink.com/m/2M3QSQ9rKKf",
+            "keyword": "亲子",
+            "currentSales": 64000,
+            "growth7": 0,
+            "growth30": 5000,
+            "growth": 5000
+          },
+          {
+            "title": "卓正儿康 · 易缓舒橘红膏儿童宝宝罗汉果陈皮甘草化州四季清润橘红膏成人",
+            "url": "https://xhslink.com/m/6dYXdvzuwyO",
+            "keyword": "儿童食品",
+            "currentSales": 29000,
+            "growth7": 0,
+            "growth30": 5000,
+            "growth": 5000
+          },
+          {
+            "title": "植场大师德国指甲笔液专用营养美容护理液修护 · 1支【轻度推荐】指甲笔手足通用*产品新升级",
+            "url": "https://xhslink.com/m/50kJPSMvMdB",
+            "keyword": "手部护理",
+            "currentSales": 8562,
+            "growth7": 0,
+            "growth30": 5000,
+            "growth": 5000
+          },
+          {
+            "title": "好习惯养成亲子推拉书1-6岁宝宝绘本行为习惯早教启蒙童书全10册",
+            "url": "https://xhslink.com/m/8yUVqYKGdZ",
+            "keyword": "原创绘本",
+            "currentSales": 75000,
+            "growth7": 0,
+            "growth30": 4000,
+            "growth": 4000
+          },
+          {
+            "title": "【顺丰/JD】新鲜云南蓝莓甄选当季鲜果孕妇宝宝辅食整箱现摘S8-1",
+            "url": "https://xhslink.com/m/AYRKLFJqNOB",
+            "keyword": "水果",
+            "currentSales": 53000,
+            "growth7": 0,
+            "growth30": 4000,
+            "growth": 4000
           }
         ]
       },
@@ -1628,58 +1628,58 @@ const DATA = {
         "name": "数码家电",
         "products": [
           {
-            "title": "熊猫旋转支架适用苹果16秒变17大视窗手机壳华为vivo小米",
-            "url": "https://xhslink.com/m/9BSbs7AzFmQ",
+            "title": "iPhone17精孔包镜头壳全包透明手机壳苹果磁吸防摔保护壳软边硬背",
+            "url": "https://xhslink.com/m/8wMCCO7EUDa",
             "keyword": "手机壳",
-            "currentSales": 455,
-            "growth7": 848,
-            "growth30": 2997,
-            "growth": 848
+            "currentSales": 62000,
+            "growth7": 0,
+            "growth30": 9000,
+            "growth": 9000
           },
           {
-            "title": "【前1000单特价】300倍强磁真空磁吸手机支架超稳车载多场景适用",
-            "url": "https://xhslink.com/m/2RczjSP3NbV",
+            "title": "秦思！同款双面Magsafe磁吸金属桌面支架 双面磁吸一字赠磁吸环",
+            "url": "https://xhslink.com/m/8osgv65IMyR",
+            "keyword": "数码",
+            "currentSales": 38000,
+            "growth7": 0,
+            "growth30": 5000,
+            "growth": 5000
+          },
+          {
+            "title": "【前1000单特价】双面磁吸手机支架大全合金材质桌面支架赠磁吸环",
+            "url": "https://xhslink.com/m/81YmkTQ3AsO",
             "keyword": "手机支架",
-            "currentSales": 1313,
-            "growth7": 520,
-            "growth30": 813,
-            "growth": 520
+            "currentSales": 23000,
+            "growth7": 0,
+            "growth30": 5000,
+            "growth": 5000
           },
           {
-            "title": "PINKDEVIL原创骨骼手机壳穿刺版iPhone17苹果手机壳3D打印硬壳预",
-            "url": "https://xhslink.com/m/8BN470eBD0z",
-            "keyword": "手机壳",
-            "currentSales": 2461,
-            "growth7": 433,
-            "growth30": 1529,
-            "growth": 433
-          },
-          {
-            "title": "奶油粉波点适用苹果17手机壳iphone17promax小众13磁吸菲林15软16",
-            "url": "https://xhslink.com/m/Ac1AA6gwHHf",
-            "keyword": "手机壳",
-            "currentSales": 1953,
-            "growth7": 365,
-            "growth30": 2889,
-            "growth": 365
-          },
-          {
-            "title": "【前500单18.8】高铁演唱会飞机旅行手机支架便携手机懒人支架",
-            "url": "https://xhslink.com/m/4nztKfveVPw",
+            "title": "【前500单特价】双面磁吸mini手机支架学习追剧便携懒人桌面支架",
+            "url": "https://xhslink.com/m/7RMglDv8Fug",
             "keyword": "手机支架",
-            "currentSales": 1488,
-            "growth7": 293,
-            "growth30": 559,
-            "growth": 293
+            "currentSales": 57000,
+            "growth7": 0,
+            "growth30": 4000,
+            "growth": 4000
           },
           {
-            "title": "【前500单18.8】高铁演唱会飞机旅行手机支架便携手机懒人支架",
-            "url": "https://xhslink.com/m/2TI6frVQ5gI",
+            "title": "【前1000单特价】双面磁吸手机支架大全合金材质桌面支架赠磁吸环",
+            "url": "https://xhslink.com/m/bYk5fL4Tvc",
             "keyword": "手机支架",
-            "currentSales": 1487,
-            "growth7": 293,
-            "growth30": 559,
-            "growth": 293
+            "currentSales": 22000,
+            "growth7": 0,
+            "growth30": 4000,
+            "growth": 4000
+          },
+          {
+            "title": "【前1000单特价】双面磁吸手机支架大全合金材质桌面支架赠磁吸环",
+            "url": "https://xhslink.com/m/5tdzTE57MpP",
+            "keyword": "手机支架",
+            "currentSales": 19000,
+            "growth7": 0,
+            "growth30": 4000,
+            "growth": 4000
           }
         ]
       }
@@ -1689,268 +1689,268 @@ const DATA = {
     "label": "虚拟商品",
     "sourceRange": {
       "start": "2026-01-01",
-      "end": "2026-06-20"
+      "end": "2026-06-27"
     },
     "overview": {
-      "products": 3829,
-      "shops": 2221,
-      "avgSales": 4441,
-      "medianSales": 2106,
-      "avgPrice": 68,
+      "products": 4070,
+      "shops": 2358,
+      "avgSales": 4404,
+      "medianSales": 2070,
+      "avgPrice": 74,
       "medianPrice": 10,
-      "productsPerShop": 1.72,
-      "lowFanBests": 1459,
-      "lowFanRate": "38.1%",
+      "productsPerShop": 1.73,
+      "lowFanBests": 1528,
+      "lowFanRate": "37.5%",
       "categories": 22
     },
     "distributions": {
       "fans": [
         {
           "label": "<1千",
-          "value": 751
+          "value": 789
         },
         {
           "label": "1千-5千",
-          "value": 1419
+          "value": 1498
         },
         {
           "label": "1万-5万",
-          "value": 862
+          "value": 926
         },
         {
           "label": ">10万",
-          "value": 146
+          "value": 156
         }
       ],
       "score": [
         {
           "label": "<4.4",
-          "value": 1616
+          "value": 1786
         },
         {
           "label": "4.4-4.6",
-          "value": 1636
+          "value": 1672
         },
         {
           "label": "4.6-4.8",
-          "value": 538
+          "value": 572
         },
         {
           "label": "4.8-5.0",
-          "value": 38
+          "value": 39
         }
       ]
     },
     "categories": [
       {
         "name": "中小学教辅/教材",
-        "products": 1276,
-        "shops": 677,
-        "totalSales": 4544567,
-        "avgSales": 3562,
-        "medianSales": 1847,
-        "avgPrice": 55,
+        "products": 1323,
+        "shops": 697,
+        "totalSales": 4671854,
+        "avgSales": 3531,
+        "medianSales": 1827,
+        "avgPrice": 60,
         "medianPrice": 14,
-        "lowFanRate": "31.3%",
-        "productsPerShop": 1.88,
+        "lowFanRate": "30.7%",
+        "productsPerShop": 1.9,
         "competitionIndex": 74,
         "competitionLevel": "高竞争",
         "heat": "h",
         "priceBands": [
           {
             "label": "1-10元",
-            "value": 569,
-            "ratio": "44.6%"
+            "value": 581,
+            "ratio": "43.9%"
           },
           {
             "label": "10-30元",
-            "value": 221,
-            "ratio": "17.3%"
+            "value": 237,
+            "ratio": "17.9%"
           },
           {
             "label": "30-50元",
-            "value": 141,
-            "ratio": "11.1%"
+            "value": 145,
+            "ratio": "11.0%"
           },
           {
             "label": "50-100元",
-            "value": 156,
-            "ratio": "12.2%"
+            "value": 160,
+            "ratio": "12.1%"
           },
           {
             "label": "100-200元",
-            "value": 108,
-            "ratio": "8.5%"
+            "value": 115,
+            "ratio": "8.7%"
           },
           {
             "label": "200元以上",
-            "value": 63,
-            "ratio": "4.9%"
+            "value": 66,
+            "ratio": "5.0%"
           }
         ],
         "growthProducts": [
           {
-            "title": "学丞 · 刘晓艳初中英语58篇阅读记2000个单词刘晓艳初中英语单词",
-            "url": "https://xhslink.com/m/5ZagoNod3wr",
-            "keyword": "初中",
-            "currentSales": 1876,
-            "growth7": 621,
-            "growth30": 1038,
-            "growth": 621
+            "title": "2025秋季新版一二三四五六上语文单元专项期末复习课件练习考试卷",
+            "url": "https://xhslink.com/m/8n4qpS1tqWJ",
+            "keyword": "期末复习课件",
+            "currentSales": 22000,
+            "growth7": 0,
+            "growth30": 5000,
+            "growth": 5000
           },
           {
-            "title": "2026年新版小升初复习资料（拍对应专题的选项）【PDF电子资料】",
-            "url": "https://xhslink.com/m/57kvvN3RQd7",
-            "keyword": "考试",
-            "currentSales": 2066,
-            "growth7": 611,
-            "growth30": 897,
-            "growth": 611
+            "title": "【原创现货】学生作业日日清活页本·学习计划打卡错题整理自律本",
+            "url": "https://xhslink.com/m/1aFw2Z0ulSq",
+            "keyword": "学习打卡",
+            "currentSales": 373,
+            "growth7": 0,
+            "growth30": 4000,
+            "growth": 4000
           },
           {
-            "title": "2026年新版小升初复习资料（拍对应专题的选项）【PDF电子资料】",
-            "url": "https://xhslink.com/m/3mSzcBmNbCS",
-            "keyword": "资料",
-            "currentSales": 875,
-            "growth7": 611,
-            "growth30": 2170,
-            "growth": 611
+            "title": "网友红领巾题本（同步至最新）",
+            "url": "https://xhslink.com/m/4WG4ZovzoRR",
+            "keyword": "公考",
+            "currentSales": 99000,
+            "growth7": 0,
+            "growth30": 2000,
+            "growth": 2000
           },
           {
-            "title": "2026年新版小升初复习资料（拍对应专题的选项）【PDF电子资料】",
-            "url": "https://xhslink.com/m/8OljXKNJC8W",
-            "keyword": "小升初",
-            "currentSales": 771,
-            "growth7": 611,
-            "growth30": 2215,
-            "growth": 611
+            "title": "一本 · 【预备3-6年级下册】紧扣26新教材寒假28天预习规划赠视频讲解",
+            "url": "https://xhslink.com/m/97JnpiRySoO",
+            "keyword": "老师资料",
+            "currentSales": 22000,
+            "growth7": 0,
+            "growth30": 2000,
+            "growth": 2000
           },
           {
-            "title": "2026年新版小升初复习资料（拍对应专题的选项）【PDF电子资料】",
-            "url": "https://xhslink.com/m/7EjuFvA2IcP",
-            "keyword": "教辅资料",
-            "currentSales": 2501,
-            "growth7": 539,
-            "growth30": 539,
-            "growth": 539
+            "title": "华理社 · 【现货】初中+高中英语时文阅读提分训练3+X 小升初 789年级 中考",
+            "url": "https://xhslink.com/m/7cpFcaU44Y7",
+            "keyword": "高中英语",
+            "currentSales": 7383,
+            "growth7": 0,
+            "growth30": 1804,
+            "growth": 1804
           },
           {
-            "title": "新版五套期末测试卷/数学语文英语/123456年级下册/PDF电子版",
-            "url": "https://xhslink.com/m/7arZWvHUVFl",
-            "keyword": "",
-            "currentSales": 1755,
-            "growth7": 510,
-            "growth30": 510,
-            "growth": 510
+            "title": "华理社 · 【现货】初中+高中英语时文阅读提分训练3+X 小升初 789年级 中考",
+            "url": "https://xhslink.com/m/7f3FBERNrBk",
+            "keyword": "中考资料",
+            "currentSales": 7211,
+            "growth7": 0,
+            "growth30": 1804,
+            "growth": 1804
           }
         ],
         "keywords": [
-          "课件",
           "未分类",
+          "课件",
           "小学资料"
         ],
         "subCategories": []
       },
       {
         "name": "PPT模板",
-        "products": 468,
-        "shops": 306,
-        "totalSales": 1485946,
-        "avgSales": 3175,
-        "medianSales": 1706,
+        "products": 493,
+        "shops": 321,
+        "totalSales": 1578860,
+        "avgSales": 3203,
+        "medianSales": 1694,
         "avgPrice": 25,
         "medianPrice": 9,
-        "lowFanRate": "42.1%",
-        "productsPerShop": 1.53,
-        "competitionIndex": 37,
+        "lowFanRate": "42.2%",
+        "productsPerShop": 1.54,
+        "competitionIndex": 38,
         "competitionLevel": "低竞争",
         "heat": "l",
         "priceBands": [
           {
             "label": "1-10元",
-            "value": 279,
+            "value": 294,
             "ratio": "59.6%"
           },
           {
             "label": "10-30元",
-            "value": 65,
-            "ratio": "13.9%"
+            "value": 72,
+            "ratio": "14.6%"
           },
           {
             "label": "30-50元",
             "value": 44,
-            "ratio": "9.4%"
+            "ratio": "8.9%"
           },
           {
             "label": "50-100元",
-            "value": 35,
-            "ratio": "7.5%"
+            "value": 36,
+            "ratio": "7.3%"
           },
           {
             "label": "100-200元",
             "value": 14,
-            "ratio": "3.0%"
+            "ratio": "2.8%"
           },
           {
             "label": "200元以上",
-            "value": 6,
-            "ratio": "1.3%"
+            "value": 7,
+            "ratio": "1.4%"
           }
         ],
         "growthProducts": [
           {
-            "title": "蓝色班委述职报告PPT模板通用演示文稿",
-            "url": "https://xhslink.com/m/5zPeezn1O2Y",
-            "keyword": "模板",
-            "currentSales": 2244,
-            "growth7": 195,
-            "growth30": 585,
-            "growth": 195
-          },
-          {
-            "title": "小红书最火的PPT模板40款",
-            "url": "https://xhslink.com/m/9U8e1lSqg86",
-            "keyword": "模板",
-            "currentSales": 1563,
-            "growth7": 189,
-            "growth30": 647,
-            "growth": 189
-          },
-          {
-            "title": "PPT倒计时器插件软件免安装适用于各种比赛演讲活动ppt计时素材",
-            "url": "https://xhslink.com/m/3MHHYwd5A7y",
-            "keyword": "模板",
-            "currentSales": 4661,
-            "growth7": 166,
-            "growth30": 1093,
-            "growth": 166
-          },
-          {
-            "title": "绿色渐变清新英语小组汇报ppt模板/15页",
-            "url": "https://xhslink.com/m/AmsuGyXt3X5",
+            "title": "15000+ppt【水彩】【古风】【卡通】【简约】【红色精神】",
+            "url": "https://xhslink.com/m/3UjohpaFnu6",
             "keyword": "PPT",
-            "currentSales": 853,
-            "growth7": 152,
-            "growth30": 749,
-            "growth": 152
+            "currentSales": 11000,
+            "growth7": 0,
+            "growth30": 2000,
+            "growth": 2000
           },
           {
-            "title": "【秒发货】卡通PPT模板，选择对应编号即可 · 🔥10000+套PPT模板合集，超划算！",
-            "url": "https://xhslink.com/m/6MLOz78h4xT",
-            "keyword": "PPT",
-            "currentSales": 4880,
-            "growth7": 147,
-            "growth30": 676,
-            "growth": 147
+            "title": "笔记同款-拍下秒发下载链接-电子资源模版【D210】",
+            "url": "https://xhslink.com/m/AdSZbAH6tL0",
+            "keyword": "模板",
+            "currentSales": 8051,
+            "growth7": 0,
+            "growth30": 1798,
+            "growth": 1798
           },
           {
-            "title": "【秒发货】卡通PPT模板，选择对应编号即可",
-            "url": "https://xhslink.com/m/4MYSzebSLhc",
+            "title": "店铺作品任选ppt一套（百度网盘接收文件）下单跟客服截图ppt",
+            "url": "https://xhslink.com/m/770qnF07Dog",
             "keyword": "PPT",
-            "currentSales": 4770,
-            "growth7": 147,
-            "growth30": 704,
-            "growth": 147
+            "currentSales": 32000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "60多款课前游戏PPT课件（拍下自动发网盘）",
+            "url": "https://xhslink.com/m/9mWDRIvG7EI",
+            "keyword": "课件",
+            "currentSales": 24000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "60多款课前游戏PPT课件（拍下自动发网盘）",
+            "url": "https://xhslink.com/m/4Cn8EmWwQAC",
+            "keyword": "资料",
+            "currentSales": 21000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "主页ppt任意挑选一套",
+            "url": "https://xhslink.com/m/3SsIfEAnsnR",
+            "keyword": "PPT",
+            "currentSales": 19000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
           }
         ],
         "keywords": [
@@ -1962,48 +1962,48 @@ const DATA = {
       },
       {
         "name": "考公资料",
-        "products": 337,
-        "shops": 201,
-        "totalSales": 1173031,
-        "avgSales": 3481,
-        "medianSales": 1746,
-        "avgPrice": 90,
+        "products": 345,
+        "shops": 206,
+        "totalSales": 1168175,
+        "avgSales": 3386,
+        "medianSales": 1732,
+        "avgPrice": 97,
         "medianPrice": 10,
-        "lowFanRate": "38.6%",
-        "productsPerShop": 1.68,
+        "lowFanRate": "37.7%",
+        "productsPerShop": 1.67,
         "competitionIndex": 34,
         "competitionLevel": "低竞争",
         "heat": "l",
         "priceBands": [
           {
             "label": "1-10元",
-            "value": 147,
-            "ratio": "43.6%"
+            "value": 150,
+            "ratio": "43.5%"
           },
           {
             "label": "10-30元",
-            "value": 88,
+            "value": 90,
             "ratio": "26.1%"
           },
           {
             "label": "30-50元",
-            "value": 22,
-            "ratio": "6.5%"
+            "value": 21,
+            "ratio": "6.1%"
           },
           {
             "label": "50-100元",
-            "value": 34,
-            "ratio": "10.1%"
+            "value": 36,
+            "ratio": "10.4%"
           },
           {
             "label": "100-200元",
             "value": 7,
-            "ratio": "2.1%"
+            "ratio": "2.0%"
           },
           {
             "label": "200元以上",
-            "value": 17,
-            "ratio": "5.0%"
+            "value": 19,
+            "ratio": "5.5%"
           }
         ],
         "growthProducts": [
@@ -2017,53 +2017,162 @@ const DATA = {
             "growth": 1839
           },
           {
-            "title": "2026河南三支一扶网课公基时政课程真题电子版全家桶持续更新",
-            "url": "https://xhslink.com/m/7UnB9JB4Mni",
+            "title": "2026常识4600问 | 国考省考行测高分必背 修正版 115页电子版 ·",
+            "url": "https://xhslink.com/m/98BiwvNm6Ea",
+            "keyword": "省考",
+            "currentSales": 10000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "25/26国考省考事业编公务员考公行测瞪哥168绝技训练营下单发短信",
+            "url": "https://www.xiaohongshu.com/goods-detail/6773547bf8c1a800013671fd?xsec_token=XB1_BTSCED8X7XhpwJLlzQgk9345ChYTvt3dI1Mmo8yes%3D&xsec_source=app_share&instation_link=xhsdiscover%3A%2F%2Fgoods_detail%2F6773547bf8c1a800013671fd%3Ftrade_ext%3DeyJjaGFubmVsSW5mbyI6bnVsbCwiZHNUb2tlbkluZm8iOm51bGwsInNoYXJlTGluayI6Imh0dHBzOi8vd3d3LnhpYW9ob25nc2h1LmNvbS9nb29kcy1kZXRhaWwvNjc3MzU0N2JmOGMxYTgwMDAxMzY3MWZkP2FwcHVpZD02ODAxYmYwZjAwMDAwMDAwMGQwMDhjNjEiLCJsaXZlSW5mbyI6bnVsbCwic2hvcEluZm8iOm51bGwsImdvb2RzTm90ZUluZm8iOm51bGwsImNoYXRJbmZvIjpudWxsLCJzZWFyY2hJbmZvIjpudWxsLCJwcmVmZXIiOm51bGx9%26rate_limit_meta%3DitemId%253D6773547bf8c1a800013671fc%26source%3D%26rn%3Dtrue&xhsshare=&appuid=6801bf0f000000000d008c61&apptime=1766419680&share_id=4fcea808d15c45b1a96fb6ca27b052b0&share_channel=copy_link",
+            "keyword": "考公",
+            "currentSales": 5734,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "2026常识4600问 | 国考省考行测高分必背  修正版 115页电子版 ·",
+            "url": "https://xhslink.com/m/1KzfRE5Cbwg",
             "keyword": "公考",
-            "currentSales": 1295,
-            "growth7": 323,
-            "growth30": 1485,
-            "growth": 323
+            "currentSales": 2557,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
           },
           {
             "title": "跟着新闻联播学申论/面试 27国考考公/遴选/事业单位/三支一扶",
             "url": "https://xhslink.com/m/1qzSjilppzs",
             "keyword": "资料",
             "currentSales": 992,
-            "growth7": 322,
-            "growth30": 1014,
-            "growth": 322
+            "growth7": 587,
+            "growth30": 1674,
+            "growth": 587
           },
           {
-            "title": "公考实战手记（电子版）",
-            "url": "https://xhslink.com/m/9M9EDq7E9Xr",
-            "keyword": "考试",
-            "currentSales": 1755,
-            "growth7": 225,
-            "growth30": 292,
-            "growth": 225
-          },
-          {
-            "title": "27国省考【数量关系资料分析默写本】百化分定制默写表速算练习题 · 备考利器：行测笔记+默写本+规范词+时评",
-            "url": "https://xhslink.com/m/3lslb9w6FgT",
-            "keyword": "省考",
-            "currentSales": 6122,
-            "growth7": 221,
-            "growth30": 707,
-            "growth": 221
-          },
-          {
-            "title": "花生十三 · 四海公考2027国省考事业单位笔试全程班",
-            "url": "https://xhslink.com/m/Ay2k8OhP1Kz",
-            "keyword": "考试",
-            "currentSales": 1195,
-            "growth7": 219,
-            "growth30": 278,
-            "growth": 219
+            "title": "26+27年超格资料分析3+2超详细笔记 pdf版（26+27年笔记已完结）",
+            "url": "https://xhslink.com/m/5XOukc2bBUj",
+            "keyword": "",
+            "currentSales": 1736,
+            "growth7": 265,
+            "growth30": 435,
+            "growth": 265
           }
         ],
         "keywords": [
           "省考",
+          "资料",
+          "山东省考"
+        ],
+        "subCategories": []
+      },
+      {
+        "name": "生活成长",
+        "products": 279,
+        "shops": 234,
+        "totalSales": 2141325,
+        "avgSales": 7675,
+        "medianSales": 1774,
+        "avgPrice": 181,
+        "medianPrice": 20,
+        "lowFanRate": "39.4%",
+        "productsPerShop": 1.19,
+        "competitionIndex": 25,
+        "competitionLevel": "低竞争",
+        "heat": "l",
+        "priceBands": [
+          {
+            "label": "1-10元",
+            "value": 105,
+            "ratio": "37.6%"
+          },
+          {
+            "label": "10-30元",
+            "value": 54,
+            "ratio": "19.4%"
+          },
+          {
+            "label": "30-50元",
+            "value": 17,
+            "ratio": "6.1%"
+          },
+          {
+            "label": "50-100元",
+            "value": 24,
+            "ratio": "8.6%"
+          },
+          {
+            "label": "100-200元",
+            "value": 19,
+            "ratio": "6.8%"
+          },
+          {
+            "label": "200元以上",
+            "value": 41,
+            "ratio": "14.7%"
+          }
+        ],
+        "growthProducts": [
+          {
+            "title": "【达人周末特惠46.6】达美乐 双披萨5选2套餐",
+            "url": "https://xhslink.com/m/2bwz1druptR",
+            "keyword": "麦当劳券",
+            "currentSales": 289000,
+            "growth7": 0,
+            "growth30": 3000,
+            "growth": 3000
+          },
+          {
+            "title": "麦当劳早餐2/3件套餐叠叠卷/麦满分/蛋堡火腿吉士蛋猪柳 门店自取",
+            "url": "https://xhslink.com/m/4wPjAwkDujc",
+            "keyword": "麦当劳券",
+            "currentSales": 20000,
+            "growth7": 0,
+            "growth30": 3000,
+            "growth": 3000
+          },
+          {
+            "title": "麦当劳 · 营养早餐2/3件套【到店用】咖啡豆浆薯饼低脂板烧鸡腿电子优惠券",
+            "url": "https://xhslink.com/m/6zbSF4ZzNN5",
+            "keyword": "麦当劳券",
+            "currentSales": 29000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "沈奕斐『松弛父母课』线上视频课程",
+            "url": "https://xhslink.com/m/Uz32qnorLz",
+            "keyword": "PPT",
+            "currentSales": 23000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "糖糖丨形象分析（面部特点分析丨妆容丨发型丨穿搭）整体形象改造",
+            "url": "https://xhslink.com/m/3BUaHMmnsXT",
+            "keyword": "性格分析",
+            "currentSales": 18000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "【悦小绒】一线悦己钩织diy手工人偶玩偶毛线材料包ob娃衣编织",
+            "url": "https://xhslink.com/m/1Tlh22SR0e0",
+            "keyword": "手工DIY教程",
+            "currentSales": 12000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          }
+        ],
+        "keywords": [
+          "未分类",
           "资料",
           "考试"
         ],
@@ -2071,104 +2180,104 @@ const DATA = {
       },
       {
         "name": "高中/高考资料",
-        "products": 271,
-        "shops": 120,
-        "totalSales": 1319097,
-        "avgSales": 4868,
+        "products": 275,
+        "shops": 122,
+        "totalSales": 1337327,
+        "avgSales": 4863,
         "medianSales": 2370,
-        "avgPrice": 40,
+        "avgPrice": 42,
         "medianPrice": 11,
-        "lowFanRate": "34.7%",
-        "productsPerShop": 2.26,
+        "lowFanRate": "34.9%",
+        "productsPerShop": 2.25,
         "competitionIndex": 39,
         "competitionLevel": "低竞争",
         "heat": "l",
         "priceBands": [
           {
             "label": "1-10元",
-            "value": 131,
-            "ratio": "48.3%"
+            "value": 133,
+            "ratio": "48.4%"
           },
           {
             "label": "10-30元",
-            "value": 55,
-            "ratio": "20.3%"
+            "value": 56,
+            "ratio": "20.4%"
           },
           {
             "label": "30-50元",
             "value": 22,
-            "ratio": "8.1%"
+            "ratio": "8.0%"
           },
           {
             "label": "50-100元",
             "value": 33,
-            "ratio": "12.2%"
+            "ratio": "12.0%"
           },
           {
             "label": "100-200元",
             "value": 18,
-            "ratio": "6.6%"
+            "ratio": "6.5%"
           },
           {
             "label": "200元以上",
-            "value": 8,
-            "ratio": "3.0%"
+            "value": 9,
+            "ratio": "3.3%"
           }
         ],
         "growthProducts": [
           {
-            "title": "历年高考真题与解析大合集电子版全国卷+地方卷全九科",
-            "url": "https://xhslink.com/m/1C0glaZdshu",
-            "keyword": "考试",
-            "currentSales": 7745,
-            "growth7": 238,
-            "growth30": 317,
-            "growth": 238
+            "title": "作文纸条 · 一看就能用的作文素材经典素材2025高中备考议论文范文写作技巧书",
+            "url": "https://xhslink.com/m/8MmJHXzHKJj",
+            "keyword": "高中",
+            "currentSales": 22000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
           },
           {
-            "title": "deli得力 · 【央视网联名款】得力无金属透明考试套装学生中考高考用文具套装",
-            "url": "https://xhslink.com/m/84vxwaelSSY",
+            "title": "作文纸条 · 一看就能用的作文素材经典素材2025高中备考议论文范文写作技巧书",
+            "url": "https://xhslink.com/m/2CgVcJS8MEQ",
+            "keyword": "高中语文",
+            "currentSales": 22000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "作文纸条 · 一看就能用的作文素材经典素材2025高中备考议论文范文写作技巧书",
+            "url": "https://xhslink.com/m/3wW2B7shsry",
+            "keyword": "作文",
+            "currentSales": 22000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "2027一数·必刷100讲 高考数学核心方法(2.0版)一数教辅一数图书",
+            "url": "https://xhslink.com/m/3D0lLe7v0Z2",
             "keyword": "公考",
-            "currentSales": 706,
-            "growth7": 188,
-            "growth30": 696,
-            "growth": 188
+            "currentSales": 15000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
           },
           {
-            "title": "2026年高考真题电子版历年文理综甲乙英语语文数学试卷新题电子版",
-            "url": "https://xhslink.com/m/9iupLSjT9oG",
-            "keyword": "高考英语",
-            "currentSales": 2528,
-            "growth7": 130,
-            "growth30": 1081,
-            "growth": 130
+            "title": "2026一数·必刷100讲 高考数学核心方法(2.0版)一数教辅一数图书",
+            "url": "https://xhslink.com/m/2sVJ5ZvNrNe",
+            "keyword": "高中数学",
+            "currentSales": 14000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
           },
           {
-            "title": "高考英语核心3500考纲词+高频词+1000短语+词性转换（电子版）",
-            "url": "https://xhslink.com/m/2sLz2On4Qht",
-            "keyword": "单词书",
-            "currentSales": 7323,
-            "growth7": 113,
-            "growth30": 113,
-            "growth": 113
-          },
-          {
-            "title": "高考英语核心3500考纲词+高频词+1000短语+词性转换（电子版）",
-            "url": "https://xhslink.com/m/Wqi5FmCJN",
-            "keyword": "",
-            "currentSales": 7335,
-            "growth7": 87,
-            "growth30": 87,
-            "growth": 87
-          },
-          {
-            "title": "历年高考真题与解析大合集电子版全国卷+地方卷全九科",
-            "url": "https://xhslink.com/m/F3g2SZ3Fwa",
-            "keyword": "资料",
-            "currentSales": 7998,
-            "growth7": 79,
-            "growth30": 79,
-            "growth": 79
+            "title": "2026一数·必刷100讲 高考数学核心方法(2.0版)一数教辅一数图书",
+            "url": "https://xhslink.com/m/96ZqNU7QuJM",
+            "keyword": "高中地理",
+            "currentSales": 12000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
           }
         ],
         "keywords": [
@@ -2179,323 +2288,214 @@ const DATA = {
         "subCategories": []
       },
       {
-        "name": "生活成长",
-        "products": 228,
-        "shops": 191,
-        "totalSales": 1998528,
-        "avgSales": 8765,
-        "medianSales": 1866,
-        "avgPrice": 176,
-        "medianPrice": 20,
-        "lowFanRate": "39.0%",
-        "productsPerShop": 1.19,
-        "competitionIndex": 24,
+        "name": "英语资料",
+        "products": 239,
+        "shops": 162,
+        "totalSales": 1379310,
+        "avgSales": 5771,
+        "medianSales": 3058,
+        "avgPrice": 209,
+        "medianPrice": 34,
+        "lowFanRate": "38.1%",
+        "productsPerShop": 1.48,
+        "competitionIndex": 27,
         "competitionLevel": "低竞争",
         "heat": "l",
         "priceBands": [
           {
             "label": "1-10元",
-            "value": 84,
-            "ratio": "36.8%"
+            "value": 61,
+            "ratio": "25.5%"
           },
           {
             "label": "10-30元",
-            "value": 46,
-            "ratio": "20.2%"
+            "value": 32,
+            "ratio": "13.4%"
           },
           {
             "label": "30-50元",
-            "value": 14,
-            "ratio": "6.1%"
+            "value": 27,
+            "ratio": "11.3%"
           },
           {
             "label": "50-100元",
-            "value": 18,
-            "ratio": "7.9%"
+            "value": 39,
+            "ratio": "16.3%"
           },
           {
             "label": "100-200元",
-            "value": 16,
-            "ratio": "7.0%"
+            "value": 23,
+            "ratio": "9.6%"
           },
           {
             "label": "200元以上",
             "value": 33,
-            "ratio": "14.5%"
+            "ratio": "13.8%"
           }
         ],
         "growthProducts": [
           {
-            "title": "网上打印/黑白/彩印/工厂直发",
-            "url": "https://xhslink.com/m/4sMEjPievv0",
-            "keyword": "可打印",
-            "currentSales": 1373,
-            "growth7": 1079,
-            "growth30": 4769,
-            "growth": 1079
+            "title": "【D209】英语四级真题（1998～2025.6）+真题详解+听力+高频词汇",
+            "url": "https://xhslink.com/m/AWhVg3S3Faq",
+            "keyword": "四级考试",
+            "currentSales": 7149,
+            "growth7": 0,
+            "growth30": 4000,
+            "growth": 4000
           },
           {
-            "title": "90 天 Token | 提醒猫CATO | 个人多维表格模板",
-            "url": "https://xhslink.com/m/3RNTpOLhMvg",
-            "keyword": "多维表格",
-            "currentSales": 577,
-            "growth7": 621,
-            "growth30": 2078,
-            "growth": 621
+            "title": "糖说英语：突破英语听说的底层逻辑+赠3天直播教学<短信开课>",
+            "url": "https://xhslink.com/m/GGO45ITftB",
+            "keyword": "英语",
+            "currentSales": 20000,
+            "growth7": 0,
+            "growth30": 3000,
+            "growth": 3000
           },
           {
-            "title": "百度网盘 · 【学生认证后下单】超级会员SVIP 月卡 填登陆手机号",
-            "url": "https://xhslink.com/m/7mR1Ixtzr2o",
-            "keyword": "会员",
-            "currentSales": 4420,
-            "growth7": 476,
-            "growth30": 476,
-            "growth": 476
+            "title": "26四六级全套备考资料包（含作文/翻译预测+词汇+蒙题技巧等）",
+            "url": "https://xhslink.com/m/88kqYPWbJsK",
+            "keyword": "资料包",
+            "currentSales": 1065,
+            "growth7": 0,
+            "growth30": 2475,
+            "growth": 2475
           },
           {
-            "title": "【社会化指南】17万字原创文档-i人社交技巧-人情世故保姆级.",
-            "url": "https://xhslink.com/m/A8792Cfl37S",
-            "keyword": "社交指南",
-            "currentSales": 874,
-            "growth7": 259,
-            "growth30": 259,
-            "growth": 259
+            "title": "猫猫侠原创｜雅思写作急救模板+系统速成 · 以上全部打包（写作最全合集） 新链接优惠中，完整版结束后涨价到99",
+            "url": "https://xhslink.com/m/9UeZ9rJ9qCN",
+            "keyword": "课件",
+            "currentSales": 29000,
+            "growth7": 0,
+            "growth30": 2000,
+            "growth": 2000
           },
           {
-            "title": "26执业药师【润+鸭】视频网课基础精讲冲刺最后八小时一本通",
-            "url": "https://xhslink.com/m/1RPVinn8Uim",
-            "keyword": "考试",
-            "currentSales": 1397,
-            "growth7": 257,
-            "growth30": 321,
-            "growth": 257
+            "title": "26年万能四级高分作文(议论文)模板AI打磨基础小众",
+            "url": "https://xhslink.com/m/9YvusAN9Zqu",
+            "keyword": "模板",
+            "currentSales": 14000,
+            "growth7": 0,
+            "growth30": 2000,
+            "growth": 2000
           },
           {
-            "title": "普通人社会化指南15万字社交资料",
-            "url": "https://xhslink.com/m/JYPPVGml7d",
-            "keyword": "社交指南",
-            "currentSales": 1228,
-            "growth7": 195,
-            "growth30": 195,
-            "growth": 195
+            "title": "100篇英语小短文 | 支持小达人小蝌蚪点读笔｜A4大开本（配音频）",
+            "url": "https://xhslink.com/m/9IxIip9GCU6",
+            "keyword": "英语",
+            "currentSales": 33000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
           }
         ],
         "keywords": [
           "资料",
-          "考试",
-          "模板"
+          "英语",
+          "雅思"
         ],
         "subCategories": []
       },
       {
-        "name": "英语资料",
-        "products": 220,
-        "shops": 154,
-        "totalSales": 1278610,
-        "avgSales": 5812,
-        "medianSales": 2988,
-        "avgPrice": 181,
-        "medianPrice": 30,
-        "lowFanRate": "38.6%",
-        "productsPerShop": 1.43,
+        "name": "求职面试/职场",
+        "products": 214,
+        "shops": 152,
+        "totalSales": 1604492,
+        "avgSales": 7498,
+        "medianSales": 2981,
+        "avgPrice": 36,
+        "medianPrice": 10,
+        "lowFanRate": "43.0%",
+        "productsPerShop": 1.41,
         "competitionIndex": 26,
         "competitionLevel": "低竞争",
         "heat": "l",
         "priceBands": [
           {
             "label": "1-10元",
-            "value": 58,
-            "ratio": "26.4%"
+            "value": 89,
+            "ratio": "41.6%"
           },
           {
             "label": "10-30元",
-            "value": 30,
-            "ratio": "13.6%"
+            "value": 44,
+            "ratio": "20.6%"
           },
           {
             "label": "30-50元",
-            "value": 27,
-            "ratio": "12.3%"
-          },
-          {
-            "label": "50-100元",
-            "value": 35,
-            "ratio": "15.9%"
-          },
-          {
-            "label": "100-200元",
-            "value": 18,
-            "ratio": "8.2%"
-          },
-          {
-            "label": "200元以上",
-            "value": 28,
-            "ratio": "12.7%"
-          }
-        ],
-        "growthProducts": [
-          {
-            "title": "四级考前冲刺抢分班（26年6月版）",
-            "url": "https://xhslink.com/m/8vHWuQmRCxY",
-            "keyword": "英语",
-            "currentSales": 905,
-            "growth7": 0,
-            "growth30": 316,
-            "growth": 316
-          },
-          {
-            "title": "2025年大学英语四六级历史真题词汇听力阅读音频冲刺电子版资料包",
-            "url": "https://xhslink.com/m/9Cq6nJzxA1Z",
-            "keyword": "四六级高频词汇速记手册",
-            "currentSales": 857,
-            "growth7": 211,
-            "growth30": 1225,
-            "growth": 211
-          },
-          {
-            "title": "2025年大学英语四六级历史真题词汇听力阅读音频冲刺电子版资料包",
-            "url": "https://xhslink.com/m/6n4T3QBu93C",
-            "keyword": "手册",
-            "currentSales": 854,
-            "growth7": 211,
-            "growth30": 1225,
-            "growth": 211
-          },
-          {
-            "title": "IELTS剑桥雅思官方4-21真题+音频+解析【持续更新中】",
-            "url": "https://xhslink.com/m/4DvMmjm1cku",
-            "keyword": "雅思资料",
-            "currentSales": 1080,
-            "growth7": 192,
-            "growth30": 192,
-            "growth": 192
-          },
-          {
-            "title": "2026雅思资料全套课程、学习计划、最新最全备考|||资料雅思资料",
-            "url": "https://xhslink.com/m/26BkwyVn9Cz",
-            "keyword": "资料",
-            "currentSales": 4935,
-            "growth7": 177,
-            "growth30": 177,
-            "growth": 177
-          },
-          {
-            "title": "学丞 · 备考26年6月考】刘晓艳四六级 单词+专项技巧视频讲解 四六级考试",
-            "url": "https://xhslink.com/m/2pkTDxmc6p0",
-            "keyword": "公考",
-            "currentSales": 2079,
-            "growth7": 135,
-            "growth30": 190,
-            "growth": 135
-          }
-        ],
-        "keywords": [
-          "资料",
-          "英语",
-          "雅思资料"
-        ],
-        "subCategories": []
-      },
-      {
-        "name": "求职面试/职场",
-        "products": 205,
-        "shops": 149,
-        "totalSales": 1554074,
-        "avgSales": 7581,
-        "medianSales": 2958,
-        "avgPrice": 33,
-        "medianPrice": 10,
-        "lowFanRate": "43.4%",
-        "productsPerShop": 1.38,
-        "competitionIndex": 25,
-        "competitionLevel": "低竞争",
-        "heat": "l",
-        "priceBands": [
-          {
-            "label": "1-10元",
-            "value": 87,
-            "ratio": "42.4%"
-          },
-          {
-            "label": "10-30元",
-            "value": 42,
-            "ratio": "20.5%"
-          },
-          {
-            "label": "30-50元",
-            "value": 14,
-            "ratio": "6.8%"
-          },
-          {
-            "label": "50-100元",
             "value": 16,
-            "ratio": "7.8%"
+            "ratio": "7.5%"
+          },
+          {
+            "label": "50-100元",
+            "value": 17,
+            "ratio": "7.9%"
           },
           {
             "label": "100-200元",
-            "value": 13,
-            "ratio": "6.3%"
+            "value": 15,
+            "ratio": "7.0%"
           },
           {
             "label": "200元以上",
-            "value": 3,
-            "ratio": "1.5%"
+            "value": 4,
+            "ratio": "1.9%"
           }
         ],
         "growthProducts": [
           {
-            "title": "个人简历模板套装word应届毕业生大学生社会求职简约电子模版通用",
-            "url": "https://xhslink.com/m/4GvJ67N7Zxy",
-            "keyword": "资料",
-            "currentSales": 6249,
-            "growth7": 478,
-            "growth30": 1785,
-            "growth": 478
-          },
-          {
-            "title": "蔡文姬结构化面试话术素材开挂手册PDF电子版话术素材",
-            "url": "https://xhslink.com/m/18OeGbYK355",
-            "keyword": "面试",
-            "currentSales": 2178,
-            "growth7": 266,
-            "growth30": 1840,
-            "growth": 266
-          },
-          {
-            "title": "保研夏令营预推免简历模板 4款简约保研简历 手机/电脑 自动发货",
-            "url": "https://xhslink.com/m/7pSBj6M55Og",
+            "title": "简历模板 笔记同款 10款HR推荐 手机/电脑编辑 无水印永久可用",
+            "url": "https://xhslink.com/m/ZNfYySdpuG",
             "keyword": "模板",
-            "currentSales": 1942,
-            "growth7": 266,
-            "growth30": 661,
-            "growth": 266
+            "currentSales": 12000,
+            "growth7": 0,
+            "growth30": 6000,
+            "growth": 6000
           },
           {
-            "title": "【秒发】大学生应届生无经验简历模板word高级简历模板大全电子版",
-            "url": "https://xhslink.com/m/7egIscr6PxS",
-            "keyword": "资料",
-            "currentSales": 3914,
-            "growth7": 262,
-            "growth30": 1122,
-            "growth": 262
+            "title": "简历模板个人求职大学生无经验应届生面试word电子版简历999套",
+            "url": "https://xhslink.com/m/6qy8NweQKMW",
+            "keyword": "电子版",
+            "currentSales": 84000,
+            "growth7": 0,
+            "growth30": 3000,
+            "growth": 3000
           },
           {
-            "title": "Agent & 后端面试资料文档，PDF&在线阅读面向实习/秋招，含项目",
-            "url": "https://xhslink.com/m/450lktWW7OH",
-            "keyword": "资料包",
-            "currentSales": 1942,
-            "growth7": 150,
-            "growth30": 251,
-            "growth": 150
+            "title": "简历模板个人求职大学生无经验应届生面试word电子版简历999套",
+            "url": "https://xhslink.com/m/8n83NVkhBYr",
+            "keyword": "简历",
+            "currentSales": 84000,
+            "growth7": 0,
+            "growth30": 3000,
+            "growth": 3000
           },
           {
-            "title": "【每日更新】26/27届春招/实习/秋招校招信息汇总表，自动秒发",
-            "url": "https://xhslink.com/m/8KsKFhbPGu3",
+            "title": "简约大厂简历-研究生留学生求职简历-24h自动发货客服聊天框",
+            "url": "https://xhslink.com/m/6qiEpWMwTvl",
             "keyword": "校招表",
-            "currentSales": 4584,
-            "growth7": 118,
-            "growth30": 308,
-            "growth": 118
+            "currentSales": 31000,
+            "growth7": 0,
+            "growth30": 2000,
+            "growth": 2000
+          },
+          {
+            "title": "通用电子表格简历模板-手机/电脑可填写-24h 自动发货M01",
+            "url": "https://xhslink.com/m/AZXCfmmu2w4",
+            "keyword": "模板",
+            "currentSales": 27000,
+            "growth7": 0,
+            "growth30": 2000,
+            "growth": 2000
+          },
+          {
+            "title": "个人简历模板大全word可编辑应届大学生毕业生求职简约通用高端",
+            "url": "https://xhslink.com/m/5VWvMULt9gv",
+            "keyword": "模板",
+            "currentSales": 124000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
           }
         ],
         "keywords": [
@@ -2507,15 +2507,15 @@ const DATA = {
       },
       {
         "name": "教资资料",
-        "products": 182,
-        "shops": 90,
-        "totalSales": 699684,
-        "avgSales": 3844,
-        "medianSales": 2696,
-        "avgPrice": 28,
+        "products": 187,
+        "shops": 92,
+        "totalSales": 717530,
+        "avgSales": 3837,
+        "medianSales": 2700,
+        "avgPrice": 34,
         "medianPrice": 13,
-        "lowFanRate": "52.2%",
-        "productsPerShop": 2.02,
+        "lowFanRate": "51.9%",
+        "productsPerShop": 2.03,
         "competitionIndex": 32,
         "competitionLevel": "低竞争",
         "heat": "l",
@@ -2523,88 +2523,88 @@ const DATA = {
           {
             "label": "1-10元",
             "value": 78,
-            "ratio": "42.9%"
+            "ratio": "41.7%"
           },
           {
             "label": "10-30元",
-            "value": 53,
-            "ratio": "29.1%"
+            "value": 55,
+            "ratio": "29.4%"
           },
           {
             "label": "30-50元",
             "value": 8,
-            "ratio": "4.4%"
+            "ratio": "4.3%"
           },
           {
             "label": "50-100元",
-            "value": 29,
-            "ratio": "15.9%"
+            "value": 31,
+            "ratio": "16.6%"
           },
           {
             "label": "100-200元",
             "value": 6,
-            "ratio": "3.3%"
+            "ratio": "3.2%"
           },
           {
             "label": "200元以上",
-            "value": 1,
-            "ratio": "0.5%"
+            "value": 2,
+            "ratio": "1.1%"
           }
         ],
         "growthProducts": [
           {
+            "title": "26教师招聘教综三色笔记＋默写本＋速记口诀＋必备人物＋思维导图",
+            "url": "https://xhslink.com/m/1kH4OM3Br3I",
+            "keyword": "老师资料",
+            "currentSales": 1781,
+            "growth7": 300,
+            "growth30": 1101,
+            "growth": 300
+          },
+          {
             "title": "26教综三色笔记＋默写本＋记忆口诀＋思维导图＋必背人物汇总",
-            "url": "https://xhslink.com/m/2Us8Y5iJqYw",
-            "keyword": "资料",
-            "currentSales": 1879,
-            "growth7": 168,
-            "growth30": 1044,
-            "growth": 168
+            "url": "https://xhslink.com/m/6v8bC5ySgOH",
+            "keyword": "",
+            "currentSales": 2868,
+            "growth7": 293,
+            "growth30": 436,
+            "growth": 293
           },
           {
             "title": "26教师招聘教综三色笔记＋默写本＋速记口诀＋必备人物＋思维导图",
             "url": "https://xhslink.com/m/gWUoBDwkgr",
             "keyword": "考试",
             "currentSales": 4929,
-            "growth7": 144,
-            "growth30": 250,
-            "growth": 144
+            "growth7": 287,
+            "growth30": 583,
+            "growth": 287
           },
           {
             "title": "26教师招聘教综三色笔记＋默写本＋速记口诀＋必备人物＋思维导图",
-            "url": "https://xhslink.com/m/1kH4OM3Br3I",
-            "keyword": "老师资料",
-            "currentSales": 1781,
-            "growth7": 130,
-            "growth30": 1114,
-            "growth": 130
+            "url": "https://xhslink.com/m/2mLQWBp4ypV",
+            "keyword": "资料",
+            "currentSales": 5154,
+            "growth7": 286,
+            "growth30": 384,
+            "growth": 286
           },
           {
-            "title": "教 师 资 格 证 笔试科三重点三色速记笔记",
-            "url": "https://xhslink.com/m/1By8Vaq5kna",
-            "keyword": "老师资料",
-            "currentSales": 8873,
-            "growth7": 127,
-            "growth30": 436,
-            "growth": 127
+            "title": "26教师招聘教综三色笔记＋默写本＋速记口诀＋必备人物＋思维导图",
+            "url": "https://xhslink.com/m/2WBEI3D9ReK",
+            "keyword": "",
+            "currentSales": 5130,
+            "growth7": 286,
+            "growth30": 384,
+            "growth": 286
           },
           {
-            "title": "教 师 资 格 证 笔试科三重点三色速记笔记",
-            "url": "https://xhslink.com/m/4xW87crqTUK",
-            "keyword": "教务资料",
-            "currentSales": 8784,
-            "growth7": 127,
-            "growth30": 436,
-            "growth": 127
-          },
-          {
-            "title": "教 师 资 格 证 笔试科三重点三色速记笔记",
-            "url": "https://xhslink.com/m/3XtNdDvoOYf",
-            "keyword": "教师资格培训",
-            "currentSales": 5663,
-            "growth7": 127,
-            "growth30": 436,
-            "growth": 127
+            "title": "26教综三色笔记＋默写本＋记忆口诀＋思维导图＋必背人物汇总",
+            "url": "https://xhslink.com/m/2Us8Y5iJqYw",
+            "keyword": "资料",
+            "currentSales": 1879,
+            "growth7": 260,
+            "growth30": 1304,
+            "growth": 260
           }
         ],
         "keywords": [
@@ -2616,51 +2616,60 @@ const DATA = {
       },
       {
         "name": "设计素材",
-        "products": 147,
-        "shops": 124,
-        "totalSales": 810477,
-        "avgSales": 5513,
-        "medianSales": 2818,
-        "avgPrice": 54,
+        "products": 162,
+        "shops": 137,
+        "totalSales": 890316,
+        "avgSales": 5496,
+        "medianSales": 2228,
+        "avgPrice": 58,
         "medianPrice": 8,
-        "lowFanRate": "27.2%",
-        "productsPerShop": 1.19,
+        "lowFanRate": "24.7%",
+        "productsPerShop": 1.18,
         "competitionIndex": 21,
         "competitionLevel": "低竞争",
         "heat": "l",
         "priceBands": [
           {
             "label": "1-10元",
-            "value": 91,
-            "ratio": "61.9%"
+            "value": 96,
+            "ratio": "59.3%"
           },
           {
             "label": "10-30元",
-            "value": 23,
-            "ratio": "15.6%"
+            "value": 28,
+            "ratio": "17.3%"
           },
           {
             "label": "30-50元",
-            "value": 4,
-            "ratio": "2.7%"
+            "value": 5,
+            "ratio": "3.1%"
           },
           {
             "label": "50-100元",
-            "value": 7,
-            "ratio": "4.8%"
+            "value": 8,
+            "ratio": "4.9%"
           },
           {
             "label": "100-200元",
-            "value": 1,
-            "ratio": "0.7%"
+            "value": 3,
+            "ratio": "1.9%"
           },
           {
             "label": "200元以上",
-            "value": 12,
-            "ratio": "8.2%"
+            "value": 13,
+            "ratio": "8.0%"
           }
         ],
         "growthProducts": [
+          {
+            "title": "婚礼跟拍帮P图人像婚纱照精修 全家福修图 旅游照 登记照 日常照 · 日常双人",
+            "url": "https://xhslink.com/m/3tQ4gY8F2xg",
+            "keyword": "壁纸",
+            "currentSales": 8880,
+            "growth7": 0,
+            "growth30": 1077,
+            "growth": 1077
+          },
           {
             "title": "海怪纸纹模板2 通用画布",
             "url": "https://xhslink.com/m/RgVqCj18to",
@@ -2671,49 +2680,40 @@ const DATA = {
             "growth": 1073
           },
           {
-            "title": "照片打印冲洗宝宝照片学生照片手机照片塑封高清超清照片墙",
-            "url": "https://xhslink.com/m/APSyBHxQmhi",
-            "keyword": "可打印",
-            "currentSales": 3712,
-            "growth7": 363,
-            "growth30": 2657,
-            "growth": 363
+            "title": "自然感修图单人一张36H返图 还原美貌真诚待人可修到满意",
+            "url": "https://xhslink.com/m/1G9yyA2NPrq",
+            "keyword": "修图服务",
+            "currentSales": 44000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "林馆长iPhone电影级调色LUT【模板】合集2，iPhone11-17适用/",
+            "url": "https://xhslink.com/m/N0ESQSgRzA",
+            "keyword": "模板",
+            "currentSales": 13000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
           },
           {
             "title": "精修照片修图写真专业网感p图修图PS网红精修专业PS人像美颜处理 · 自然微修",
             "url": "https://xhslink.com/m/6TO8tUmkOoY",
             "keyword": "壁纸",
             "currentSales": 1270,
-            "growth7": 287,
-            "growth30": 440,
-            "growth": 287
+            "growth7": 233,
+            "growth30": 835,
+            "growth": 233
           },
           {
             "title": "全部滤镜照片视频实况滤镜模板底片调色滤镜模板预设素材模板",
             "url": "https://xhslink.com/m/9Ha6IxiwBRb",
             "keyword": "模板",
             "currentSales": 2969,
-            "growth7": 234,
-            "growth30": 899,
-            "growth": 234
-          },
-          {
-            "title": "相机复古胶片和CCD效果滤镜手机拍照参数预设模板素材",
-            "url": "https://xhslink.com/m/ADEinT4fkGE",
-            "keyword": "模板",
-            "currentSales": 2818,
-            "growth7": 0,
-            "growth30": 104,
-            "growth": 104
-          },
-          {
-            "title": "打包200款俱乐部套图可画模板含：价格表 礼物单 预存卡 等等",
-            "url": "https://xhslink.com/m/5UnB8o3HpWy",
-            "keyword": "模板",
-            "currentSales": 3400,
-            "growth7": 92,
-            "growth30": 285,
-            "growth": 92
+            "growth7": 203,
+            "growth30": 1216,
+            "growth": 203
           }
         ],
         "keywords": [
@@ -2725,14 +2725,14 @@ const DATA = {
       },
       {
         "name": "考研资料",
-        "products": 131,
-        "shops": 96,
-        "totalSales": 661186,
-        "avgSales": 5047,
+        "products": 133,
+        "shops": 98,
+        "totalSales": 666708,
+        "avgSales": 5013,
         "medianSales": 2740,
         "avgPrice": 42,
         "medianPrice": 10,
-        "lowFanRate": "56.5%",
+        "lowFanRate": "55.6%",
         "productsPerShop": 1.36,
         "competitionIndex": 22,
         "competitionLevel": "低竞争",
@@ -2741,22 +2741,22 @@ const DATA = {
           {
             "label": "1-10元",
             "value": 60,
-            "ratio": "45.8%"
+            "ratio": "45.1%"
           },
           {
             "label": "10-30元",
-            "value": 29,
-            "ratio": "22.1%"
+            "value": 30,
+            "ratio": "22.6%"
           },
           {
             "label": "30-50元",
             "value": 9,
-            "ratio": "6.9%"
+            "ratio": "6.8%"
           },
           {
             "label": "50-100元",
-            "value": 12,
-            "ratio": "9.2%"
+            "value": 13,
+            "ratio": "9.8%"
           },
           {
             "label": "100-200元",
@@ -2766,63 +2766,63 @@ const DATA = {
           {
             "label": "200元以上",
             "value": 6,
-            "ratio": "4.6%"
+            "ratio": "4.5%"
           }
         ],
         "growthProducts": [
+          {
+            "title": "智泓 · 2027考研英语真题英语一英语二历年真题试卷管综西综数学政治刷题",
+            "url": "https://xhslink.com/m/4pqbuSEEBas",
+            "keyword": "考研",
+            "currentSales": 43000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "考研数据考研拟录取名单复试名单分数线复试方案考研择校考研调剂",
+            "url": "https://xhslink.com/m/5qnoxpPnIyQ",
+            "keyword": "考研",
+            "currentSales": 20000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "考研数据考研拟录取名单复试名单分数线复试方案考研择校考研调剂",
+            "url": "https://xhslink.com/m/4gN89cy1sOA",
+            "keyword": "考研",
+            "currentSales": 14000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "27考研英语红宝书单词带背营",
+            "url": "https://xhslink.com/m/6sKsTod0R5T",
+            "keyword": "教辅资料",
+            "currentSales": 12000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
           {
             "title": "27乘风考点一本通徐涛强化班+肖1000融合笔记电子版知识服务带学",
             "url": "https://xhslink.com/m/5FWdfeIlQFB",
             "keyword": "考试",
             "currentSales": 1191,
-            "growth7": 573,
-            "growth30": 742,
-            "growth": 573
+            "growth7": 671,
+            "growth30": 1654,
+            "growth": 671
           },
           {
             "title": "27考研英语核心词汇5500思维导图PDF电子版及100句背单词 · 思维导图+100个句子（送词汇表）",
             "url": "https://xhslink.com/m/8zy0pJqz3Xn",
             "keyword": "考研",
             "currentSales": 2740,
-            "growth7": 314,
-            "growth30": 723,
-            "growth": 314
-          },
-          {
-            "title": "27考研政治刷题资料更新肖四肖八腿8徐6米鹏强化押题解析最新都有",
-            "url": "https://xhslink.com/m/5vqv9tkDaz3",
-            "keyword": "教辅资料",
-            "currentSales": 5118,
-            "growth7": 167,
-            "growth30": 167,
-            "growth": 167
-          },
-          {
-            "title": "考研历年真题考研英语考研数学考研政治199管综408计算机等",
-            "url": "https://xhslink.com/m/4fzqgwewEI8",
-            "keyword": "考研政治",
-            "currentSales": 1816,
-            "growth7": 150,
-            "growth30": 670,
-            "growth": 150
-          },
-          {
-            "title": "27考研英语全年规划+督学+资料",
-            "url": "https://xhslink.com/m/9R5LFSkToLW",
-            "keyword": "考研",
-            "currentSales": 391,
-            "growth7": 108,
-            "growth30": 430,
-            "growth": 108
-          },
-          {
-            "title": "27考研英语全年规划+督学+资料",
-            "url": "https://xhslink.com/m/1GDdjkVjKfz",
-            "keyword": "资料",
-            "currentSales": 437,
-            "growth7": 104,
-            "growth30": 365,
-            "growth": 104
+            "growth7": 260,
+            "growth30": 1119,
+            "growth": 260
           }
         ],
         "keywords": [
@@ -2834,213 +2834,213 @@ const DATA = {
       },
       {
         "name": "老师资料",
-        "products": 107,
-        "shops": 83,
-        "totalSales": 318072,
-        "avgSales": 2973,
-        "medianSales": 2207,
-        "avgPrice": 33,
+        "products": 111,
+        "shops": 85,
+        "totalSales": 342749,
+        "avgSales": 3088,
+        "medianSales": 2507,
+        "avgPrice": 31,
         "medianPrice": 10,
-        "lowFanRate": "43.9%",
-        "productsPerShop": 1.29,
-        "competitionIndex": 20,
-        "competitionLevel": "低竞争",
-        "heat": "l",
-        "priceBands": [
-          {
-            "label": "1-10元",
-            "value": 63,
-            "ratio": "58.9%"
-          },
-          {
-            "label": "10-30元",
-            "value": 17,
-            "ratio": "15.9%"
-          },
-          {
-            "label": "30-50元",
-            "value": 11,
-            "ratio": "10.3%"
-          },
-          {
-            "label": "50-100元",
-            "value": 11,
-            "ratio": "10.3%"
-          },
-          {
-            "label": "100-200元",
-            "value": 2,
-            "ratio": "1.9%"
-          },
-          {
-            "label": "200元以上",
-            "value": 2,
-            "ratio": "1.9%"
-          }
-        ],
-        "growthProducts": [
-          {
-            "title": "语文教师编分模块练习，语文题海，语文积累包",
-            "url": "https://xhslink.com/m/4sctmmqWsEh",
-            "keyword": "考试",
-            "currentSales": 4160,
-            "growth7": 138,
-            "growth30": 196,
-            "growth": 138
-          },
-          {
-            "title": "2026年最新小学语文面试、评职称情境任务群无生试讲稿和配套教案",
-            "url": "https://xhslink.com/m/8aotTBwYIcp",
-            "keyword": "公考",
-            "currentSales": 4102,
-            "growth7": 96,
-            "growth30": 287,
-            "growth": 96
-          },
-          {
-            "title": "2026年最新小学语文面试、评职称情境任务群无生试讲稿和配套教案",
-            "url": "https://xhslink.com/m/6M8xRvscmK0",
-            "keyword": "资料",
-            "currentSales": 4070,
-            "growth7": 96,
-            "growth30": 323,
-            "growth": 96
-          },
-          {
-            "title": "26春初中语文教材梳理备考教师资格证教师招聘用PDF半年有效",
-            "url": "https://xhslink.com/m/7lHLQ5A9GLI",
-            "keyword": "教辅资料",
-            "currentSales": 1954,
-            "growth7": 83,
-            "growth30": 83,
-            "growth": 83
-          },
-          {
-            "title": "2026班主任基本功大赛情景答辩带班育人方略中小学素材案例文件",
-            "url": "https://xhslink.com/m/2hW7RlORtKt",
-            "keyword": "班主任资料",
-            "currentSales": 3294,
-            "growth7": 63,
-            "growth30": 63,
-            "growth": 63
-          },
-          {
-            "title": "语文教师编分模块练习，语文题海，语文积累包",
-            "url": "https://xhslink.com/m/2yTFO8fS6et",
-            "keyword": "",
-            "currentSales": 4289,
-            "growth7": 46,
-            "growth30": 46,
-            "growth": 46
-          }
-        ],
-        "keywords": [
-          "家长会",
-          "PPT",
-          "老师资料"
-        ],
-        "subCategories": []
-      },
-      {
-        "name": "幼教资料",
-        "products": 66,
-        "shops": 45,
-        "totalSales": 292332,
-        "avgSales": 4429,
-        "medianSales": 3637,
-        "avgPrice": 114,
-        "medianPrice": 15,
-        "lowFanRate": "51.5%",
-        "productsPerShop": 1.47,
+        "lowFanRate": "43.2%",
+        "productsPerShop": 1.31,
         "competitionIndex": 21,
         "competitionLevel": "低竞争",
         "heat": "l",
         "priceBands": [
           {
             "label": "1-10元",
-            "value": 30,
-            "ratio": "45.5%"
+            "value": 64,
+            "ratio": "57.7%"
           },
           {
             "label": "10-30元",
-            "value": 11,
-            "ratio": "16.7%"
+            "value": 17,
+            "ratio": "15.3%"
           },
           {
             "label": "30-50元",
-            "value": 6,
-            "ratio": "9.1%"
+            "value": 12,
+            "ratio": "10.8%"
           },
           {
             "label": "50-100元",
             "value": 13,
-            "ratio": "19.7%"
+            "ratio": "11.7%"
           },
           {
             "label": "100-200元",
-            "value": 1,
-            "ratio": "1.5%"
+            "value": 2,
+            "ratio": "1.8%"
           },
           {
             "label": "200元以上",
-            "value": 5,
-            "ratio": "7.6%"
+            "value": 2,
+            "ratio": "1.8%"
           }
         ],
         "growthProducts": [
           {
-            "title": "幼儿园原创丨班本资料（持续更新资料中.....）",
-            "url": "https://xhslink.com/m/9jGnoUG2UOr",
-            "keyword": "教辅资料",
-            "currentSales": 1088,
-            "growth7": 149,
-            "growth30": 149,
-            "growth": 149
+            "title": "精品课（送教案，备注课名）",
+            "url": "https://xhslink.com/m/6Wx6CDg9UlI",
+            "keyword": "教程",
+            "currentSales": 10000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
           },
           {
-            "title": "【出版社直发】彩虹糖幼儿英语启蒙绘本 新东方 2-4-6岁",
-            "url": "https://xhslink.com/m/6Lx4OeLv7Py",
-            "keyword": "幼儿资料",
-            "currentSales": 5068,
-            "growth7": 118,
-            "growth30": 522,
-            "growth": 118
+            "title": "批改邦周卡7天，语文英语老师必备",
+            "url": "https://xhslink.com/m/8WnsHCv8h9I",
+            "keyword": "语文",
+            "currentSales": 375,
+            "growth7": 163,
+            "growth30": 204,
+            "growth": 163
+          },
+          {
+            "title": "语文教师编分模块练习，语文题海，语文积累包",
+            "url": "https://xhslink.com/m/4sctmmqWsEh",
+            "keyword": "考试",
+            "currentSales": 4160,
+            "growth7": 114,
+            "growth30": 357,
+            "growth": 114
+          },
+          {
+            "title": "语文教师编分模块练习，语文题海，语文积累包",
+            "url": "https://xhslink.com/m/2yTFO8fS6et",
+            "keyword": "",
+            "currentSales": 4289,
+            "growth7": 111,
+            "growth30": 207,
+            "growth": 111
+          },
+          {
+            "title": "26春初中语文教材梳理备考教师资格证教师招聘用PDF半年有效",
+            "url": "https://xhslink.com/m/wNDZ7ioaTT",
+            "keyword": "资料",
+            "currentSales": 2000,
+            "growth7": 86,
+            "growth30": 163,
+            "growth": 86
+          },
+          {
+            "title": "26春初中语文教材梳理备考教师资格证教师招聘用PDF半年有效",
+            "url": "https://xhslink.com/m/7lHLQ5A9GLI",
+            "keyword": "教辅资料",
+            "currentSales": 1954,
+            "growth7": 86,
+            "growth30": 213,
+            "growth": 86
+          }
+        ],
+        "keywords": [
+          "家长会",
+          "PPT",
+          "课件"
+        ],
+        "subCategories": []
+      },
+      {
+        "name": "幼教资料",
+        "products": 75,
+        "shops": 50,
+        "totalSales": 341213,
+        "avgSales": 4550,
+        "medianSales": 3636,
+        "avgPrice": 104,
+        "medianPrice": 15,
+        "lowFanRate": "53.3%",
+        "productsPerShop": 1.5,
+        "competitionIndex": 22,
+        "competitionLevel": "低竞争",
+        "heat": "l",
+        "priceBands": [
+          {
+            "label": "1-10元",
+            "value": 34,
+            "ratio": "45.3%"
+          },
+          {
+            "label": "10-30元",
+            "value": 11,
+            "ratio": "14.7%"
+          },
+          {
+            "label": "30-50元",
+            "value": 8,
+            "ratio": "10.7%"
+          },
+          {
+            "label": "50-100元",
+            "value": 16,
+            "ratio": "21.3%"
+          },
+          {
+            "label": "100-200元",
+            "value": 1,
+            "ratio": "1.3%"
+          },
+          {
+            "label": "200元以上",
+            "value": 5,
+            "ratio": "6.7%"
+          }
+        ],
+        "growthProducts": [
+          {
+            "title": "童宝奇 · 0～3岁宝宝早教启蒙《宝宝好习惯养成亲子推拉书》（全10册）",
+            "url": "https://xhslink.com/m/vygx74d0sK",
+            "keyword": "启蒙",
+            "currentSales": 28000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "洗照片照片打印高清冲印洗印照片相册打印照片幼儿园宝宝学生照片",
+            "url": "https://xhslink.com/m/z80vU5AGiQ",
+            "keyword": "可打印",
+            "currentSales": 14000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
           },
           {
             "title": "005 幼儿识字1300字 通关检测表（拼音&无拼音），非实物",
             "url": "https://xhslink.com/m/4dIl3IZglas",
             "keyword": "电子版",
             "currentSales": 6784,
-            "growth7": 106,
-            "growth30": 520,
-            "growth": 106
+            "growth7": 180,
+            "growth30": 606,
+            "growth": 180
           },
           {
-            "title": "幼儿园原创丨游戏案例资料（持续更新资料中....）",
-            "url": "https://xhslink.com/m/4kdDV0cH4aI",
+            "title": "幼儿园原创丨班本资料（持续更新资料中.....）",
+            "url": "https://xhslink.com/m/9jGnoUG2UOr",
             "keyword": "教辅资料",
-            "currentSales": 1367,
-            "growth7": 90,
-            "growth30": 90,
-            "growth": 90
+            "currentSales": 1088,
+            "growth7": 178,
+            "growth30": 378,
+            "growth": 178
           },
           {
-            "title": "幼儿园游戏案例课件文稿可修改",
-            "url": "https://xhslink.com/m/49Wa4YjK3Ko",
-            "keyword": "课件",
-            "currentSales": 4353,
-            "growth7": 83,
-            "growth30": 361,
-            "growth": 83
+            "title": "【出版社直发】彩虹糖幼儿英语启蒙绘本 新东方 2-4-6岁",
+            "url": "https://xhslink.com/m/6Lx4OeLv7Py",
+            "keyword": "幼儿资料",
+            "currentSales": 5068,
+            "growth7": 128,
+            "growth30": 561,
+            "growth": 128
           },
           {
-            "title": "03-幼儿识字启蒙，1500字看图识字卡，直映闪卡，电子版可打印",
-            "url": "https://xhslink.com/m/ADL96U4LDa6",
-            "keyword": "可打印",
-            "currentSales": 1767,
-            "growth7": 79,
-            "growth30": 445,
-            "growth": 79
+            "title": "3-6岁幼儿趣味数学思维练习册一日一练幼小衔接数感启蒙练习专项",
+            "url": "https://xhslink.com/m/2aMZwwmWkfc",
+            "keyword": "",
+            "currentSales": 3658,
+            "growth7": 92,
+            "growth30": 150,
+            "growth": 92
           }
         ],
         "keywords": [
@@ -3052,133 +3052,187 @@ const DATA = {
       },
       {
         "name": "软件应用",
-        "products": 47,
-        "shops": 39,
-        "totalSales": 223891,
-        "avgSales": 4764,
-        "medianSales": 2463,
-        "avgPrice": 48,
-        "medianPrice": 10,
-        "lowFanRate": "59.6%",
-        "productsPerShop": 1.21,
+        "products": 56,
+        "shops": 47,
+        "totalSales": 238590,
+        "avgSales": 4261,
+        "medianSales": 2349,
+        "avgPrice": 62,
+        "medianPrice": 17,
+        "lowFanRate": "53.6%",
+        "productsPerShop": 1.19,
         "competitionIndex": 17,
         "competitionLevel": "低竞争",
         "heat": "l",
         "priceBands": [
           {
             "label": "1-10元",
-            "value": 21,
-            "ratio": "44.7%"
+            "value": 23,
+            "ratio": "41.1%"
           },
           {
             "label": "10-30元",
-            "value": 10,
-            "ratio": "21.3%"
+            "value": 11,
+            "ratio": "19.6%"
           },
           {
             "label": "30-50元",
-            "value": 4,
-            "ratio": "8.5%"
+            "value": 5,
+            "ratio": "8.9%"
           },
           {
             "label": "50-100元",
             "value": 5,
-            "ratio": "10.6%"
+            "ratio": "8.9%"
           },
           {
             "label": "100-200元",
-            "value": 3,
-            "ratio": "6.4%"
+            "value": 6,
+            "ratio": "10.7%"
           },
           {
             "label": "200元以上",
-            "value": 2,
-            "ratio": "4.3%"
+            "value": 4,
+            "ratio": "7.1%"
           }
         ],
         "growthProducts": [
           {
-            "title": "王佩丰196节Excel实战大全-合集（下单后留意短信）",
-            "url": "https://xhslink.com/m/7NAqlrLeU7g",
-            "keyword": "Excel函数实操包",
-            "currentSales": 6933,
-            "growth7": 42,
-            "growth30": 245,
-            "growth": 42
+            "title": "Adobe全家桶PS软件套装Win+Mac设计办公软件电子资源模板",
+            "url": "https://xhslink.com/m/8OU1yDHykPX",
+            "keyword": "App",
+            "currentSales": 973,
+            "growth7": 336,
+            "growth30": 336,
+            "growth": 336
+          },
+          {
+            "title": "78x78智能拼豆板带电池软件预售顺丰包邮",
+            "url": "https://xhslink.com/m/5MyXmQs5vVU",
+            "keyword": "App",
+            "currentSales": 4170,
+            "growth7": 209,
+            "growth30": 209,
+            "growth": 209
           },
           {
             "title": "工作中常用的Excel案例练习题含答案与解析",
             "url": "https://xhslink.com/m/1wHHblnuOe",
             "keyword": "资料",
             "currentSales": 7938,
-            "growth7": 35,
-            "growth30": 35,
-            "growth": 35
+            "growth7": 175,
+            "growth30": 254,
+            "growth": 175
           },
           {
-            "title": "【真题伴侣会员】考研/四六级高效刷题必备神器宝藏APP真题伴侣",
-            "url": "https://xhslink.com/m/4OYQE13U7bs",
-            "keyword": "六级答案",
-            "currentSales": 5826,
-            "growth7": 9,
-            "growth30": 243,
-            "growth": 9
+            "title": "剪映 ·VIP会员/SVIP会员周卡月卡年卡·视频剪辑模版素材",
+            "url": "https://xhslink.com/m/L5eQk9bU22",
+            "keyword": "App",
+            "currentSales": 3524,
+            "growth7": 60,
+            "growth30": 60,
+            "growth": 60
+          },
+          {
+            "title": "三眼歪仔-定制款三眼仔大脸电子体重称/可选择是否连接app/充电款",
+            "url": "https://xhslink.com/m/45JlYfb1Jfi",
+            "keyword": "App",
+            "currentSales": 151,
+            "growth7": 23,
+            "growth30": 23,
+            "growth": 23
+          },
+          {
+            "title": "雪梨老师 单词 拼读王 APP会员",
+            "url": "https://xhslink.com/m/2R4s4xRqxCO",
+            "keyword": "App",
+            "currentSales": 165,
+            "growth7": 22,
+            "growth30": 22,
+            "growth": 22
           }
         ],
         "keywords": [
+          "App",
           "键盘皮肤",
-          "资料",
-          "快捷指令"
+          "资料"
         ],
         "subCategories": []
       },
       {
         "name": "AI",
-        "products": 41,
-        "shops": 33,
-        "totalSales": 155902,
-        "avgSales": 3802,
-        "medianSales": 1965,
-        "avgPrice": 148,
+        "products": 46,
+        "shops": 36,
+        "totalSales": 251252,
+        "avgSales": 5462,
+        "medianSales": 1967,
+        "avgPrice": 146,
         "medianPrice": 20,
-        "lowFanRate": "43.9%",
-        "productsPerShop": 1.24,
-        "competitionIndex": 17,
+        "lowFanRate": "41.3%",
+        "productsPerShop": 1.28,
+        "competitionIndex": 18,
         "competitionLevel": "低竞争",
         "heat": "l",
         "priceBands": [
           {
             "label": "1-10元",
-            "value": 11,
-            "ratio": "26.8%"
+            "value": 13,
+            "ratio": "28.3%"
           },
           {
             "label": "10-30元",
-            "value": 12,
-            "ratio": "29.3%"
+            "value": 13,
+            "ratio": "28.3%"
           },
           {
             "label": "30-50元",
             "value": 1,
-            "ratio": "2.4%"
+            "ratio": "2.2%"
           },
           {
             "label": "50-100元",
             "value": 1,
-            "ratio": "2.4%"
+            "ratio": "2.2%"
           },
           {
             "label": "100-200元",
-            "value": 4,
-            "ratio": "9.8%"
+            "value": 5,
+            "ratio": "10.9%"
           },
           {
             "label": "200元以上",
-            "value": 10,
-            "ratio": "24.4%"
+            "value": 11,
+            "ratio": "23.9%"
           }
         ],
         "growthProducts": [
+          {
+            "title": "像素蛋糕 · AI修图月卡40张修图张数一次性到账直播专用",
+            "url": "https://xhslink.com/m/wwwvPfSafy",
+            "keyword": "App",
+            "currentSales": 6759,
+            "growth7": 914,
+            "growth30": 914,
+            "growth": 914
+          },
+          {
+            "title": "像素蛋糕 · AI修图年卡500张修图张数一次性到账不可结转直播专用",
+            "url": "https://xhslink.com/m/32m7Neu1F67",
+            "keyword": "App",
+            "currentSales": 3048,
+            "growth7": 98,
+            "growth30": 98,
+            "growth": 98
+          },
+          {
+            "title": "3天AI自动化智能体实战课｜AI绘画AI视频AI漫剧多种AI应用教学",
+            "url": "https://xhslink.com/m/49CpWgO7iEe",
+            "keyword": "App",
+            "currentSales": 1111,
+            "growth7": 62,
+            "growth30": 62,
+            "growth": 62
+          },
           {
             "title": "使用A*i工具一键生成动漫/动画视频教程",
             "url": "https://xhslink.com/m/4AqKpE4R4QK",
@@ -3198,170 +3252,61 @@ const DATA = {
             "growth": 52
           },
           {
-            "title": "AI Agent 大模型工程师八股知识库（持续更新ing）",
-            "url": "https://xhslink.com/m/5Heyy59o9dS",
-            "keyword": "AI",
-            "currentSales": 1693,
-            "growth7": 49,
-            "growth30": 303,
-            "growth": 49
-          },
-          {
-            "title": "白得拼Baidepin · 医智赢MDWIN写文书办公辅助书写助手ai工具人工智能手机热点蓝牙",
-            "url": "https://xhslink.com/m/9Lt1WgdKY9y",
-            "keyword": "AI",
-            "currentSales": 2357,
-            "growth7": 32,
-            "growth30": 199,
-            "growth": 32
-          },
-          {
-            "title": "白得拼Baidepin · 医智赢MDWIN写文书办公辅助书写助手ai工具人工智能手机热点蓝牙",
-            "url": "https://xhslink.com/m/8TZb67aS0sx",
-            "keyword": "电子资料",
-            "currentSales": 1627,
-            "growth7": 32,
-            "growth30": 199,
-            "growth": 32
-          },
-          {
-            "title": "白得拼Baidepin · 医智赢MDWIN写文书办公辅助书写助手ai工具人工智能手机热点蓝牙",
-            "url": "https://xhslink.com/m/397DjyiIWgp",
-            "keyword": "AI工具",
-            "currentSales": 1107,
-            "growth7": 32,
-            "growth30": 199,
-            "growth": 32
+            "title": "让我们用AI重构UX的每一步",
+            "url": "https://xhslink.com/m/fFy8v9RPH3",
+            "keyword": "App",
+            "currentSales": 415,
+            "growth7": 43,
+            "growth30": 43,
+            "growth": 43
           }
         ],
         "keywords": [
           "AI",
-          "AI工具",
-          "多维表格"
-        ],
-        "subCategories": []
-      },
-      {
-        "name": "咨询服务",
-        "products": 24,
-        "shops": 23,
-        "totalSales": 178842,
-        "avgSales": 7452,
-        "medianSales": 4058,
-        "avgPrice": 276,
-        "medianPrice": 44,
-        "lowFanRate": "41.7%",
-        "productsPerShop": 1.04,
-        "competitionIndex": 14,
-        "competitionLevel": "低竞争",
-        "heat": "l",
-        "priceBands": [
-          {
-            "label": "1-10元",
-            "value": 9,
-            "ratio": "37.5%"
-          },
-          {
-            "label": "10-30元",
-            "value": 2,
-            "ratio": "8.3%"
-          },
-          {
-            "label": "30-50元",
-            "value": 0,
-            "ratio": "0.0%"
-          },
-          {
-            "label": "50-100元",
-            "value": 5,
-            "ratio": "20.8%"
-          },
-          {
-            "label": "100-200元",
-            "value": 1,
-            "ratio": "4.2%"
-          },
-          {
-            "label": "200元以上",
-            "value": 6,
-            "ratio": "25.0%"
-          }
-        ],
-        "growthProducts": [
-          {
-            "title": "考试照片合规处理（承诺不通过可退款购买前先联系客服）",
-            "url": "https://xhslink.com/m/3qq866KqoE",
-            "keyword": "考试",
-            "currentSales": 649,
-            "growth7": 70,
-            "growth30": 102,
-            "growth": 70
-          },
-          {
-            "title": "思维训练营【重点专题】一",
-            "url": "https://xhslink.com/m/9HyFxo4hG75",
-            "keyword": "算数",
-            "currentSales": 977,
-            "growth7": 39,
-            "growth30": 108,
-            "growth": 39
-          },
-          {
-            "title": "韩语1V1线上TOPIK考级商务追星兴趣真人直播授课（可选老师）",
-            "url": "https://xhslink.com/m/2Ob51OuBJav",
-            "keyword": "考试",
-            "currentSales": 364,
-            "growth7": 12,
-            "growth30": 19,
-            "growth": 12
-          }
-        ],
-        "keywords": [
-          "报告",
-          "资料",
-          "测试"
+          "App",
+          "AI工具"
         ],
         "subCategories": []
       },
       {
         "name": "头像壁纸",
-        "products": 23,
-        "shops": 20,
-        "totalSales": 57025,
-        "avgSales": 2479,
-        "medianSales": 1368,
-        "avgPrice": 28,
+        "products": 45,
+        "shops": 39,
+        "totalSales": 130490,
+        "avgSales": 2900,
+        "medianSales": 1348,
+        "avgPrice": 21,
         "medianPrice": 5,
-        "lowFanRate": "30.4%",
+        "lowFanRate": "24.4%",
         "productsPerShop": 1.15,
-        "competitionIndex": 15,
+        "competitionIndex": 16,
         "competitionLevel": "低竞争",
         "heat": "l",
         "priceBands": [
           {
             "label": "1-10元",
-            "value": 14,
-            "ratio": "60.9%"
+            "value": 27,
+            "ratio": "60.0%"
           },
           {
             "label": "10-30元",
-            "value": 1,
-            "ratio": "4.3%"
+            "value": 6,
+            "ratio": "13.3%"
           },
           {
             "label": "30-50元",
             "value": 3,
-            "ratio": "13.0%"
+            "ratio": "6.7%"
           },
           {
             "label": "50-100元",
-            "value": 1,
-            "ratio": "4.3%"
+            "value": 2,
+            "ratio": "4.4%"
           },
           {
             "label": "100-200元",
             "value": 2,
-            "ratio": "8.7%"
+            "ratio": "4.4%"
           },
           {
             "label": "200元以上",
@@ -3375,38 +3320,165 @@ const DATA = {
             "url": "https://xhslink.com/m/z6MM4yoiVs",
             "keyword": "壁纸",
             "currentSales": 6757,
-            "growth7": 104,
-            "growth30": 218,
-            "growth": 104
+            "growth7": 88,
+            "growth30": 354,
+            "growth": 88
+          },
+          {
+            "title": "515比奇堡路人鱼手机平板电脑壁纸，（锁屏+桌面），4k高清原图",
+            "url": "https://xhslink.com/m/2LHj7A37zfB",
+            "keyword": "网盘发货",
+            "currentSales": 891,
+            "growth7": 16,
+            "growth30": 16,
+            "growth": 16
+          },
+          {
+            "title": "157星星人少焦虑手表壁纸，4张，4k高清原图",
+            "url": "https://xhslink.com/m/hdPb2tBqYJ",
+            "keyword": "网盘发货",
+            "currentSales": 512,
+            "growth7": 13,
+            "growth30": 13,
+            "growth": 13
           },
           {
             "title": "壁纸模商使权)夏日模板伪吧唧oc制品壁纸模-烂南牌",
             "url": "https://xhslink.com/m/3e7dqUQHToT",
             "keyword": "模板",
             "currentSales": 440,
-            "growth7": 26,
-            "growth30": 74,
-            "growth": 26
+            "growth7": 12,
+            "growth30": 97,
+            "growth": 12
+          },
+          {
+            "title": "【会用再拍丨自动发货】佳#215-本帐号的使用者是只小猫 赠壁纸*4",
+            "url": "https://xhslink.com/m/6ZhryGlApOS",
+            "keyword": "网盘发货",
+            "currentSales": 1726,
+            "growth7": 5,
+            "growth30": 5,
+            "growth": 5
+          },
+          {
+            "title": "131星星人粉色卡通手机平板电脑壁纸，（锁屏+桌面），4k高清原图",
+            "url": "https://xhslink.com/m/8ELoRNgfRfO",
+            "keyword": "网盘发货",
+            "currentSales": 1501,
+            "growth7": 4,
+            "growth30": 4,
+            "growth": 4
           }
         ],
         "keywords": [
+          "虚拟产品",
           "键盘皮肤",
-          "红包封面",
-          "头像壁纸"
+          "网盘发货"
+        ],
+        "subCategories": []
+      },
+      {
+        "name": "咨询服务",
+        "products": 25,
+        "shops": 24,
+        "totalSales": 180777,
+        "avgSales": 7231,
+        "medianSales": 3802,
+        "avgPrice": 272,
+        "medianPrice": 60,
+        "lowFanRate": "44.0%",
+        "productsPerShop": 1.04,
+        "competitionIndex": 14,
+        "competitionLevel": "低竞争",
+        "heat": "l",
+        "priceBands": [
+          {
+            "label": "1-10元",
+            "value": 9,
+            "ratio": "36.0%"
+          },
+          {
+            "label": "10-30元",
+            "value": 2,
+            "ratio": "8.0%"
+          },
+          {
+            "label": "30-50元",
+            "value": 0,
+            "ratio": "0.0%"
+          },
+          {
+            "label": "50-100元",
+            "value": 5,
+            "ratio": "20.0%"
+          },
+          {
+            "label": "100-200元",
+            "value": 2,
+            "ratio": "8.0%"
+          },
+          {
+            "label": "200元以上",
+            "value": 6,
+            "ratio": "24.0%"
+          }
+        ],
+        "growthProducts": [
+          {
+            "title": "个人学习办公远程指导服务",
+            "url": "https://xhslink.com/m/1Tw9HNuyHlH",
+            "keyword": "App",
+            "currentSales": 1935,
+            "growth7": 53,
+            "growth30": 53,
+            "growth": 53
+          },
+          {
+            "title": "思维训练营【重点专题】一",
+            "url": "https://xhslink.com/m/9HyFxo4hG75",
+            "keyword": "算数",
+            "currentSales": 977,
+            "growth7": 29,
+            "growth30": 144,
+            "growth": 29
+          },
+          {
+            "title": "考试照片合规处理（承诺不通过可退款购买前先联系客服）",
+            "url": "https://xhslink.com/m/3qq866KqoE",
+            "keyword": "考试",
+            "currentSales": 649,
+            "growth7": 25,
+            "growth30": 143,
+            "growth": 25
+          },
+          {
+            "title": "韩语1V1线上TOPIK考级商务追星兴趣真人直播授课（可选老师）",
+            "url": "https://xhslink.com/m/2Ob51OuBJav",
+            "keyword": "考试",
+            "currentSales": 364,
+            "growth7": 17,
+            "growth30": 36,
+            "growth": 17
+          }
+        ],
+        "keywords": [
+          "报告",
+          "资料",
+          "测试"
         ],
         "subCategories": []
       },
       {
         "name": "会计资料",
-        "products": 17,
-        "shops": 13,
-        "totalSales": 116758,
-        "avgSales": 6868,
-        "medianSales": 1733,
-        "avgPrice": 59,
-        "medianPrice": 15,
-        "lowFanRate": "47.1%",
-        "productsPerShop": 1.31,
+        "products": 18,
+        "shops": 14,
+        "totalSales": 131980,
+        "avgSales": 7332,
+        "medianSales": 1865,
+        "avgPrice": 55,
+        "medianPrice": 12,
+        "lowFanRate": "44.4%",
+        "productsPerShop": 1.29,
         "competitionIndex": 17,
         "competitionLevel": "低竞争",
         "heat": "l",
@@ -3414,32 +3486,32 @@ const DATA = {
           {
             "label": "1-10元",
             "value": 4,
-            "ratio": "23.5%"
+            "ratio": "22.2%"
           },
           {
             "label": "10-30元",
             "value": 3,
-            "ratio": "17.6%"
+            "ratio": "16.7%"
           },
           {
             "label": "30-50元",
             "value": 1,
-            "ratio": "5.9%"
+            "ratio": "5.6%"
           },
           {
             "label": "50-100元",
             "value": 2,
-            "ratio": "11.8%"
+            "ratio": "11.1%"
           },
           {
             "label": "100-200元",
             "value": 2,
-            "ratio": "11.8%"
+            "ratio": "11.1%"
           },
           {
             "label": "200元以上",
             "value": 1,
-            "ratio": "5.9%"
+            "ratio": "5.6%"
           }
         ],
         "growthProducts": [
@@ -3448,27 +3520,27 @@ const DATA = {
             "url": "https://xhslink.com/m/4j1yu91x4JC",
             "keyword": "资料",
             "currentSales": 7430,
-            "growth7": 128,
-            "growth30": 538,
-            "growth": 128
+            "growth7": 175,
+            "growth30": 718,
+            "growth": 175
           },
           {
             "title": "2026证券从业备考网课+讲义课件",
             "url": "https://xhslink.com/m/1KD0rQTC6Jq",
             "keyword": "教辅资料",
             "currentSales": 657,
-            "growth7": 70,
-            "growth30": 70,
-            "growth": 70
+            "growth7": 121,
+            "growth30": 213,
+            "growth": 121
           },
           {
             "title": "纸质2026初级经济师中级经济师武小唐经济基础课程纸质试卷讲义",
-            "url": "https://xhslink.com/m/4CDW2mmB0qg",
-            "keyword": "公考",
-            "currentSales": 3468,
-            "growth7": 59,
-            "growth30": 175,
-            "growth": 59
+            "url": "https://xhslink.com/m/9elKhRHf0Nn",
+            "keyword": "",
+            "currentSales": 3690,
+            "growth7": 12,
+            "growth30": 12,
+            "growth": 12
           }
         ],
         "keywords": [
@@ -3481,15 +3553,15 @@ const DATA = {
       {
         "name": "大学资料",
         "products": 17,
-        "shops": 14,
-        "totalSales": 56185,
-        "avgSales": 3305,
+        "shops": 15,
+        "totalSales": 57053,
+        "avgSales": 3356,
         "medianSales": 2705,
         "avgPrice": 6,
-        "medianPrice": 6,
-        "lowFanRate": "52.9%",
-        "productsPerShop": 1.21,
-        "competitionIndex": 16,
+        "medianPrice": 5,
+        "lowFanRate": "58.8%",
+        "productsPerShop": 1.13,
+        "competitionIndex": 15,
         "competitionLevel": "低竞争",
         "heat": "l",
         "priceBands": [
@@ -3526,37 +3598,55 @@ const DATA = {
         ],
         "growthProducts": [
           {
+            "title": "最新写作/全网零重/笔记内容策划书完整版案例一百篇",
+            "url": "https://xhslink.com/m/7dbsx28Dw72",
+            "keyword": "资料",
+            "currentSales": 12000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
             "title": "小卷m经济学资料～拒绝恶意差评，保证内容原版，可提供购买记录",
             "url": "https://xhslink.com/m/268H2pFkfrc",
             "keyword": "资料",
             "currentSales": 4147,
-            "growth7": 81,
-            "growth30": 81,
-            "growth": 81
+            "growth7": 239,
+            "growth30": 409,
+            "growth": 239
+          },
+          {
+            "title": "23版《毛概》最新期末复习重点|word+pdf|可打印|可编辑|下单秒发",
+            "url": "https://xhslink.com/m/1IRAjkPemjb",
+            "keyword": "可打印",
+            "currentSales": 3944,
+            "growth7": 83,
+            "growth30": 83,
+            "growth": 83
           },
           {
             "title": "浙江专升本高数语文英语真题历年真题及答案解析老师人工教案",
             "url": "https://xhslink.com/m/4JgIzs5ylST",
             "keyword": "升本",
             "currentSales": 2796,
-            "growth7": 9,
-            "growth30": 29,
-            "growth": 9
+            "growth7": 15,
+            "growth30": 49,
+            "growth": 15
           },
           {
-            "title": "超全的保研文书资料(全新升级3.0版本)，买到就是赚到！",
-            "url": "https://xhslink.com/m/4DvJZjQ2JN9",
+            "title": "儿科学 景晴 第十版 n成新",
+            "url": "https://xhslink.com/m/ouV6Q08xbZ",
             "keyword": "",
-            "currentSales": 3076,
-            "growth7": 7,
-            "growth30": 7,
-            "growth": 7
+            "currentSales": 1079,
+            "growth7": 10,
+            "growth30": 20,
+            "growth": 10
           }
         ],
         "keywords": [
           "大学资料",
           "资料",
-          "未分类"
+          "pdf"
         ],
         "subCategories": []
       },
@@ -3608,13 +3698,31 @@ const DATA = {
         ],
         "growthProducts": [
           {
+            "title": "摇醒实验室 · 全勤全返-品牌设计训练营",
+            "url": "https://xhslink.com/m/8wervVbwL8P",
+            "keyword": "资料",
+            "currentSales": 10000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "对外汉语小白训练营手册",
+            "url": "https://xhslink.com/m/37WtLECbXWU",
+            "keyword": "手册",
+            "currentSales": 8557,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
             "title": "当当网 · 做号 个人IP创作手册 当x专享印签版",
             "url": "https://xhslink.com/m/4vHa6nr34nU",
             "keyword": "手册",
             "currentSales": 406,
-            "growth7": 10,
-            "growth30": 10,
-            "growth": 10
+            "growth7": 23,
+            "growth30": 51,
+            "growth": 23
           }
         ],
         "keywords": [
@@ -3626,28 +3734,28 @@ const DATA = {
       },
       {
         "name": "司法考试",
-        "products": 8,
-        "shops": 7,
-        "totalSales": 7893,
-        "avgSales": 987,
-        "medianSales": 906,
-        "avgPrice": 49,
-        "medianPrice": 8,
-        "lowFanRate": "37.5%",
-        "productsPerShop": 1.14,
-        "competitionIndex": 15,
+        "products": 9,
+        "shops": 8,
+        "totalSales": 14945,
+        "avgSales": 1661,
+        "medianSales": 911,
+        "avgPrice": 44,
+        "medianPrice": 6,
+        "lowFanRate": "33.3%",
+        "productsPerShop": 1.13,
+        "competitionIndex": 14,
         "competitionLevel": "低竞争",
         "heat": "l",
         "priceBands": [
           {
             "label": "1-10元",
             "value": 5,
-            "ratio": "62.5%"
+            "ratio": "55.6%"
           },
           {
             "label": "10-30元",
             "value": 2,
-            "ratio": "25.0%"
+            "ratio": "22.2%"
           },
           {
             "label": "30-50元",
@@ -3667,7 +3775,7 @@ const DATA = {
           {
             "label": "200元以上",
             "value": 1,
-            "ratio": "12.5%"
+            "ratio": "11.1%"
           }
         ],
         "growthProducts": [
@@ -3676,9 +3784,18 @@ const DATA = {
             "url": "https://xhslink.com/m/2yfjaOQ23xz",
             "keyword": "公考",
             "currentSales": 818,
-            "growth7": 106,
-            "growth30": 293,
-            "growth": 106
+            "growth7": 92,
+            "growth30": 415,
+            "growth": 92
+          },
+          {
+            "title": "方圆众合教育 · 26法考【刑法+民法】双科总则重难点串讲（思维导图）PDF",
+            "url": "https://xhslink.com/m/3Y202pVkoA9",
+            "keyword": "",
+            "currentSales": 7052,
+            "growth7": 86,
+            "growth30": 86,
+            "growth": 86
           }
         ],
         "keywords": [
@@ -3690,14 +3807,14 @@ const DATA = {
       },
       {
         "name": "无匹配类别",
-        "products": 2,
-        "shops": 2,
-        "totalSales": 3848,
-        "avgSales": 1924,
-        "medianSales": 1924,
-        "avgPrice": 109,
-        "medianPrice": 109,
-        "lowFanRate": "50.0%",
+        "products": 6,
+        "shops": 6,
+        "totalSales": 10577,
+        "avgSales": 1763,
+        "medianSales": 1467,
+        "avgPrice": 68,
+        "medianPrice": 35,
+        "lowFanRate": "33.3%",
         "productsPerShop": 1,
         "competitionIndex": 13,
         "competitionLevel": "低竞争",
@@ -3705,18 +3822,18 @@ const DATA = {
         "priceBands": [
           {
             "label": "1-10元",
-            "value": 0,
-            "ratio": "0.0%"
+            "value": 2,
+            "ratio": "33.3%"
           },
           {
             "label": "10-30元",
-            "value": 0,
-            "ratio": "0.0%"
+            "value": 1,
+            "ratio": "16.7%"
           },
           {
             "label": "30-50元",
             "value": 1,
-            "ratio": "50.0%"
+            "ratio": "16.7%"
           },
           {
             "label": "50-100元",
@@ -3725,8 +3842,8 @@ const DATA = {
           },
           {
             "label": "100-200元",
-            "value": 1,
-            "ratio": "50.0%"
+            "value": 2,
+            "ratio": "33.3%"
           },
           {
             "label": "200元以上",
@@ -3734,9 +3851,39 @@ const DATA = {
             "ratio": "0.0%"
           }
         ],
-        "growthProducts": [],
+        "growthProducts": [
+          {
+            "title": "通用现实表现模板/可编辑电子版/wrod文件/自行打印",
+            "url": "https://xhslink.com/m/5laXi8AMSv0",
+            "keyword": "可打印",
+            "currentSales": 1594,
+            "growth7": 154,
+            "growth30": 154,
+            "growth": 154
+          },
+          {
+            "title": "2026执业药师网课中药西药师姜雅刘丹仇牧韩旭正版视频课程精讲课",
+            "url": "https://xhslink.com/m/1sTU6xKU48M",
+            "keyword": "冲刺",
+            "currentSales": 2789,
+            "growth7": 23,
+            "growth30": 23,
+            "growth": 23
+          },
+          {
+            "title": "2026最新导游词+中英导游证笔试面试备考资料面试200问PDF/电子版",
+            "url": "https://xhslink.com/m/JezZHFSaf5",
+            "keyword": "",
+            "currentSales": 2696,
+            "growth7": 8,
+            "growth30": 8,
+            "growth": 8
+          }
+        ],
         "keywords": [
-          "冲刺"
+          "冲刺",
+          "网盘发货",
+          "可打印"
         ],
         "subCategories": []
       },
@@ -3796,129 +3943,129 @@ const DATA = {
     "categoryProducts": [
       {
         "label": "中小学教辅/教材",
-        "value": 1276
+        "value": 1323
       },
       {
         "label": "PPT模板",
-        "value": 468
+        "value": 493
       },
       {
         "label": "考公资料",
-        "value": 337
-      },
-      {
-        "label": "高中/高考资料",
-        "value": 271
+        "value": 345
       },
       {
         "label": "生活成长",
-        "value": 228
+        "value": 279
+      },
+      {
+        "label": "高中/高考资料",
+        "value": 275
       },
       {
         "label": "英语资料",
-        "value": 220
+        "value": 239
       },
       {
         "label": "求职面试/职场",
-        "value": 205
+        "value": 214
       },
       {
         "label": "教资资料",
-        "value": 182
+        "value": 187
       },
       {
         "label": "设计素材",
-        "value": 147
+        "value": 162
       },
       {
         "label": "考研资料",
-        "value": 131
+        "value": 133
       },
       {
         "label": "老师资料",
-        "value": 107
+        "value": 111
       },
       {
         "label": "幼教资料",
-        "value": 66
+        "value": 75
       }
     ],
     "keywords": [
       {
-        "text": "资料",
-        "count": 242,
-        "category": "中小学教辅/教材",
-        "avgSales": 6927,
+        "text": "PPT",
+        "count": 252,
+        "category": "PPT模板",
+        "avgSales": 3772,
         "level": "hot"
       },
       {
-        "text": "PPT",
-        "count": 232,
-        "category": "PPT模板",
-        "avgSales": 3964,
+        "text": "资料",
+        "count": 233,
+        "category": "中小学教辅/教材",
+        "avgSales": 6935,
         "level": "hot"
       },
       {
         "text": "课件",
-        "count": 147,
+        "count": 141,
         "category": "中小学教辅/教材",
-        "avgSales": 4555,
+        "avgSales": 4514,
         "level": "hot"
       },
       {
         "text": "模板",
-        "count": 146,
+        "count": 136,
         "category": "PPT模板",
-        "avgSales": 5473,
+        "avgSales": 5144,
         "level": "hot"
       },
       {
         "text": "小学资料",
-        "count": 80,
+        "count": 78,
         "category": "中小学教辅/教材",
-        "avgSales": 4447,
-        "level": "hot"
-      },
-      {
-        "text": "考试",
-        "count": 80,
-        "category": "考公资料",
-        "avgSales": 2555,
-        "level": "hot"
-      },
-      {
-        "text": "教辅资料",
-        "count": 77,
-        "category": "中小学教辅/教材",
-        "avgSales": 3967,
-        "level": "hot"
-      },
-      {
-        "text": "老师资料",
-        "count": 73,
-        "category": "中小学教辅/教材",
-        "avgSales": 5811,
-        "level": "hot"
-      },
-      {
-        "text": "省考",
-        "count": 72,
-        "category": "考公资料",
-        "avgSales": 3110,
-        "level": "hot"
-      },
-      {
-        "text": "电子版",
-        "count": 66,
-        "category": "中小学教辅/教材",
-        "avgSales": 8130,
+        "avgSales": 4479,
         "level": "hot"
       },
       {
         "text": "素材",
-        "count": 60,
+        "count": 72,
         "category": "设计素材",
-        "avgSales": 4314,
+        "avgSales": 4428,
+        "level": "hot"
+      },
+      {
+        "text": "教辅资料",
+        "count": 71,
+        "category": "中小学教辅/教材",
+        "avgSales": 3671,
+        "level": "hot"
+      },
+      {
+        "text": "省考",
+        "count": 70,
+        "category": "考公资料",
+        "avgSales": 2986,
+        "level": "hot"
+      },
+      {
+        "text": "老师资料",
+        "count": 69,
+        "category": "中小学教辅/教材",
+        "avgSales": 5816,
+        "level": "hot"
+      },
+      {
+        "text": "考试",
+        "count": 69,
+        "category": "考公资料",
+        "avgSales": 2469,
+        "level": "hot"
+      },
+      {
+        "text": "电子版",
+        "count": 65,
+        "category": "中小学教辅/教材",
+        "avgSales": 8039,
         "level": "hot"
       },
       {
@@ -3936,17 +4083,24 @@ const DATA = {
         "level": "warm"
       },
       {
-        "text": "公考",
-        "count": 51,
-        "category": "考公资料",
-        "avgSales": 7788,
+        "text": "可打印",
+        "count": 53,
+        "category": "生活成长",
+        "avgSales": 3320,
         "level": "warm"
       },
       {
-        "text": "英语",
-        "count": 48,
-        "category": "英语资料",
-        "avgSales": 4665,
+        "text": "手抄报",
+        "count": 53,
+        "category": "中小学教辅/教材",
+        "avgSales": 1500,
+        "level": "warm"
+      },
+      {
+        "text": "公考",
+        "count": 50,
+        "category": "考公资料",
+        "avgSales": 7875,
         "level": "warm"
       },
       {
@@ -3957,17 +4111,10 @@ const DATA = {
         "level": "warm"
       },
       {
-        "text": "初中数学资料",
+        "text": "英语",
         "count": 45,
-        "category": "中小学教辅/教材",
-        "avgSales": 4445,
-        "level": "warm"
-      },
-      {
-        "text": "中考资料",
-        "count": 45,
-        "category": "中小学教辅/教材",
-        "avgSales": 2186,
+        "category": "英语资料",
+        "avgSales": 4659,
         "level": "warm"
       },
       {
@@ -3978,6 +4125,13 @@ const DATA = {
         "level": "warm"
       },
       {
+        "text": "初中数学资料",
+        "count": 44,
+        "category": "中小学教辅/教材",
+        "avgSales": 4492,
+        "level": "warm"
+      },
+      {
         "text": "学科资料",
         "count": 43,
         "category": "中小学教辅/教材",
@@ -3985,24 +4139,24 @@ const DATA = {
         "level": "warm"
       },
       {
+        "text": "网盘发货",
+        "count": 43,
+        "category": "中小学教辅/教材",
+        "avgSales": 2248,
+        "level": "warm"
+      },
+      {
+        "text": "中考资料",
+        "count": 43,
+        "category": "中小学教辅/教材",
+        "avgSales": 2144,
+        "level": "warm"
+      },
+      {
         "text": "小升初",
-        "count": 42,
+        "count": 41,
         "category": "中小学教辅/教材",
-        "avgSales": 2674,
-        "level": "warm"
-      },
-      {
-        "text": "初中英语",
-        "count": 42,
-        "category": "中小学教辅/教材",
-        "avgSales": 2568,
-        "level": "warm"
-      },
-      {
-        "text": "作文",
-        "count": 40,
-        "category": "中小学教辅/教材",
-        "avgSales": 4360,
+        "avgSales": 2496,
         "level": "warm"
       },
       {
@@ -4013,10 +4167,17 @@ const DATA = {
         "level": "warm"
       },
       {
-        "text": "高中数学",
-        "count": 37,
-        "category": "高中/高考资料",
-        "avgSales": 5187,
+        "text": "初中英语",
+        "count": 39,
+        "category": "中小学教辅/教材",
+        "avgSales": 2557,
+        "level": "warm"
+      },
+      {
+        "text": "作文",
+        "count": 38,
+        "category": "中小学教辅/教材",
+        "avgSales": 4429,
         "level": "warm"
       },
       {
@@ -4027,10 +4188,10 @@ const DATA = {
         "level": "warm"
       },
       {
-        "text": "手抄报",
+        "text": "高中数学",
         "count": 36,
-        "category": "中小学教辅/教材",
-        "avgSales": 1740,
+        "category": "高中/高考资料",
+        "avgSales": 4942,
         "level": "warm"
       },
       {
@@ -4039,20 +4200,6 @@ const DATA = {
         "category": "PPT模板",
         "avgSales": 1552,
         "level": "warm"
-      },
-      {
-        "text": "电子资料",
-        "count": 35,
-        "category": "中小学教辅/教材",
-        "avgSales": 7650,
-        "level": "warm"
-      },
-      {
-        "text": "考研英语",
-        "count": 35,
-        "category": "考研资料",
-        "avgSales": 4700,
-        "level": "warm"
       }
     ],
     "growthByCategory": [
@@ -4060,58 +4207,58 @@ const DATA = {
         "name": "中小学教辅/教材",
         "products": [
           {
-            "title": "学丞 · 刘晓艳初中英语58篇阅读记2000个单词刘晓艳初中英语单词",
-            "url": "https://xhslink.com/m/5ZagoNod3wr",
-            "keyword": "初中",
-            "currentSales": 1876,
-            "growth7": 621,
-            "growth30": 1038,
-            "growth": 621
+            "title": "2025秋季新版一二三四五六上语文单元专项期末复习课件练习考试卷",
+            "url": "https://xhslink.com/m/8n4qpS1tqWJ",
+            "keyword": "期末复习课件",
+            "currentSales": 22000,
+            "growth7": 0,
+            "growth30": 5000,
+            "growth": 5000
           },
           {
-            "title": "2026年新版小升初复习资料（拍对应专题的选项）【PDF电子资料】",
-            "url": "https://xhslink.com/m/57kvvN3RQd7",
-            "keyword": "考试",
-            "currentSales": 2066,
-            "growth7": 611,
-            "growth30": 897,
-            "growth": 611
+            "title": "【原创现货】学生作业日日清活页本·学习计划打卡错题整理自律本",
+            "url": "https://xhslink.com/m/1aFw2Z0ulSq",
+            "keyword": "学习打卡",
+            "currentSales": 373,
+            "growth7": 0,
+            "growth30": 4000,
+            "growth": 4000
           },
           {
-            "title": "2026年新版小升初复习资料（拍对应专题的选项）【PDF电子资料】",
-            "url": "https://xhslink.com/m/3mSzcBmNbCS",
-            "keyword": "资料",
-            "currentSales": 875,
-            "growth7": 611,
-            "growth30": 2170,
-            "growth": 611
+            "title": "网友红领巾题本（同步至最新）",
+            "url": "https://xhslink.com/m/4WG4ZovzoRR",
+            "keyword": "公考",
+            "currentSales": 99000,
+            "growth7": 0,
+            "growth30": 2000,
+            "growth": 2000
           },
           {
-            "title": "2026年新版小升初复习资料（拍对应专题的选项）【PDF电子资料】",
-            "url": "https://xhslink.com/m/8OljXKNJC8W",
-            "keyword": "小升初",
-            "currentSales": 771,
-            "growth7": 611,
-            "growth30": 2215,
-            "growth": 611
+            "title": "一本 · 【预备3-6年级下册】紧扣26新教材寒假28天预习规划赠视频讲解",
+            "url": "https://xhslink.com/m/97JnpiRySoO",
+            "keyword": "老师资料",
+            "currentSales": 22000,
+            "growth7": 0,
+            "growth30": 2000,
+            "growth": 2000
           },
           {
-            "title": "2026年新版小升初复习资料（拍对应专题的选项）【PDF电子资料】",
-            "url": "https://xhslink.com/m/7EjuFvA2IcP",
-            "keyword": "教辅资料",
-            "currentSales": 2501,
-            "growth7": 539,
-            "growth30": 539,
-            "growth": 539
+            "title": "华理社 · 【现货】初中+高中英语时文阅读提分训练3+X 小升初 789年级 中考",
+            "url": "https://xhslink.com/m/7cpFcaU44Y7",
+            "keyword": "高中英语",
+            "currentSales": 7383,
+            "growth7": 0,
+            "growth30": 1804,
+            "growth": 1804
           },
           {
-            "title": "新版五套期末测试卷/数学语文英语/123456年级下册/PDF电子版",
-            "url": "https://xhslink.com/m/7arZWvHUVFl",
-            "keyword": "",
-            "currentSales": 1755,
-            "growth7": 510,
-            "growth30": 510,
-            "growth": 510
+            "title": "华理社 · 【现货】初中+高中英语时文阅读提分训练3+X 小升初 789年级 中考",
+            "url": "https://xhslink.com/m/7f3FBERNrBk",
+            "keyword": "中考资料",
+            "currentSales": 7211,
+            "growth7": 0,
+            "growth30": 1804,
+            "growth": 1804
           }
         ]
       },
@@ -4119,58 +4266,58 @@ const DATA = {
         "name": "PPT模板",
         "products": [
           {
-            "title": "蓝色班委述职报告PPT模板通用演示文稿",
-            "url": "https://xhslink.com/m/5zPeezn1O2Y",
-            "keyword": "模板",
-            "currentSales": 2244,
-            "growth7": 195,
-            "growth30": 585,
-            "growth": 195
-          },
-          {
-            "title": "小红书最火的PPT模板40款",
-            "url": "https://xhslink.com/m/9U8e1lSqg86",
-            "keyword": "模板",
-            "currentSales": 1563,
-            "growth7": 189,
-            "growth30": 647,
-            "growth": 189
-          },
-          {
-            "title": "PPT倒计时器插件软件免安装适用于各种比赛演讲活动ppt计时素材",
-            "url": "https://xhslink.com/m/3MHHYwd5A7y",
-            "keyword": "模板",
-            "currentSales": 4661,
-            "growth7": 166,
-            "growth30": 1093,
-            "growth": 166
-          },
-          {
-            "title": "绿色渐变清新英语小组汇报ppt模板/15页",
-            "url": "https://xhslink.com/m/AmsuGyXt3X5",
+            "title": "15000+ppt【水彩】【古风】【卡通】【简约】【红色精神】",
+            "url": "https://xhslink.com/m/3UjohpaFnu6",
             "keyword": "PPT",
-            "currentSales": 853,
-            "growth7": 152,
-            "growth30": 749,
-            "growth": 152
+            "currentSales": 11000,
+            "growth7": 0,
+            "growth30": 2000,
+            "growth": 2000
           },
           {
-            "title": "【秒发货】卡通PPT模板，选择对应编号即可 · 🔥10000+套PPT模板合集，超划算！",
-            "url": "https://xhslink.com/m/6MLOz78h4xT",
-            "keyword": "PPT",
-            "currentSales": 4880,
-            "growth7": 147,
-            "growth30": 676,
-            "growth": 147
+            "title": "笔记同款-拍下秒发下载链接-电子资源模版【D210】",
+            "url": "https://xhslink.com/m/AdSZbAH6tL0",
+            "keyword": "模板",
+            "currentSales": 8051,
+            "growth7": 0,
+            "growth30": 1798,
+            "growth": 1798
           },
           {
-            "title": "【秒发货】卡通PPT模板，选择对应编号即可",
-            "url": "https://xhslink.com/m/4MYSzebSLhc",
+            "title": "店铺作品任选ppt一套（百度网盘接收文件）下单跟客服截图ppt",
+            "url": "https://xhslink.com/m/770qnF07Dog",
             "keyword": "PPT",
-            "currentSales": 4770,
-            "growth7": 147,
-            "growth30": 704,
-            "growth": 147
+            "currentSales": 32000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "60多款课前游戏PPT课件（拍下自动发网盘）",
+            "url": "https://xhslink.com/m/9mWDRIvG7EI",
+            "keyword": "课件",
+            "currentSales": 24000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "60多款课前游戏PPT课件（拍下自动发网盘）",
+            "url": "https://xhslink.com/m/4Cn8EmWwQAC",
+            "keyword": "资料",
+            "currentSales": 21000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "主页ppt任意挑选一套",
+            "url": "https://xhslink.com/m/3SsIfEAnsnR",
+            "keyword": "PPT",
+            "currentSales": 19000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
           }
         ]
       },
@@ -4187,108 +4334,49 @@ const DATA = {
             "growth": 1839
           },
           {
-            "title": "2026河南三支一扶网课公基时政课程真题电子版全家桶持续更新",
-            "url": "https://xhslink.com/m/7UnB9JB4Mni",
+            "title": "2026常识4600问 | 国考省考行测高分必背 修正版 115页电子版 ·",
+            "url": "https://xhslink.com/m/98BiwvNm6Ea",
+            "keyword": "省考",
+            "currentSales": 10000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "25/26国考省考事业编公务员考公行测瞪哥168绝技训练营下单发短信",
+            "url": "https://www.xiaohongshu.com/goods-detail/6773547bf8c1a800013671fd?xsec_token=XB1_BTSCED8X7XhpwJLlzQgk9345ChYTvt3dI1Mmo8yes%3D&xsec_source=app_share&instation_link=xhsdiscover%3A%2F%2Fgoods_detail%2F6773547bf8c1a800013671fd%3Ftrade_ext%3DeyJjaGFubmVsSW5mbyI6bnVsbCwiZHNUb2tlbkluZm8iOm51bGwsInNoYXJlTGluayI6Imh0dHBzOi8vd3d3LnhpYW9ob25nc2h1LmNvbS9nb29kcy1kZXRhaWwvNjc3MzU0N2JmOGMxYTgwMDAxMzY3MWZkP2FwcHVpZD02ODAxYmYwZjAwMDAwMDAwMGQwMDhjNjEiLCJsaXZlSW5mbyI6bnVsbCwic2hvcEluZm8iOm51bGwsImdvb2RzTm90ZUluZm8iOm51bGwsImNoYXRJbmZvIjpudWxsLCJzZWFyY2hJbmZvIjpudWxsLCJwcmVmZXIiOm51bGx9%26rate_limit_meta%3DitemId%253D6773547bf8c1a800013671fc%26source%3D%26rn%3Dtrue&xhsshare=&appuid=6801bf0f000000000d008c61&apptime=1766419680&share_id=4fcea808d15c45b1a96fb6ca27b052b0&share_channel=copy_link",
+            "keyword": "考公",
+            "currentSales": 5734,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "2026常识4600问 | 国考省考行测高分必背  修正版 115页电子版 ·",
+            "url": "https://xhslink.com/m/1KzfRE5Cbwg",
             "keyword": "公考",
-            "currentSales": 1295,
-            "growth7": 323,
-            "growth30": 1485,
-            "growth": 323
+            "currentSales": 2557,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
           },
           {
             "title": "跟着新闻联播学申论/面试 27国考考公/遴选/事业单位/三支一扶",
             "url": "https://xhslink.com/m/1qzSjilppzs",
             "keyword": "资料",
             "currentSales": 992,
-            "growth7": 322,
-            "growth30": 1014,
-            "growth": 322
+            "growth7": 587,
+            "growth30": 1674,
+            "growth": 587
           },
           {
-            "title": "公考实战手记（电子版）",
-            "url": "https://xhslink.com/m/9M9EDq7E9Xr",
-            "keyword": "考试",
-            "currentSales": 1755,
-            "growth7": 225,
-            "growth30": 292,
-            "growth": 225
-          },
-          {
-            "title": "27国省考【数量关系资料分析默写本】百化分定制默写表速算练习题 · 备考利器：行测笔记+默写本+规范词+时评",
-            "url": "https://xhslink.com/m/3lslb9w6FgT",
-            "keyword": "省考",
-            "currentSales": 6122,
-            "growth7": 221,
-            "growth30": 707,
-            "growth": 221
-          },
-          {
-            "title": "花生十三 · 四海公考2027国省考事业单位笔试全程班",
-            "url": "https://xhslink.com/m/Ay2k8OhP1Kz",
-            "keyword": "考试",
-            "currentSales": 1195,
-            "growth7": 219,
-            "growth30": 278,
-            "growth": 219
-          }
-        ]
-      },
-      {
-        "name": "高中/高考资料",
-        "products": [
-          {
-            "title": "历年高考真题与解析大合集电子版全国卷+地方卷全九科",
-            "url": "https://xhslink.com/m/1C0glaZdshu",
-            "keyword": "考试",
-            "currentSales": 7745,
-            "growth7": 238,
-            "growth30": 317,
-            "growth": 238
-          },
-          {
-            "title": "deli得力 · 【央视网联名款】得力无金属透明考试套装学生中考高考用文具套装",
-            "url": "https://xhslink.com/m/84vxwaelSSY",
-            "keyword": "公考",
-            "currentSales": 706,
-            "growth7": 188,
-            "growth30": 696,
-            "growth": 188
-          },
-          {
-            "title": "2026年高考真题电子版历年文理综甲乙英语语文数学试卷新题电子版",
-            "url": "https://xhslink.com/m/9iupLSjT9oG",
-            "keyword": "高考英语",
-            "currentSales": 2528,
-            "growth7": 130,
-            "growth30": 1081,
-            "growth": 130
-          },
-          {
-            "title": "高考英语核心3500考纲词+高频词+1000短语+词性转换（电子版）",
-            "url": "https://xhslink.com/m/2sLz2On4Qht",
-            "keyword": "单词书",
-            "currentSales": 7323,
-            "growth7": 113,
-            "growth30": 113,
-            "growth": 113
-          },
-          {
-            "title": "高考英语核心3500考纲词+高频词+1000短语+词性转换（电子版）",
-            "url": "https://xhslink.com/m/Wqi5FmCJN",
+            "title": "26+27年超格资料分析3+2超详细笔记 pdf版（26+27年笔记已完结）",
+            "url": "https://xhslink.com/m/5XOukc2bBUj",
             "keyword": "",
-            "currentSales": 7335,
-            "growth7": 87,
-            "growth30": 87,
-            "growth": 87
-          },
-          {
-            "title": "历年高考真题与解析大合集电子版全国卷+地方卷全九科",
-            "url": "https://xhslink.com/m/F3g2SZ3Fwa",
-            "keyword": "资料",
-            "currentSales": 7998,
-            "growth7": 79,
-            "growth30": 79,
-            "growth": 79
+            "currentSales": 1736,
+            "growth7": 265,
+            "growth30": 435,
+            "growth": 265
           }
         ]
       },
@@ -4296,58 +4384,117 @@ const DATA = {
         "name": "生活成长",
         "products": [
           {
-            "title": "网上打印/黑白/彩印/工厂直发",
-            "url": "https://xhslink.com/m/4sMEjPievv0",
-            "keyword": "可打印",
-            "currentSales": 1373,
-            "growth7": 1079,
-            "growth30": 4769,
-            "growth": 1079
+            "title": "【达人周末特惠46.6】达美乐 双披萨5选2套餐",
+            "url": "https://xhslink.com/m/2bwz1druptR",
+            "keyword": "麦当劳券",
+            "currentSales": 289000,
+            "growth7": 0,
+            "growth30": 3000,
+            "growth": 3000
           },
           {
-            "title": "90 天 Token | 提醒猫CATO | 个人多维表格模板",
-            "url": "https://xhslink.com/m/3RNTpOLhMvg",
-            "keyword": "多维表格",
-            "currentSales": 577,
-            "growth7": 621,
-            "growth30": 2078,
-            "growth": 621
+            "title": "麦当劳早餐2/3件套餐叠叠卷/麦满分/蛋堡火腿吉士蛋猪柳 门店自取",
+            "url": "https://xhslink.com/m/4wPjAwkDujc",
+            "keyword": "麦当劳券",
+            "currentSales": 20000,
+            "growth7": 0,
+            "growth30": 3000,
+            "growth": 3000
           },
           {
-            "title": "百度网盘 · 【学生认证后下单】超级会员SVIP 月卡 填登陆手机号",
-            "url": "https://xhslink.com/m/7mR1Ixtzr2o",
-            "keyword": "会员",
-            "currentSales": 4420,
-            "growth7": 476,
-            "growth30": 476,
-            "growth": 476
+            "title": "麦当劳 · 营养早餐2/3件套【到店用】咖啡豆浆薯饼低脂板烧鸡腿电子优惠券",
+            "url": "https://xhslink.com/m/6zbSF4ZzNN5",
+            "keyword": "麦当劳券",
+            "currentSales": 29000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
           },
           {
-            "title": "【社会化指南】17万字原创文档-i人社交技巧-人情世故保姆级.",
-            "url": "https://xhslink.com/m/A8792Cfl37S",
-            "keyword": "社交指南",
-            "currentSales": 874,
-            "growth7": 259,
-            "growth30": 259,
-            "growth": 259
+            "title": "沈奕斐『松弛父母课』线上视频课程",
+            "url": "https://xhslink.com/m/Uz32qnorLz",
+            "keyword": "PPT",
+            "currentSales": 23000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
           },
           {
-            "title": "26执业药师【润+鸭】视频网课基础精讲冲刺最后八小时一本通",
-            "url": "https://xhslink.com/m/1RPVinn8Uim",
-            "keyword": "考试",
-            "currentSales": 1397,
-            "growth7": 257,
-            "growth30": 321,
-            "growth": 257
+            "title": "糖糖丨形象分析（面部特点分析丨妆容丨发型丨穿搭）整体形象改造",
+            "url": "https://xhslink.com/m/3BUaHMmnsXT",
+            "keyword": "性格分析",
+            "currentSales": 18000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
           },
           {
-            "title": "普通人社会化指南15万字社交资料",
-            "url": "https://xhslink.com/m/JYPPVGml7d",
-            "keyword": "社交指南",
-            "currentSales": 1228,
-            "growth7": 195,
-            "growth30": 195,
-            "growth": 195
+            "title": "【悦小绒】一线悦己钩织diy手工人偶玩偶毛线材料包ob娃衣编织",
+            "url": "https://xhslink.com/m/1Tlh22SR0e0",
+            "keyword": "手工DIY教程",
+            "currentSales": 12000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          }
+        ]
+      },
+      {
+        "name": "高中/高考资料",
+        "products": [
+          {
+            "title": "作文纸条 · 一看就能用的作文素材经典素材2025高中备考议论文范文写作技巧书",
+            "url": "https://xhslink.com/m/8MmJHXzHKJj",
+            "keyword": "高中",
+            "currentSales": 22000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "作文纸条 · 一看就能用的作文素材经典素材2025高中备考议论文范文写作技巧书",
+            "url": "https://xhslink.com/m/2CgVcJS8MEQ",
+            "keyword": "高中语文",
+            "currentSales": 22000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "作文纸条 · 一看就能用的作文素材经典素材2025高中备考议论文范文写作技巧书",
+            "url": "https://xhslink.com/m/3wW2B7shsry",
+            "keyword": "作文",
+            "currentSales": 22000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "2027一数·必刷100讲 高考数学核心方法(2.0版)一数教辅一数图书",
+            "url": "https://xhslink.com/m/3D0lLe7v0Z2",
+            "keyword": "公考",
+            "currentSales": 15000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "2026一数·必刷100讲 高考数学核心方法(2.0版)一数教辅一数图书",
+            "url": "https://xhslink.com/m/2sVJ5ZvNrNe",
+            "keyword": "高中数学",
+            "currentSales": 14000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "2026一数·必刷100讲 高考数学核心方法(2.0版)一数教辅一数图书",
+            "url": "https://xhslink.com/m/96ZqNU7QuJM",
+            "keyword": "高中地理",
+            "currentSales": 12000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
           }
         ]
       },
@@ -4355,58 +4502,58 @@ const DATA = {
         "name": "英语资料",
         "products": [
           {
-            "title": "四级考前冲刺抢分班（26年6月版）",
-            "url": "https://xhslink.com/m/8vHWuQmRCxY",
-            "keyword": "英语",
-            "currentSales": 905,
+            "title": "【D209】英语四级真题（1998～2025.6）+真题详解+听力+高频词汇",
+            "url": "https://xhslink.com/m/AWhVg3S3Faq",
+            "keyword": "四级考试",
+            "currentSales": 7149,
             "growth7": 0,
-            "growth30": 316,
-            "growth": 316
+            "growth30": 4000,
+            "growth": 4000
           },
           {
-            "title": "2025年大学英语四六级历史真题词汇听力阅读音频冲刺电子版资料包",
-            "url": "https://xhslink.com/m/9Cq6nJzxA1Z",
-            "keyword": "四六级高频词汇速记手册",
-            "currentSales": 857,
-            "growth7": 211,
-            "growth30": 1225,
-            "growth": 211
+            "title": "糖说英语：突破英语听说的底层逻辑+赠3天直播教学<短信开课>",
+            "url": "https://xhslink.com/m/GGO45ITftB",
+            "keyword": "英语",
+            "currentSales": 20000,
+            "growth7": 0,
+            "growth30": 3000,
+            "growth": 3000
           },
           {
-            "title": "2025年大学英语四六级历史真题词汇听力阅读音频冲刺电子版资料包",
-            "url": "https://xhslink.com/m/6n4T3QBu93C",
-            "keyword": "手册",
-            "currentSales": 854,
-            "growth7": 211,
-            "growth30": 1225,
-            "growth": 211
+            "title": "26四六级全套备考资料包（含作文/翻译预测+词汇+蒙题技巧等）",
+            "url": "https://xhslink.com/m/88kqYPWbJsK",
+            "keyword": "资料包",
+            "currentSales": 1065,
+            "growth7": 0,
+            "growth30": 2475,
+            "growth": 2475
           },
           {
-            "title": "IELTS剑桥雅思官方4-21真题+音频+解析【持续更新中】",
-            "url": "https://xhslink.com/m/4DvMmjm1cku",
-            "keyword": "雅思资料",
-            "currentSales": 1080,
-            "growth7": 192,
-            "growth30": 192,
-            "growth": 192
+            "title": "猫猫侠原创｜雅思写作急救模板+系统速成 · 以上全部打包（写作最全合集） 新链接优惠中，完整版结束后涨价到99",
+            "url": "https://xhslink.com/m/9UeZ9rJ9qCN",
+            "keyword": "课件",
+            "currentSales": 29000,
+            "growth7": 0,
+            "growth30": 2000,
+            "growth": 2000
           },
           {
-            "title": "2026雅思资料全套课程、学习计划、最新最全备考|||资料雅思资料",
-            "url": "https://xhslink.com/m/26BkwyVn9Cz",
-            "keyword": "资料",
-            "currentSales": 4935,
-            "growth7": 177,
-            "growth30": 177,
-            "growth": 177
+            "title": "26年万能四级高分作文(议论文)模板AI打磨基础小众",
+            "url": "https://xhslink.com/m/9YvusAN9Zqu",
+            "keyword": "模板",
+            "currentSales": 14000,
+            "growth7": 0,
+            "growth30": 2000,
+            "growth": 2000
           },
           {
-            "title": "学丞 · 备考26年6月考】刘晓艳四六级 单词+专项技巧视频讲解 四六级考试",
-            "url": "https://xhslink.com/m/2pkTDxmc6p0",
-            "keyword": "公考",
-            "currentSales": 2079,
-            "growth7": 135,
-            "growth30": 190,
-            "growth": 135
+            "title": "100篇英语小短文 | 支持小达人小蝌蚪点读笔｜A4大开本（配音频）",
+            "url": "https://xhslink.com/m/9IxIip9GCU6",
+            "keyword": "英语",
+            "currentSales": 33000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
           }
         ]
       },
@@ -4414,58 +4561,58 @@ const DATA = {
         "name": "求职面试/职场",
         "products": [
           {
-            "title": "个人简历模板套装word应届毕业生大学生社会求职简约电子模版通用",
-            "url": "https://xhslink.com/m/4GvJ67N7Zxy",
-            "keyword": "资料",
-            "currentSales": 6249,
-            "growth7": 478,
-            "growth30": 1785,
-            "growth": 478
-          },
-          {
-            "title": "蔡文姬结构化面试话术素材开挂手册PDF电子版话术素材",
-            "url": "https://xhslink.com/m/18OeGbYK355",
-            "keyword": "面试",
-            "currentSales": 2178,
-            "growth7": 266,
-            "growth30": 1840,
-            "growth": 266
-          },
-          {
-            "title": "保研夏令营预推免简历模板 4款简约保研简历 手机/电脑 自动发货",
-            "url": "https://xhslink.com/m/7pSBj6M55Og",
+            "title": "简历模板 笔记同款 10款HR推荐 手机/电脑编辑 无水印永久可用",
+            "url": "https://xhslink.com/m/ZNfYySdpuG",
             "keyword": "模板",
-            "currentSales": 1942,
-            "growth7": 266,
-            "growth30": 661,
-            "growth": 266
+            "currentSales": 12000,
+            "growth7": 0,
+            "growth30": 6000,
+            "growth": 6000
           },
           {
-            "title": "【秒发】大学生应届生无经验简历模板word高级简历模板大全电子版",
-            "url": "https://xhslink.com/m/7egIscr6PxS",
-            "keyword": "资料",
-            "currentSales": 3914,
-            "growth7": 262,
-            "growth30": 1122,
-            "growth": 262
+            "title": "简历模板个人求职大学生无经验应届生面试word电子版简历999套",
+            "url": "https://xhslink.com/m/6qy8NweQKMW",
+            "keyword": "电子版",
+            "currentSales": 84000,
+            "growth7": 0,
+            "growth30": 3000,
+            "growth": 3000
           },
           {
-            "title": "Agent & 后端面试资料文档，PDF&在线阅读面向实习/秋招，含项目",
-            "url": "https://xhslink.com/m/450lktWW7OH",
-            "keyword": "资料包",
-            "currentSales": 1942,
-            "growth7": 150,
-            "growth30": 251,
-            "growth": 150
+            "title": "简历模板个人求职大学生无经验应届生面试word电子版简历999套",
+            "url": "https://xhslink.com/m/8n83NVkhBYr",
+            "keyword": "简历",
+            "currentSales": 84000,
+            "growth7": 0,
+            "growth30": 3000,
+            "growth": 3000
           },
           {
-            "title": "【每日更新】26/27届春招/实习/秋招校招信息汇总表，自动秒发",
-            "url": "https://xhslink.com/m/8KsKFhbPGu3",
+            "title": "简约大厂简历-研究生留学生求职简历-24h自动发货客服聊天框",
+            "url": "https://xhslink.com/m/6qiEpWMwTvl",
             "keyword": "校招表",
-            "currentSales": 4584,
-            "growth7": 118,
-            "growth30": 308,
-            "growth": 118
+            "currentSales": 31000,
+            "growth7": 0,
+            "growth30": 2000,
+            "growth": 2000
+          },
+          {
+            "title": "通用电子表格简历模板-手机/电脑可填写-24h 自动发货M01",
+            "url": "https://xhslink.com/m/AZXCfmmu2w4",
+            "keyword": "模板",
+            "currentSales": 27000,
+            "growth7": 0,
+            "growth30": 2000,
+            "growth": 2000
+          },
+          {
+            "title": "个人简历模板大全word可编辑应届大学生毕业生求职简约通用高端",
+            "url": "https://xhslink.com/m/5VWvMULt9gv",
+            "keyword": "模板",
+            "currentSales": 124000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
           }
         ]
       },
@@ -4473,64 +4620,73 @@ const DATA = {
         "name": "教资资料",
         "products": [
           {
+            "title": "26教师招聘教综三色笔记＋默写本＋速记口诀＋必备人物＋思维导图",
+            "url": "https://xhslink.com/m/1kH4OM3Br3I",
+            "keyword": "老师资料",
+            "currentSales": 1781,
+            "growth7": 300,
+            "growth30": 1101,
+            "growth": 300
+          },
+          {
             "title": "26教综三色笔记＋默写本＋记忆口诀＋思维导图＋必背人物汇总",
-            "url": "https://xhslink.com/m/2Us8Y5iJqYw",
-            "keyword": "资料",
-            "currentSales": 1879,
-            "growth7": 168,
-            "growth30": 1044,
-            "growth": 168
+            "url": "https://xhslink.com/m/6v8bC5ySgOH",
+            "keyword": "",
+            "currentSales": 2868,
+            "growth7": 293,
+            "growth30": 436,
+            "growth": 293
           },
           {
             "title": "26教师招聘教综三色笔记＋默写本＋速记口诀＋必备人物＋思维导图",
             "url": "https://xhslink.com/m/gWUoBDwkgr",
             "keyword": "考试",
             "currentSales": 4929,
-            "growth7": 144,
-            "growth30": 250,
-            "growth": 144
+            "growth7": 287,
+            "growth30": 583,
+            "growth": 287
           },
           {
             "title": "26教师招聘教综三色笔记＋默写本＋速记口诀＋必备人物＋思维导图",
-            "url": "https://xhslink.com/m/1kH4OM3Br3I",
-            "keyword": "老师资料",
-            "currentSales": 1781,
-            "growth7": 130,
-            "growth30": 1114,
-            "growth": 130
+            "url": "https://xhslink.com/m/2mLQWBp4ypV",
+            "keyword": "资料",
+            "currentSales": 5154,
+            "growth7": 286,
+            "growth30": 384,
+            "growth": 286
           },
           {
-            "title": "教 师 资 格 证 笔试科三重点三色速记笔记",
-            "url": "https://xhslink.com/m/1By8Vaq5kna",
-            "keyword": "老师资料",
-            "currentSales": 8873,
-            "growth7": 127,
-            "growth30": 436,
-            "growth": 127
+            "title": "26教师招聘教综三色笔记＋默写本＋速记口诀＋必备人物＋思维导图",
+            "url": "https://xhslink.com/m/2WBEI3D9ReK",
+            "keyword": "",
+            "currentSales": 5130,
+            "growth7": 286,
+            "growth30": 384,
+            "growth": 286
           },
           {
-            "title": "教 师 资 格 证 笔试科三重点三色速记笔记",
-            "url": "https://xhslink.com/m/4xW87crqTUK",
-            "keyword": "教务资料",
-            "currentSales": 8784,
-            "growth7": 127,
-            "growth30": 436,
-            "growth": 127
-          },
-          {
-            "title": "教 师 资 格 证 笔试科三重点三色速记笔记",
-            "url": "https://xhslink.com/m/3XtNdDvoOYf",
-            "keyword": "教师资格培训",
-            "currentSales": 5663,
-            "growth7": 127,
-            "growth30": 436,
-            "growth": 127
+            "title": "26教综三色笔记＋默写本＋记忆口诀＋思维导图＋必背人物汇总",
+            "url": "https://xhslink.com/m/2Us8Y5iJqYw",
+            "keyword": "资料",
+            "currentSales": 1879,
+            "growth7": 260,
+            "growth30": 1304,
+            "growth": 260
           }
         ]
       },
       {
         "name": "设计素材",
         "products": [
+          {
+            "title": "婚礼跟拍帮P图人像婚纱照精修 全家福修图 旅游照 登记照 日常照 · 日常双人",
+            "url": "https://xhslink.com/m/3tQ4gY8F2xg",
+            "keyword": "壁纸",
+            "currentSales": 8880,
+            "growth7": 0,
+            "growth30": 1077,
+            "growth": 1077
+          },
           {
             "title": "海怪纸纹模板2 通用画布",
             "url": "https://xhslink.com/m/RgVqCj18to",
@@ -4541,49 +4697,40 @@ const DATA = {
             "growth": 1073
           },
           {
-            "title": "照片打印冲洗宝宝照片学生照片手机照片塑封高清超清照片墙",
-            "url": "https://xhslink.com/m/APSyBHxQmhi",
-            "keyword": "可打印",
-            "currentSales": 3712,
-            "growth7": 363,
-            "growth30": 2657,
-            "growth": 363
+            "title": "自然感修图单人一张36H返图 还原美貌真诚待人可修到满意",
+            "url": "https://xhslink.com/m/1G9yyA2NPrq",
+            "keyword": "修图服务",
+            "currentSales": 44000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "林馆长iPhone电影级调色LUT【模板】合集2，iPhone11-17适用/",
+            "url": "https://xhslink.com/m/N0ESQSgRzA",
+            "keyword": "模板",
+            "currentSales": 13000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
           },
           {
             "title": "精修照片修图写真专业网感p图修图PS网红精修专业PS人像美颜处理 · 自然微修",
             "url": "https://xhslink.com/m/6TO8tUmkOoY",
             "keyword": "壁纸",
             "currentSales": 1270,
-            "growth7": 287,
-            "growth30": 440,
-            "growth": 287
+            "growth7": 233,
+            "growth30": 835,
+            "growth": 233
           },
           {
             "title": "全部滤镜照片视频实况滤镜模板底片调色滤镜模板预设素材模板",
             "url": "https://xhslink.com/m/9Ha6IxiwBRb",
             "keyword": "模板",
             "currentSales": 2969,
-            "growth7": 234,
-            "growth30": 899,
-            "growth": 234
-          },
-          {
-            "title": "相机复古胶片和CCD效果滤镜手机拍照参数预设模板素材",
-            "url": "https://xhslink.com/m/ADEinT4fkGE",
-            "keyword": "模板",
-            "currentSales": 2818,
-            "growth7": 0,
-            "growth30": 104,
-            "growth": 104
-          },
-          {
-            "title": "打包200款俱乐部套图可画模板含：价格表 礼物单 预存卡 等等",
-            "url": "https://xhslink.com/m/5UnB8o3HpWy",
-            "keyword": "模板",
-            "currentSales": 3400,
-            "growth7": 92,
-            "growth30": 285,
-            "growth": 92
+            "growth7": 203,
+            "growth30": 1216,
+            "growth": 203
           }
         ]
       },
@@ -4591,58 +4738,58 @@ const DATA = {
         "name": "考研资料",
         "products": [
           {
+            "title": "智泓 · 2027考研英语真题英语一英语二历年真题试卷管综西综数学政治刷题",
+            "url": "https://xhslink.com/m/4pqbuSEEBas",
+            "keyword": "考研",
+            "currentSales": 43000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "考研数据考研拟录取名单复试名单分数线复试方案考研择校考研调剂",
+            "url": "https://xhslink.com/m/5qnoxpPnIyQ",
+            "keyword": "考研",
+            "currentSales": 20000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "考研数据考研拟录取名单复试名单分数线复试方案考研择校考研调剂",
+            "url": "https://xhslink.com/m/4gN89cy1sOA",
+            "keyword": "考研",
+            "currentSales": 14000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "27考研英语红宝书单词带背营",
+            "url": "https://xhslink.com/m/6sKsTod0R5T",
+            "keyword": "教辅资料",
+            "currentSales": 12000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
             "title": "27乘风考点一本通徐涛强化班+肖1000融合笔记电子版知识服务带学",
             "url": "https://xhslink.com/m/5FWdfeIlQFB",
             "keyword": "考试",
             "currentSales": 1191,
-            "growth7": 573,
-            "growth30": 742,
-            "growth": 573
+            "growth7": 671,
+            "growth30": 1654,
+            "growth": 671
           },
           {
             "title": "27考研英语核心词汇5500思维导图PDF电子版及100句背单词 · 思维导图+100个句子（送词汇表）",
             "url": "https://xhslink.com/m/8zy0pJqz3Xn",
             "keyword": "考研",
             "currentSales": 2740,
-            "growth7": 314,
-            "growth30": 723,
-            "growth": 314
-          },
-          {
-            "title": "27考研政治刷题资料更新肖四肖八腿8徐6米鹏强化押题解析最新都有",
-            "url": "https://xhslink.com/m/5vqv9tkDaz3",
-            "keyword": "教辅资料",
-            "currentSales": 5118,
-            "growth7": 167,
-            "growth30": 167,
-            "growth": 167
-          },
-          {
-            "title": "考研历年真题考研英语考研数学考研政治199管综408计算机等",
-            "url": "https://xhslink.com/m/4fzqgwewEI8",
-            "keyword": "考研政治",
-            "currentSales": 1816,
-            "growth7": 150,
-            "growth30": 670,
-            "growth": 150
-          },
-          {
-            "title": "27考研英语全年规划+督学+资料",
-            "url": "https://xhslink.com/m/9R5LFSkToLW",
-            "keyword": "考研",
-            "currentSales": 391,
-            "growth7": 108,
-            "growth30": 430,
-            "growth": 108
-          },
-          {
-            "title": "27考研英语全年规划+督学+资料",
-            "url": "https://xhslink.com/m/1GDdjkVjKfz",
-            "keyword": "资料",
-            "currentSales": 437,
-            "growth7": 104,
-            "growth30": 365,
-            "growth": 104
+            "growth7": 260,
+            "growth30": 1119,
+            "growth": 260
           }
         ]
       },
@@ -4650,58 +4797,58 @@ const DATA = {
         "name": "老师资料",
         "products": [
           {
+            "title": "精品课（送教案，备注课名）",
+            "url": "https://xhslink.com/m/6Wx6CDg9UlI",
+            "keyword": "教程",
+            "currentSales": 10000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "批改邦周卡7天，语文英语老师必备",
+            "url": "https://xhslink.com/m/8WnsHCv8h9I",
+            "keyword": "语文",
+            "currentSales": 375,
+            "growth7": 163,
+            "growth30": 204,
+            "growth": 163
+          },
+          {
             "title": "语文教师编分模块练习，语文题海，语文积累包",
             "url": "https://xhslink.com/m/4sctmmqWsEh",
             "keyword": "考试",
             "currentSales": 4160,
-            "growth7": 138,
-            "growth30": 196,
-            "growth": 138
-          },
-          {
-            "title": "2026年最新小学语文面试、评职称情境任务群无生试讲稿和配套教案",
-            "url": "https://xhslink.com/m/8aotTBwYIcp",
-            "keyword": "公考",
-            "currentSales": 4102,
-            "growth7": 96,
-            "growth30": 287,
-            "growth": 96
-          },
-          {
-            "title": "2026年最新小学语文面试、评职称情境任务群无生试讲稿和配套教案",
-            "url": "https://xhslink.com/m/6M8xRvscmK0",
-            "keyword": "资料",
-            "currentSales": 4070,
-            "growth7": 96,
-            "growth30": 323,
-            "growth": 96
-          },
-          {
-            "title": "26春初中语文教材梳理备考教师资格证教师招聘用PDF半年有效",
-            "url": "https://xhslink.com/m/7lHLQ5A9GLI",
-            "keyword": "教辅资料",
-            "currentSales": 1954,
-            "growth7": 83,
-            "growth30": 83,
-            "growth": 83
-          },
-          {
-            "title": "2026班主任基本功大赛情景答辩带班育人方略中小学素材案例文件",
-            "url": "https://xhslink.com/m/2hW7RlORtKt",
-            "keyword": "班主任资料",
-            "currentSales": 3294,
-            "growth7": 63,
-            "growth30": 63,
-            "growth": 63
+            "growth7": 114,
+            "growth30": 357,
+            "growth": 114
           },
           {
             "title": "语文教师编分模块练习，语文题海，语文积累包",
             "url": "https://xhslink.com/m/2yTFO8fS6et",
             "keyword": "",
             "currentSales": 4289,
-            "growth7": 46,
-            "growth30": 46,
-            "growth": 46
+            "growth7": 111,
+            "growth30": 207,
+            "growth": 111
+          },
+          {
+            "title": "26春初中语文教材梳理备考教师资格证教师招聘用PDF半年有效",
+            "url": "https://xhslink.com/m/wNDZ7ioaTT",
+            "keyword": "资料",
+            "currentSales": 2000,
+            "growth7": 86,
+            "growth30": 163,
+            "growth": 86
+          },
+          {
+            "title": "26春初中语文教材梳理备考教师资格证教师招聘用PDF半年有效",
+            "url": "https://xhslink.com/m/7lHLQ5A9GLI",
+            "keyword": "教辅资料",
+            "currentSales": 1954,
+            "growth7": 86,
+            "growth30": 213,
+            "growth": 86
           }
         ]
       },
@@ -4709,58 +4856,58 @@ const DATA = {
         "name": "幼教资料",
         "products": [
           {
-            "title": "幼儿园原创丨班本资料（持续更新资料中.....）",
-            "url": "https://xhslink.com/m/9jGnoUG2UOr",
-            "keyword": "教辅资料",
-            "currentSales": 1088,
-            "growth7": 149,
-            "growth30": 149,
-            "growth": 149
+            "title": "童宝奇 · 0～3岁宝宝早教启蒙《宝宝好习惯养成亲子推拉书》（全10册）",
+            "url": "https://xhslink.com/m/vygx74d0sK",
+            "keyword": "启蒙",
+            "currentSales": 28000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
           },
           {
-            "title": "【出版社直发】彩虹糖幼儿英语启蒙绘本 新东方 2-4-6岁",
-            "url": "https://xhslink.com/m/6Lx4OeLv7Py",
-            "keyword": "幼儿资料",
-            "currentSales": 5068,
-            "growth7": 118,
-            "growth30": 522,
-            "growth": 118
+            "title": "洗照片照片打印高清冲印洗印照片相册打印照片幼儿园宝宝学生照片",
+            "url": "https://xhslink.com/m/z80vU5AGiQ",
+            "keyword": "可打印",
+            "currentSales": 14000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
           },
           {
             "title": "005 幼儿识字1300字 通关检测表（拼音&无拼音），非实物",
             "url": "https://xhslink.com/m/4dIl3IZglas",
             "keyword": "电子版",
             "currentSales": 6784,
-            "growth7": 106,
-            "growth30": 520,
-            "growth": 106
+            "growth7": 180,
+            "growth30": 606,
+            "growth": 180
           },
           {
-            "title": "幼儿园原创丨游戏案例资料（持续更新资料中....）",
-            "url": "https://xhslink.com/m/4kdDV0cH4aI",
+            "title": "幼儿园原创丨班本资料（持续更新资料中.....）",
+            "url": "https://xhslink.com/m/9jGnoUG2UOr",
             "keyword": "教辅资料",
-            "currentSales": 1367,
-            "growth7": 90,
-            "growth30": 90,
-            "growth": 90
+            "currentSales": 1088,
+            "growth7": 178,
+            "growth30": 378,
+            "growth": 178
           },
           {
-            "title": "幼儿园游戏案例课件文稿可修改",
-            "url": "https://xhslink.com/m/49Wa4YjK3Ko",
-            "keyword": "课件",
-            "currentSales": 4353,
-            "growth7": 83,
-            "growth30": 361,
-            "growth": 83
+            "title": "【出版社直发】彩虹糖幼儿英语启蒙绘本 新东方 2-4-6岁",
+            "url": "https://xhslink.com/m/6Lx4OeLv7Py",
+            "keyword": "幼儿资料",
+            "currentSales": 5068,
+            "growth7": 128,
+            "growth30": 561,
+            "growth": 128
           },
           {
-            "title": "03-幼儿识字启蒙，1500字看图识字卡，直映闪卡，电子版可打印",
-            "url": "https://xhslink.com/m/ADL96U4LDa6",
-            "keyword": "可打印",
-            "currentSales": 1767,
-            "growth7": 79,
-            "growth30": 445,
-            "growth": 79
+            "title": "3-6岁幼儿趣味数学思维练习册一日一练幼小衔接数感启蒙练习专项",
+            "url": "https://xhslink.com/m/2aMZwwmWkfc",
+            "keyword": "",
+            "currentSales": 3658,
+            "growth7": 92,
+            "growth30": 150,
+            "growth": 92
           }
         ]
       },
@@ -4768,37 +4915,91 @@ const DATA = {
         "name": "软件应用",
         "products": [
           {
-            "title": "王佩丰196节Excel实战大全-合集（下单后留意短信）",
-            "url": "https://xhslink.com/m/7NAqlrLeU7g",
-            "keyword": "Excel函数实操包",
-            "currentSales": 6933,
-            "growth7": 42,
-            "growth30": 245,
-            "growth": 42
+            "title": "Adobe全家桶PS软件套装Win+Mac设计办公软件电子资源模板",
+            "url": "https://xhslink.com/m/8OU1yDHykPX",
+            "keyword": "App",
+            "currentSales": 973,
+            "growth7": 336,
+            "growth30": 336,
+            "growth": 336
+          },
+          {
+            "title": "78x78智能拼豆板带电池软件预售顺丰包邮",
+            "url": "https://xhslink.com/m/5MyXmQs5vVU",
+            "keyword": "App",
+            "currentSales": 4170,
+            "growth7": 209,
+            "growth30": 209,
+            "growth": 209
           },
           {
             "title": "工作中常用的Excel案例练习题含答案与解析",
             "url": "https://xhslink.com/m/1wHHblnuOe",
             "keyword": "资料",
             "currentSales": 7938,
-            "growth7": 35,
-            "growth30": 35,
-            "growth": 35
+            "growth7": 175,
+            "growth30": 254,
+            "growth": 175
           },
           {
-            "title": "【真题伴侣会员】考研/四六级高效刷题必备神器宝藏APP真题伴侣",
-            "url": "https://xhslink.com/m/4OYQE13U7bs",
-            "keyword": "六级答案",
-            "currentSales": 5826,
-            "growth7": 9,
-            "growth30": 243,
-            "growth": 9
+            "title": "剪映 ·VIP会员/SVIP会员周卡月卡年卡·视频剪辑模版素材",
+            "url": "https://xhslink.com/m/L5eQk9bU22",
+            "keyword": "App",
+            "currentSales": 3524,
+            "growth7": 60,
+            "growth30": 60,
+            "growth": 60
+          },
+          {
+            "title": "三眼歪仔-定制款三眼仔大脸电子体重称/可选择是否连接app/充电款",
+            "url": "https://xhslink.com/m/45JlYfb1Jfi",
+            "keyword": "App",
+            "currentSales": 151,
+            "growth7": 23,
+            "growth30": 23,
+            "growth": 23
+          },
+          {
+            "title": "雪梨老师 单词 拼读王 APP会员",
+            "url": "https://xhslink.com/m/2R4s4xRqxCO",
+            "keyword": "App",
+            "currentSales": 165,
+            "growth7": 22,
+            "growth30": 22,
+            "growth": 22
           }
         ]
       },
       {
         "name": "AI",
         "products": [
+          {
+            "title": "像素蛋糕 · AI修图月卡40张修图张数一次性到账直播专用",
+            "url": "https://xhslink.com/m/wwwvPfSafy",
+            "keyword": "App",
+            "currentSales": 6759,
+            "growth7": 914,
+            "growth30": 914,
+            "growth": 914
+          },
+          {
+            "title": "像素蛋糕 · AI修图年卡500张修图张数一次性到账不可结转直播专用",
+            "url": "https://xhslink.com/m/32m7Neu1F67",
+            "keyword": "App",
+            "currentSales": 3048,
+            "growth7": 98,
+            "growth30": 98,
+            "growth": 98
+          },
+          {
+            "title": "3天AI自动化智能体实战课｜AI绘画AI视频AI漫剧多种AI应用教学",
+            "url": "https://xhslink.com/m/49CpWgO7iEe",
+            "keyword": "App",
+            "currentSales": 1111,
+            "growth7": 62,
+            "growth30": 62,
+            "growth": 62
+          },
           {
             "title": "使用A*i工具一键生成动漫/动画视频教程",
             "url": "https://xhslink.com/m/4AqKpE4R4QK",
@@ -4818,72 +5019,13 @@ const DATA = {
             "growth": 52
           },
           {
-            "title": "AI Agent 大模型工程师八股知识库（持续更新ing）",
-            "url": "https://xhslink.com/m/5Heyy59o9dS",
-            "keyword": "AI",
-            "currentSales": 1693,
-            "growth7": 49,
-            "growth30": 303,
-            "growth": 49
-          },
-          {
-            "title": "白得拼Baidepin · 医智赢MDWIN写文书办公辅助书写助手ai工具人工智能手机热点蓝牙",
-            "url": "https://xhslink.com/m/9Lt1WgdKY9y",
-            "keyword": "AI",
-            "currentSales": 2357,
-            "growth7": 32,
-            "growth30": 199,
-            "growth": 32
-          },
-          {
-            "title": "白得拼Baidepin · 医智赢MDWIN写文书办公辅助书写助手ai工具人工智能手机热点蓝牙",
-            "url": "https://xhslink.com/m/8TZb67aS0sx",
-            "keyword": "电子资料",
-            "currentSales": 1627,
-            "growth7": 32,
-            "growth30": 199,
-            "growth": 32
-          },
-          {
-            "title": "白得拼Baidepin · 医智赢MDWIN写文书办公辅助书写助手ai工具人工智能手机热点蓝牙",
-            "url": "https://xhslink.com/m/397DjyiIWgp",
-            "keyword": "AI工具",
-            "currentSales": 1107,
-            "growth7": 32,
-            "growth30": 199,
-            "growth": 32
-          }
-        ]
-      },
-      {
-        "name": "咨询服务",
-        "products": [
-          {
-            "title": "考试照片合规处理（承诺不通过可退款购买前先联系客服）",
-            "url": "https://xhslink.com/m/3qq866KqoE",
-            "keyword": "考试",
-            "currentSales": 649,
-            "growth7": 70,
-            "growth30": 102,
-            "growth": 70
-          },
-          {
-            "title": "思维训练营【重点专题】一",
-            "url": "https://xhslink.com/m/9HyFxo4hG75",
-            "keyword": "算数",
-            "currentSales": 977,
-            "growth7": 39,
-            "growth30": 108,
-            "growth": 39
-          },
-          {
-            "title": "韩语1V1线上TOPIK考级商务追星兴趣真人直播授课（可选老师）",
-            "url": "https://xhslink.com/m/2Ob51OuBJav",
-            "keyword": "考试",
-            "currentSales": 364,
-            "growth7": 12,
-            "growth30": 19,
-            "growth": 12
+            "title": "让我们用AI重构UX的每一步",
+            "url": "https://xhslink.com/m/fFy8v9RPH3",
+            "keyword": "App",
+            "currentSales": 415,
+            "growth7": 43,
+            "growth30": 43,
+            "growth": 43
           }
         ]
       },
@@ -4895,18 +5037,95 @@ const DATA = {
             "url": "https://xhslink.com/m/z6MM4yoiVs",
             "keyword": "壁纸",
             "currentSales": 6757,
-            "growth7": 104,
-            "growth30": 218,
-            "growth": 104
+            "growth7": 88,
+            "growth30": 354,
+            "growth": 88
+          },
+          {
+            "title": "515比奇堡路人鱼手机平板电脑壁纸，（锁屏+桌面），4k高清原图",
+            "url": "https://xhslink.com/m/2LHj7A37zfB",
+            "keyword": "网盘发货",
+            "currentSales": 891,
+            "growth7": 16,
+            "growth30": 16,
+            "growth": 16
+          },
+          {
+            "title": "157星星人少焦虑手表壁纸，4张，4k高清原图",
+            "url": "https://xhslink.com/m/hdPb2tBqYJ",
+            "keyword": "网盘发货",
+            "currentSales": 512,
+            "growth7": 13,
+            "growth30": 13,
+            "growth": 13
           },
           {
             "title": "壁纸模商使权)夏日模板伪吧唧oc制品壁纸模-烂南牌",
             "url": "https://xhslink.com/m/3e7dqUQHToT",
             "keyword": "模板",
             "currentSales": 440,
-            "growth7": 26,
-            "growth30": 74,
-            "growth": 26
+            "growth7": 12,
+            "growth30": 97,
+            "growth": 12
+          },
+          {
+            "title": "【会用再拍丨自动发货】佳#215-本帐号的使用者是只小猫 赠壁纸*4",
+            "url": "https://xhslink.com/m/6ZhryGlApOS",
+            "keyword": "网盘发货",
+            "currentSales": 1726,
+            "growth7": 5,
+            "growth30": 5,
+            "growth": 5
+          },
+          {
+            "title": "131星星人粉色卡通手机平板电脑壁纸，（锁屏+桌面），4k高清原图",
+            "url": "https://xhslink.com/m/8ELoRNgfRfO",
+            "keyword": "网盘发货",
+            "currentSales": 1501,
+            "growth7": 4,
+            "growth30": 4,
+            "growth": 4
+          }
+        ]
+      },
+      {
+        "name": "咨询服务",
+        "products": [
+          {
+            "title": "个人学习办公远程指导服务",
+            "url": "https://xhslink.com/m/1Tw9HNuyHlH",
+            "keyword": "App",
+            "currentSales": 1935,
+            "growth7": 53,
+            "growth30": 53,
+            "growth": 53
+          },
+          {
+            "title": "思维训练营【重点专题】一",
+            "url": "https://xhslink.com/m/9HyFxo4hG75",
+            "keyword": "算数",
+            "currentSales": 977,
+            "growth7": 29,
+            "growth30": 144,
+            "growth": 29
+          },
+          {
+            "title": "考试照片合规处理（承诺不通过可退款购买前先联系客服）",
+            "url": "https://xhslink.com/m/3qq866KqoE",
+            "keyword": "考试",
+            "currentSales": 649,
+            "growth7": 25,
+            "growth30": 143,
+            "growth": 25
+          },
+          {
+            "title": "韩语1V1线上TOPIK考级商务追星兴趣真人直播授课（可选老师）",
+            "url": "https://xhslink.com/m/2Ob51OuBJav",
+            "keyword": "考试",
+            "currentSales": 364,
+            "growth7": 17,
+            "growth30": 36,
+            "growth": 17
           }
         ]
       },
@@ -4918,27 +5137,27 @@ const DATA = {
             "url": "https://xhslink.com/m/4j1yu91x4JC",
             "keyword": "资料",
             "currentSales": 7430,
-            "growth7": 128,
-            "growth30": 538,
-            "growth": 128
+            "growth7": 175,
+            "growth30": 718,
+            "growth": 175
           },
           {
             "title": "2026证券从业备考网课+讲义课件",
             "url": "https://xhslink.com/m/1KD0rQTC6Jq",
             "keyword": "教辅资料",
             "currentSales": 657,
-            "growth7": 70,
-            "growth30": 70,
-            "growth": 70
+            "growth7": 121,
+            "growth30": 213,
+            "growth": 121
           },
           {
             "title": "纸质2026初级经济师中级经济师武小唐经济基础课程纸质试卷讲义",
-            "url": "https://xhslink.com/m/4CDW2mmB0qg",
-            "keyword": "公考",
-            "currentSales": 3468,
-            "growth7": 59,
-            "growth30": 175,
-            "growth": 59
+            "url": "https://xhslink.com/m/9elKhRHf0Nn",
+            "keyword": "",
+            "currentSales": 3690,
+            "growth7": 12,
+            "growth30": 12,
+            "growth": 12
           }
         ]
       },
@@ -4946,31 +5165,49 @@ const DATA = {
         "name": "大学资料",
         "products": [
           {
+            "title": "最新写作/全网零重/笔记内容策划书完整版案例一百篇",
+            "url": "https://xhslink.com/m/7dbsx28Dw72",
+            "keyword": "资料",
+            "currentSales": 12000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
             "title": "小卷m经济学资料～拒绝恶意差评，保证内容原版，可提供购买记录",
             "url": "https://xhslink.com/m/268H2pFkfrc",
             "keyword": "资料",
             "currentSales": 4147,
-            "growth7": 81,
-            "growth30": 81,
-            "growth": 81
+            "growth7": 239,
+            "growth30": 409,
+            "growth": 239
+          },
+          {
+            "title": "23版《毛概》最新期末复习重点|word+pdf|可打印|可编辑|下单秒发",
+            "url": "https://xhslink.com/m/1IRAjkPemjb",
+            "keyword": "可打印",
+            "currentSales": 3944,
+            "growth7": 83,
+            "growth30": 83,
+            "growth": 83
           },
           {
             "title": "浙江专升本高数语文英语真题历年真题及答案解析老师人工教案",
             "url": "https://xhslink.com/m/4JgIzs5ylST",
             "keyword": "升本",
             "currentSales": 2796,
-            "growth7": 9,
-            "growth30": 29,
-            "growth": 9
+            "growth7": 15,
+            "growth30": 49,
+            "growth": 15
           },
           {
-            "title": "超全的保研文书资料(全新升级3.0版本)，买到就是赚到！",
-            "url": "https://xhslink.com/m/4DvJZjQ2JN9",
+            "title": "儿科学 景晴 第十版 n成新",
+            "url": "https://xhslink.com/m/ouV6Q08xbZ",
             "keyword": "",
-            "currentSales": 3076,
-            "growth7": 7,
-            "growth30": 7,
-            "growth": 7
+            "currentSales": 1079,
+            "growth7": 10,
+            "growth30": 20,
+            "growth": 10
           }
         ]
       },
@@ -4978,13 +5215,31 @@ const DATA = {
         "name": "运营资料",
         "products": [
           {
+            "title": "摇醒实验室 · 全勤全返-品牌设计训练营",
+            "url": "https://xhslink.com/m/8wervVbwL8P",
+            "keyword": "资料",
+            "currentSales": 10000,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
+            "title": "对外汉语小白训练营手册",
+            "url": "https://xhslink.com/m/37WtLECbXWU",
+            "keyword": "手册",
+            "currentSales": 8557,
+            "growth7": 0,
+            "growth30": 1000,
+            "growth": 1000
+          },
+          {
             "title": "当当网 · 做号 个人IP创作手册 当x专享印签版",
             "url": "https://xhslink.com/m/4vHa6nr34nU",
             "keyword": "手册",
             "currentSales": 406,
-            "growth7": 10,
-            "growth30": 10,
-            "growth": 10
+            "growth7": 23,
+            "growth30": 51,
+            "growth": 23
           }
         ]
       },
@@ -4996,9 +5251,18 @@ const DATA = {
             "url": "https://xhslink.com/m/2yfjaOQ23xz",
             "keyword": "公考",
             "currentSales": 818,
-            "growth7": 106,
-            "growth30": 293,
-            "growth": 106
+            "growth7": 92,
+            "growth30": 415,
+            "growth": 92
+          },
+          {
+            "title": "方圆众合教育 · 26法考【刑法+民法】双科总则重难点串讲（思维导图）PDF",
+            "url": "https://xhslink.com/m/3Y202pVkoA9",
+            "keyword": "",
+            "currentSales": 7052,
+            "growth7": 86,
+            "growth30": 86,
+            "growth": 86
           }
         ]
       }
